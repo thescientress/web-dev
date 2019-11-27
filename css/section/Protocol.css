@@ -1,0 +1,86 @@
+#protocol {
+    margin: 65px 30px 25px;
+}
+
+.protocol {
+    margin-bottom: 40px;
+    margin-top: 50px;
+    max-width: 1195px;
+    position: relative;
+    width: 90vw;
+}
+
+.protocol-menu-item label {
+    border-left: 5px solid #dedede;
+}
+
+.protocol-menu-item > input {
+    opacity: 0;
+    position: absolute;
+}
+
+.protocol-menu-item :checked + label {
+    border-left-color: #f7296e;
+}
+
+.protocol-menu-item label {
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    font-size: 24px;
+    font-weight: normal;
+    height: 100%;
+    line-height: 63px;
+    outline: none;
+    padding-left: 11px;
+    text-decoration: none;
+}
+
+.protocol-menu-item :checked + label {
+    background: linear-gradient(to right, rgba(247, 41, 110, 0.35), transparent 50%, transparent);
+    color: #f7296e;
+    font-weight: bold;
+    justify-content: space-between;
+    width: 49%;
+}
+
+.protocol-menu-item :checked + label:after {
+    border-top: 2px solid #f7296e;
+    content: '';
+    display: block;
+    height: 0;
+    margin-right: 40px;
+    margin-top: 27px;
+    width: 40%;
+}
+
+.protocol-menu-item :checked + label + .protocol-content {
+    display: block;
+}
+
+.protocol-content {
+    background: #fff;
+    bottom: 0;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.16);
+    box-sizing: border-box;
+    display: none;
+    line-height: 30px;
+    padding: 42px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+}
+
+.protocol-content h3 {
+    color: #f7296e;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 60px;
+    margin: 0;
+}
+
+.protocol-content p {
+    max-height: 80%;
+    overflow: auto;
+}

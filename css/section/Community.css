@@ -1,0 +1,26 @@
+#community {
+    padding-bottom: 75px;
+    padding-top: 50px;
+}
+
+#community h2 {
+    margin-bottom: 0;
+}
+
+.communities {
+    margin-bottom: 65px;
+    margin-top: 55px;
+    max-width: 1400px;
+}
+
+.community {
+    flex-basis: 310px;
+    margin-right: 20px;
+}
+
+.community span {
+    max-width: 260px;
+    min-width: 100px;
+    position: absolute;
+    width: 100%;
+}

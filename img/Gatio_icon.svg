@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82" height="82" viewBox="0 0 82 82">
+  <defs>
+    <filter id="Ellipse_687" x="0" y="0" width="82" height="82" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Gatio_icon" transform="translate(8.656 6)">
+    <g transform="matrix(1, 0, 0, 1, -8.66, -6)" filter="url(#Ellipse_687)">
+      <g id="Ellipse_687-2" data-name="Ellipse 687" transform="translate(9 6)" fill="#fff" stroke="#fff" stroke-width="3">
+        <circle cx="32" cy="32" r="32" stroke="none"/>
+        <circle cx="32" cy="32" r="30.5" fill="none"/>
+      </g>
+    </g>
+    <text id="See_it_Live" data-name="See it Live" transform="translate(30.344 38)" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-20.479" y="0">gatio</tspan></text>
+  </g>
+</svg>

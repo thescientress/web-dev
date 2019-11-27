@@ -1,0 +1,67 @@
+#useful {
+    padding-top: 25px;
+}
+
+.resources {
+    margin: 15px 30px;
+}
+
+.resource {
+    flex-basis: 648px;
+    margin-right: 65px;
+    padding: 15px 35px;
+}
+
+.resource h3 {
+    border-bottom: 2px solid #f7296e;
+    padding-bottom: 21px;
+}
+
+.resource h4 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 26px;
+    margin: 0 0 10px;
+}
+
+.resource h5 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 26px;
+    margin: 0 0 10px;
+}
+
+.resource .card-content > p + ul {
+    margin-top: 40px;
+}
+
+.resource .card-content > ul > li {
+    border-bottom: 1px solid #dcdcdc;
+    padding: 19px 0;
+    width: 100%;
+}
+
+.faucet {
+    background-image: url('../../img/Faucet.svg');
+    background-position: top left;
+    background-size: contain;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 3.5em;
+    max-height: 62px;
+    padding-left: 4.5em;
+    padding-top: 0.5em;
+    vertical-align: middle;
+}
+
+.resource .card-content > ul ul {
+    margin-left: 40px;
+}
+
+.resource .card-content > ul ul li {
+    line-height: 34px;
+}
+
+.resource .card-content > ul:last-child > li:last-child {
+    border: 0;
+}

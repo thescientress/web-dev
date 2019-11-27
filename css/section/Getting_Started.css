@@ -1,0 +1,130 @@
+#getting_started {
+    background-image: url("../../img/section-back.jpg");
+    background-size: cover;
+    height: 1343px;
+}
+
+.getting_started-buttons {
+    display: flex;
+}
+
+.getting_started-button {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px;
+    text-align: center;
+}
+
+.getting_started-button div {
+    background: transparent no-repeat left center;
+    font-size: 14px;
+    line-height: 60px;
+    padding-left: 38px;
+}
+
+.getting_started-button:nth-child(1) div {
+    background-image: url("../../img/aeternity-logo-small.svg");
+}
+
+.getting_started-button:nth-child(2) div {
+    background-image: url("../../img/aeternity-logo-small.svg");
+}
+
+.getting_started-button:nth-child(3) div {
+    background-image: url("../../img/Github_Icon-white.svg");
+}
+
+.getting_started-caption {
+    margin: 0;
+    max-width: 820px;
+}
+
+.try {
+    display: flex;
+    margin: 67px 20px 90px;
+    max-width: 1540px;
+    width: 100%;
+}
+
+.try a {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 26px;
+    text-decoration: underline;
+}
+
+.try h3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    height: 150px;
+    justify-content: space-between;
+    line-height: 48px;
+    margin-bottom: 28px;
+    margin-top: 32px;
+    max-width: 450px;
+    text-align: center;
+}
+
+.try h4 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 35px;
+    margin: 0;
+    max-width: 450px;
+    text-align: center;
+}
+
+.try-browser {
+    align-items: center;
+    border-right: 1px solid #f8f8f8;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 0 70px 45px 0;
+    width: 50%;
+}
+
+.try-browser .try-browser-options {
+    display: flex;
+    margin-top: 70px;
+}
+
+.try-browser-options li {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0 9px 45px;
+}
+
+
+.try-browser-options a {
+    margin-top: 45px;
+}
+
+.try-locally {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 0 0 45px 70px;
+    width: 50%;
+}
+
+.try-locally-options {
+    margin-top: 35px;
+}
+
+.try-locally-aeproject {
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+}
+
+.try-locally-aeproject a {
+    margin-top: 8px;
+}

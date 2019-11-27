@@ -1,0 +1,25 @@
+#run_node {
+    padding-bottom: 110px;
+    padding-top: 50px;
+}
+
+.howtos {
+    margin: 35px 30px 0;
+    padding-bottom: 74px;
+    position: relative;
+}
+
+.howto {
+    flex-basis: 320px;
+    padding: 38px 17px;
+}
+
+.howto .card-content {
+    align-items: center;
+    text-align: center;
+}
+
+.howto .button {
+    bottom: 0;
+    position: absolute;
+}

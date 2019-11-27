@@ -1,0 +1,27 @@
+#miners {
+    padding-bottom: 105px;
+    padding-top: 50px;
+}
+
+#miners h2 {
+    margin: 53px 0 24px;
+}
+
+.miners {
+    margin: 37px 30px 0;
+    position: relative;
+}
+
+.miner {
+    flex-basis: 360px;
+    padding: 38px 17px;
+}
+
+.miner .card-content {
+    align-items: center;
+    text-align: center;
+}
+
+.miner h3 {
+    flex-basis: 100%;
+}
