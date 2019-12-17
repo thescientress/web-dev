@@ -6,7 +6,8 @@ body {
     margin: 0;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
+    text-rendering: optimizeLegibility;
     width: 100vw;
 }
 
@@ -26,6 +27,39 @@ a {
     text-decoration: none;
 }
 
+a:not([class]):hover {
+    text-decoration: underline;
+}
+
+a:not([href]) {
+    color: #ccc;
+    cursor: default;
+    position: relative;
+}
+
+a:not([href]):after {
+    background: white;
+    box-shadow: 0 0 3px 0 #707070;
+    color: #000;
+    content: 'Under development';
+    font-size: 14px;
+    left: 50%;
+    min-width: max-content;
+    opacity: 0;
+    padding: 3px 15px;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, 0%);
+    transition: all 0.1s;
+}
+
+a:not([href]):hover:after {
+    opacity: 1;
+    top: 100%;
+}
+
 p {
     margin: 26px 0;
     text-overflow: ellipsis;
@@ -42,7 +76,24 @@ h3 {
     line-height: 26px;
 }
 
+main {
+    box-sizing: border-box;
+    height: calc(100vh - 125px);
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    overflow-y: overlay;
+    perspective: 2px;
+    position: absolute;
+    top: 125px;
+    width: 100vw;
+}
+
 @media screen and (max-width: 1366px) {
+    main {
+        height: calc(100vh - 70px);
+        top: 70px;
+    }
+
     p {
         margin: 24px 0;
     }
@@ -65,6 +116,11 @@ h3 {
 }
 
 @media screen and (max-width: 1366px) {
+    main {
+        height: calc(100vh - 50px);
+        top: 50px;
+    }
+
     h2 {
         font-size: 30px;
         font-weight: 700;
