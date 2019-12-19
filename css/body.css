@@ -7,6 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
     overflow-y: overlay;
+    scroll-snap-type: y proximity;
     text-rendering: optimizeLegibility;
     width: 100vw;
 }
@@ -39,8 +40,8 @@ a:not([href]) {
 
 a:not([href]):after {
     background: white;
-    box-shadow: 0 0 3px 0 #707070;
-    color: #000;
+    box-shadow: 0 0 2px 0 #60606090;
+    color: #606060;
     content: 'Under development';
     font-size: 14px;
     left: 50%;
@@ -50,9 +51,11 @@ a:not([href]):after {
     pointer-events: none;
     position: absolute;
     text-align: center;
+    text-transform: none;
     top: 50%;
     transform: translate(-50%, 0%);
     transition: all 0.1s;
+    z-index: 1;
 }
 
 a:not([href]):hover:after {
@@ -62,6 +65,7 @@ a:not([href]):hover:after {
 
 p {
     margin: 26px 0;
+    text-align: justify;
     text-overflow: ellipsis;
 }
 
@@ -81,8 +85,13 @@ main {
     height: calc(100vh - 125px);
     overflow-x: hidden;
     position: absolute;
+    scroll-snap-type: y proximity;
     top: 125px;
     width: 100%;
+}
+
+main > * {
+    scroll-snap-align: start;
 }
 
 @media screen and (max-width: 1366px) {
