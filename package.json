@@ -7,5 +7,6 @@
     "dev": "vuepress dev",
     "watch": "vuepress dev",
     "build": "vuepress build"
-  }
+  },
+  "dependencies": {}
 }

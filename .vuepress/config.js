@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/web-dev',
+    base: process.env.BASE_PATH || '/',
     plugins: ['@vuepress/register-components'],
     themeConfig: {
         search: false,
