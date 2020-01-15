@@ -25,7 +25,7 @@
             A full specification and documentation of the protocol can be found on GitHub
         </p>
     </div>
-    <img src="img/view-at-github.svg" alt="github.com">
+    <img :src="$withBase('/img/view-at-github.svg')" alt="">
     <a href="https://github.com/aeternity" class="button button--normal">View at GitHub</a>
 </section>
 <section id="technical_advantages" class="section section--fancy">
@@ -72,7 +72,7 @@
             </li>
         </ul>
     </div>
-    <div class="advantages-footer"><img src="img/Erlang_Icon-alt.svg" alt="erlang">
+    <div class="advantages-footer"><img :src="$withBase('/img/Erlang_Icon-alt.svg')" alt="">
         <div>
             Reference implementation written in Erlang by industry experts, the language that powers 90% of today’s
             world wide web. <a href="http://erlang.com">Learn more</a>
@@ -102,7 +102,7 @@
             <div class="protocol-menu-item">
                 <label for="Universal">Universal</label>
                 <div class="protocol-content">
-                    <img src="img/1.universal.svg" alt="">
+                    <img :src="$withBase('/img/1.universal.svg')" alt="">
                     <h3>Universal</h3>
                     <p>
                         The &aelig;ternity protocol can do everything that you expect from a Smart Contract
@@ -117,7 +117,7 @@
             <div class="protocol-menu-item">
                 <label for="Secure">Secure</label>
                 <div class="protocol-content">
-                    <img src="img/2.secure.svg" alt="">
+                    <img :src="$withBase('/img/2.secure.svg')" alt="">
                     <h3>Secure</h3>
                     <p>
                         &AElig;eternity is built with security in mind. The reference implementation is written in
@@ -136,7 +136,7 @@
             <div class="protocol-menu-item">
                 <label for="Scalable">Scalable</label>
                 <div class="protocol-content">
-                    <img src="img/3.scalable.svg" alt="">
+                    <img :src="$withBase('/img/3.scalable.svg')" alt="">
                     <h3>Scalable</h3>
                     <p>
                         In order to scale to billions of users and transactions the &aelig;ternity protocol provides
@@ -153,7 +153,7 @@
             <div class="protocol-menu-item">
                 <label for="Efficient-low-to-no-fees">Efficient low-to-no fees</label>
                 <div class="protocol-content">
-                    <img src="img/4.lowFees.svg" alt="">
+                    <img :src="$withBase('/img/4.lowFees.svg')" alt="">
                     <h3>Efficient low-to-no fees</h3>
                     <p>
                         &aelig;ternity is equipped with dozens of unique native transactions types for State
@@ -172,7 +172,7 @@
             <div class="protocol-menu-item">
                 <label for="Interoperable-Oracles">Interoperable Oracles</label>
                 <div class="protocol-content">
-                    <img src="img/5.oracles.svg" alt="">
+                    <img :src="$withBase('/img/5.oracles.svg')" alt="">
                     <h3>Interoperable Oracles</h3>
                     <p>
                         Oracles are a special type of transactions on &aelig;ternity to request and provide data
@@ -190,7 +190,7 @@
             <div class="protocol-menu-item">
                 <label for="Open-Source">Open Source</label>
                 <div class="protocol-content">
-                    <img src="img/6.openSource.svg" alt="">
+                    <img :src="$withBase('/img/6.openSource.svg')" alt="">
                     <h3>Open Source</h3>
                     <p>
                         The protocol and all essential developer resources are fully open source. There is no
@@ -203,7 +203,7 @@
             <div class="protocol-menu-item">
                 <label for="Decentralized">Decentralized</label>
                 <div class="protocol-content">
-                    <img src="img/7.decentralized.svg" alt="">
+                    <img :src="$withBase('/img/7.decentralized.svg')" alt="">
                     <h3>Decentralized</h3>
                     <p>
                         With Satoshi’s heritage in its core (Nakamoto Consensus) the protocol is build to be
@@ -220,7 +220,7 @@
             <div class="protocol-menu-item">
                 <label for="Public-and-Private">Public and Private</label>
                 <div class="protocol-content">
-                    <img src="img/8.public-private.svg" alt="">
+                    <img :src="$withBase('/img/8.public-private.svg')" alt="">
                     <h3>Public and Private</h3>
                     <p>
                         The &aelig;ternity protocol is using the accounts model. All transactions are public by
@@ -238,7 +238,7 @@
             <div class="protocol-menu-item">
                 <label for="User-Friendly">User Friendly</label>
                 <div class="protocol-content">
-                    <img src="img/9.userFriendly.svg" alt="">
+                    <img :src="$withBase('/img/9.userFriendly.svg')" alt="">
                     <h3>User Friendly</h3>
                     <p>
                         A built-in Naming System for human readable names allows you to point names to accounts and
@@ -252,7 +252,7 @@
             <div class="protocol-menu-item">
                 <label for="Governance">Governance</label>
                 <div class="protocol-content">
-                    <img src="img/10.governance.svg" alt="">
+                    <img :src="$withBase('/img/10.governance.svg')" alt="">
                     <h3>Governance</h3>
                     <p>
                         The &aelig;ternity community is governed by miners, users and developers. Through hard-fork
@@ -267,7 +267,7 @@
             <div class="protocol-menu-item">
                 <label for="Development-Sustainability">Development Sustainability</label>
                 <div class="protocol-content">
-                    <img src="img/11.sustainability.svg" alt="">
+                    <img :src="$withBase('/img/11.sustainability.svg')" alt="">
                     <h3>Development Sustainability</h3>
                     <p>
                         The protocol is robust and reliable and build to last for &aelig;ternity even without
@@ -297,11 +297,11 @@
     </div>
     <div class="sophia-content">
         <div class="sophia-graphic">
-            <img src="img/What_is_Sophia_Graphic.svg" alt="">
+            <img :src="$withBase('/img/What_is_Sophia_Graphic.svg')" alt="">
         </div>
         <div class="sophia-text">
             <h3>What is Sophia?</h3>
-            <p><img src="img/Sophia_Icon.svg" alt="">
+            <p><img :src="$withBase('/img/Sophia_Icon.svg')" alt="">
                 Sophia is customized for smart contracts, which can be published to a blockchain (the &aelig;ternity
                 BlockChain). Thus some features of conventional languages, such as floating point arithmetics, are
                 not present in Sophia, and some blockchain specific primitives, constructions and types have been
@@ -322,7 +322,7 @@
             </ul>
             <h3>Educational material</h3>
             <p>
-                <img src="img/Dacade_Icon.svg" alt="">
+                <img :src="$withBase('/img/Dacade_Icon.svg')" alt="">
                 <small>
                     <a href="https://dacade.org/ae-dev-101/introduction">Online Course from Dacade.org</a><br>
                     Check out the highly recommended &aelig;ternity 101 course on Dacade, a peer learning platform.
@@ -330,7 +330,7 @@
                 </small>
             </p>
             <p>
-                <img src="img/github-logo.svg" alt="">
+                <img :src="$withBase('/img/github-logo.svg')" alt="">
                 <small>
                     <a>Tutorials about Sophia</a><br>
                     Available on GitHub but might be outdated.
@@ -364,18 +364,20 @@
         </p>
         <div class="try">
             <div class="try-browser">
-                <h3><img src="img/Try_it_in_browser_icon.svg" alt="">Try it in the browser</h3>
+                <h3><img :src="$withBase('/img/Try_it_in_browser_icon.svg')" alt="">Try it in the browser</h3>
                 <h4>Try it in the browser with one of the IDE’s</h4>
                 <ul class="try-browser-options">
                     <li>
-                        <img src="img/Contracts_Laptop.svg" alt=""><a href="https://testnet.contracts.aepps.com">Contracts</a>
+                        <img :src="$withBase('/img/Contracts_Laptop.svg')" alt="">
+                        <a href="https://testnet.contracts.aepps.com">Contracts</a>
                     </li>
                     <li>
-                        <img src="img/Playground_Laptop.svg" alt=""><a
-                            href="https://testing.playground.aepps.com/editor">Playground</a>
+                        <img :src="$withBase('/img/Playground_Laptop.svg')" alt="">
+                        <a href="https://testing.playground.aepps.com/editor">Playground</a>
                     </li>
                     <li>
-                        <img src="img/FireEditor_Laptop.svg" alt=""><a href="http://fireeditor.nikitafuchs.de">FireEditor</a>
+                        <img :src="$withBase('/img/FireEditor_Laptop.svg')" alt="">
+                        <a href="http://fireeditor.nikitafuchs.de">FireEditor</a>
                     </li>
                 </ul>
                 <p>
@@ -386,12 +388,12 @@
                 </p>
             </div>
             <div class="try-locally">
-                <h3><img src="img/Try_it_locally_icon.svg" alt="">Try it locally</h3>
+                <h3><img :src="$withBase('/img/Try_it_locally_icon.svg')" alt="">Try it locally</h3>
                 <h4>Try it locally and setup your development environment in no-time.</h4>
                 <div class="try-locally-options">
-                    <img src="img/AEProject_Github.svg" alt="">
+                    <img :src="$withBase('/img/AEProject_Github.svg')" alt="">
                     <div class="try-locally-aeproject">
-                        <img src="img/AEProject_logo.svg" alt="">
+                        <img :src="$withBase('/img/AEProject_logo.svg')" alt="">
                         <a href="https://github.com/aeternity/aepp-aeproject-js">&AElig;Project</a>
                     </div>
                 </div>
@@ -425,7 +427,7 @@
     <div class="cards counter apis">
         <div class="card api">
             <div class="card-content">
-                <img src="img/Developers_Tools_Section_icons.svg" alt="">
+                <img :src="$withBase('/img/Developers_Tools_Section_icons.svg')" alt="">
                 <h3>Node HTTP API</h3>
                 <p>
                     &aelig;ternity <a href="https://api-docs.aeternity.io">Node API</a>
@@ -434,7 +436,7 @@
         </div>
         <div class="card api">
             <div class="card-content">
-                <img src="img/Developers_Tools_Section_icons.svg" alt="">
+                <img :src="$withBase('/img/Developers_Tools_Section_icons.svg')" alt="">
                 <h3>SDK Frontend APIs</h3>
                 <ul class="unstyled">
                     <li>
@@ -454,7 +456,7 @@
         </div>
         <div class="card api">
             <div class="card-content">
-                <img src="img/Developers_Tools_Section_icons.svg" alt="">
+                <img :src="$withBase('/img/Developers_Tools_Section_icons.svg')" alt="">
                 <h3>Middleware Backend API</h3>
                 <p>
                     The <a href="https://github.com/aeternity/aeternal">Middleware</a> is a caching and reporting
@@ -466,7 +468,7 @@
         </div>
         <div class="card api">
             <div class="card-content">
-                <img src="img/Developers_Tools_Section_icons.svg" alt="">
+                <img :src="$withBase('/img/Developers_Tools_Section_icons.svg')" alt="">
                 <h3>CLI - Command Line Client</h3>
                 <p>
                     Quickly test all of Aeternity’s blockchain features from your Terminal, you can Install and use
@@ -612,8 +614,8 @@
             A variety of community build wallets are available, such as:
         </p>
         <ul>
-            <li><a href="https://airgap.it"><img src="img/Air_Gap_Icon.svg" alt="">Airgap Vault and Wallet</a></li>
-            <li><a href="https://trustwallet.com"><img src="img/Trust_Wallet_Icon.svg" alt="">Trust Wallet</a></li>
+            <li><a href="https://airgap.it"><img :src="$withBase('/img/Air_Gap_Icon.svg')" alt="">Airgap Vault and Wallet</a></li>
+            <li><a href="https://trustwallet.com"><img :src="$withBase('/img/Trust_Wallet_Icon.svg')" alt="">Trust Wallet</a></li>
         </ul>
     </div>
     <div class="section-content section-content--normal">
@@ -622,10 +624,10 @@
             others. A full list of markets can be found via: <a href="https://coinmarketcap.com">coinmarketcap</a>
         </p>
         <ul>
-            <li><a href="https://www.binance.com/"><img src="img/Binance_icon.svg" alt="">binance</a></li>
-            <li><a href="https://www.okex.com"><img src="img/Okex_icon.svg" alt="">okex</a></li>
-            <li><a href="https://www.huobi.com"><img src="img/Huobi_icon.svg" alt="">huobi</a></li>
-            <li><a href="https://www.gate.io"><img src="img/Gateio_icon.svg" alt="">gate.io</a></li>
+            <li><a href="https://www.binance.com/"><img :src="$withBase('/img/Binance_icon.svg')" alt="">binance</a></li>
+            <li><a href="https://www.okex.com"><img :src="$withBase('/img/Okex_icon.svg')" alt="">okex</a></li>
+            <li><a href="https://www.huobi.com"><img :src="$withBase('/img/Huobi_icon.svg')" alt="">huobi</a></li>
+            <li><a href="https://www.gate.io"><img :src="$withBase('/img/Gateio_icon.svg')" alt="">gate.io</a></li>
         </ul>
     </div>
 </section>
@@ -636,21 +638,21 @@
     <div class="cards counter howtos">
         <div class="card howto">
             <div class="card-content">
-                <img src="img/Host_a_Node_icon.svg" alt="">
+                <img :src="$withBase('/img/Host_a_Node_icon.svg')" alt="">
                 <h3>How to host a Node</h3>
                 <a href="https://docs.aeternity.io/" class="button button--small">View docs</a>
             </div>
         </div>
         <div class="card howto">
             <div class="card-content">
-                <img src="img/Smart_Contract_Compiler_icon.svg" alt="">
+                <img :src="$withBase('/img/Smart_Contract_Compiler_icon.svg')" alt="">
                 <h3>How to host<br>the Sophia Smart Contract<br>Compiler</h3>
                 <a href="https://github.com/aeternity/aesophia_http" class="button button--small">View on GitHub</a>
             </div>
         </div>
         <div class="card howto">
             <div class="card-content">
-                <img src="img/API_Server_Icon.svg" alt="">
+                <img :src="$withBase('/img/API_Server_Icon.svg')" alt="">
                 <h3>How to host a Middleware API Server</h3>
                 <a href="https://github.com/aeternity/aeternal" class="button button--small">View on GitHub</a>
             </div>
@@ -702,31 +704,31 @@
     <ul class="icons communities">
         <li class="icon community">
             <a href="https://forum.aeternity.com/search?q=developers%20update%20call%20order%3Alatest">
-                <img src="img/Public_Developers_icon.svg" alt="">
+                <img :src="$withBase('/img/Public_Developers_icon.svg')" alt="">
                 <span>Public developers update call</span>
             </a>
         </li>
         <li class="icon community">
             <a href="https://forum.aeternity.com">
-                <img src="img/Forum_icon.svg" alt="">
+                <img :src="$withBase('/img/Forum_icon.svg')" alt="">
                 <span>Forum</span>
             </a>
         </li>
         <li class="icon community">
             <a href="https://devchat.aeternity.com">
-                <img src="img/Devchat_icon.svg" alt="">
+                <img :src="$withBase('/img/Devchat_icon.svg')" alt="">
                 <span>Devchat</span>
             </a>
         </li>
         <li class="icon community">
             <a href="https://www.aeternity-foundation.org">
-                <img src="img/Development_bounties_icon.svg" alt="">
+                <img :src="$withBase('/img/Development_bounties_icon.svg')" alt="">
                 <span>Development bounties</span>
             </a>
         </li>
         <li class="icon community">
             <a href="https://www.aeternity-foundation.org">
-                <img src="img/Development_Grants_icon.svg" alt="">
+                <img :src="$withBase('/img/Development_Grants_icon.svg')" alt="">
                 <span>Development grants</span>
             </a>
         </li>
