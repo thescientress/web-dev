@@ -1,87 +1,53 @@
+---
+title: Aeternity developers
+description: "Aeternity Blockchain : Lightning Smart Contracts. Turing-Complete State-Channels. Oracles."
+lang: en-US
+---
 <section id="header" class="section section--hero">
-    <div class="section-content section-content--hero">
-        <h1>
-            Welcome Developer,<br>
-            Node Operator and Miner
-        </h1>
-        <p>
-            This page helps you to get started with &aelig;ternity.
-        </p>
-    </div>
-    <div class="section-buttons">
-        <a href="#getting_started" class="button button--large section-button">Get started</a>
-        <!--            <a href="https://github.com/aeternity/white-paper" class="button button&#45;&#45;large section-button">Read the White Paper</a>-->
-    </div>
+
+::: content section-content
+
+# Welcome Developer,<br>Node Operator and Miner
+This page helps you to get started with æternity.
+:::
+<div class="section-buttons"><a href="#getting_started" class="button button--large section-button">Get started</a></div>
 </section>
 <section id="why" class="section section--normal">
-    <div class="section-content section-content--normal">
-        <h2>Why &aelig;ternity</h2>
-        <p>
-            If you are already familiar with basic blockchain principles and smart contracts, start with learning
-            about &aelig;ternity’s unique features. The &aelig;ternity protocol ships with a rich set of features
-            and functionality out of the box.
-        </p>
-        <p>
-            A full specification and documentation of the protocol can be found on GitHub
-        </p>
-    </div>
-    <img :src="$withBase('/img/view-at-github.svg')" alt="">
-    <a href="https://github.com/aeternity" class="button button--normal">View at GitHub</a>
+
+::: content section-content
+
+## Why æternity
+If you are already familiar with basic blockchain principles and smart contracts, start with learning
+about æternity’s unique features. The æternity protocol ships with a rich set of features
+and functionality out of the box.
+
+A full specification and documentation of the protocol can be found on GitHub
+:::
+<div style="text-align:center">
+<img src="./img/view-at-github.svg" alt="">
+<a href="https://github.com/aeternity" class="button button--normal">View at GitHub</a>
+</div>
 </section>
 <section id="technical_advantages" class="section section--fancy">
-    <div class="section-content section-content--fancy">
-        <h2>Technical advantages compared to major platforms</h2>
-    </div>
-    <div class="orbits">
-        <ul class="advantages">
-            <li class="advantage">
-                <a href="#" onclick="return false;"></a>
-                <span>No scaling limits with built-in trust-less off-chain State Channels</span>
-            </li>
-            <li class="advantage">
-                <a href="#" onclick="return false;"></a>
-                <span>Highest security standards with a type safe VM and functional Smart Contract Language</span>
-            </li>
-            <li class="advantage">
-                <a href="#" onclick="return false;"></a>
-                <span>Confirmation times ~3 Seconds</span>
-            </li>
-            <li class="advantage">
-                <a href="#" onclick="return false;"></a>
-                <span>Low-fees on-chain due to a highly optimized Consensus, VM and native transaction types</span>
-            </li>
-            <li class="advantage">
-                <a href="#" onclick="return false;"></a>
-                <span>No-fees off-chain for transactions and Smart Contract executions in State Channels</span>
-            </li>
-            <li class="advantage">
-                <a href="#" onclick="return false;"></a>
-                <span>Build in Naming System for human readable names</span>
-            </li>
-            <li class="advantage">
-                <a href="#" onclick="return false;"></a>
-                <span>Private transactions and Smart Contracts in State Channels</span>
-            </li>
-            <li class="advantage">
-                <a href="#" onclick="return false;"></a>
-                <span>Built-in Oracles for accessing external API’s and real world data</span>
-            </li>
-            <li class="advantage">
-                <a href="#" onclick="return false;"></a>
-                <span>Highly flexible Generalized Account model supporting all types of signing options</span>
-            </li>
-        </ul>
-    </div>
-    <div class="advantages-footer"><img :src="$withBase('/img/Erlang_Icon-alt.svg')" alt="">
-        <div>
-            Reference implementation written in Erlang by industry experts, the language that powers 90% of today’s
-            world wide web. <a href="http://erlang.com">Learn more</a>
-        </div>
-    </div>
+
+::: content section-content
+
+## Technical advantages compared to major platforms</h2>
+
+:::
+
+<AdvantagesOrbits />
+
+<div class="advantages-footer">
+<img src="./img/Erlang_Icon-alt.svg" alt="">
+<div>
+Reference implementation written in Erlang by industry experts, the language that powers 90% of today’s world wide web. <a href="http://erlang.com">Learn more</a>
+</div>
+</div>
 </section>
 <section id="protocol" class="section section--normal">
     <div class="section-content section-content--normal">
-        <h2>The &aelig;ternity protocol is</h2>
+        <h2>The æternity protocol is</h2>
     </div>
     <div class="protocol">
         <div class="protocol-bullets">
@@ -102,13 +68,13 @@
             <div class="protocol-menu-item">
                 <label for="Universal">Universal</label>
                 <div class="protocol-content">
-                    <img :src="$withBase('/img/1.universal.svg')" alt="">
+                    <img src="./img/1.universal.svg" alt="">
                     <h3>Universal</h3>
                     <p>
-                        The &aelig;ternity protocol can do everything that you expect from a Smart Contract
+                        The æternity protocol can do everything that you expect from a Smart Contract
                         Blockchain platform like Ethereum or others. It can be used to power <b>Games, Payments,
                         Identity, Decentralized Finance, Registries, Token-Economy, Logistics and more.</b> Some of
-                        the things are not yet invented that will be built with &aelig;ternity. <strong>The future
+                        the things are not yet invented that will be built with æternity. <strong>The future
                         is yours.</strong>
                     </p>
                 </div>
@@ -117,16 +83,16 @@
             <div class="protocol-menu-item">
                 <label for="Secure">Secure</label>
                 <div class="protocol-content">
-                    <img :src="$withBase('/img/2.secure.svg')" alt="">
+                    <img src="./img/2.secure.svg" alt="">
                     <h3>Secure</h3>
                     <p>
                         &AElig;eternity is built with security in mind. The reference implementation is written in
                         Erlang, following all standards of high-quality software engineering. Recurring security
                         audits and intensive property based testing are part of the daily work of the protocol
-                        developers. In its security aspects on blockchain, the &aelig;ternity protocol gets shipped
+                        developers. In its security aspects on blockchain, the æternity protocol gets shipped
                         with a type safe virtual machine called FATE (Fast Aeternity Transaction Engine) which was
                         engineered to boost efficiency (gas consumption) and security (type safe). Together with
-                        Sophia, a functional smart contract language that supports formal verification, the &aelig;ternity
+                        Sophia, a functional smart contract language that supports formal verification, the æternity
                         protocol provides an unique take on blockchain and smart contract security. A highly paid
                         bug bounty program is available for security researchers.
                     </p>
@@ -136,13 +102,13 @@
             <div class="protocol-menu-item">
                 <label for="Scalable">Scalable</label>
                 <div class="protocol-content">
-                    <img :src="$withBase('/img/3.scalable.svg')" alt="">
+                    <img src="./img/3.scalable.svg" alt="">
                     <h3>Scalable</h3>
                     <p>
-                        In order to scale to billions of users and transactions the &aelig;ternity protocol provides
+                        In order to scale to billions of users and transactions the æternity protocol provides
                         trustless scaling through off-chain state channels. Without compromising on security state
                         channels allow peer to peer transaction between users and the execution of smart contracts
-                        off-chain. This way &aelig;ternity has no limits in scaling. The network consensus of the
+                        off-chain. This way æternity has no limits in scaling. The network consensus of the
                         protocol is fast. In average up to 15 times faster with a higher transaction throughput then
                         comparable protocols. The confirmation time is as less as three seconds, which especially
                         comes into account when looking at user experience.
@@ -153,17 +119,17 @@
             <div class="protocol-menu-item">
                 <label for="Efficient-low-to-no-fees">Efficient low-to-no fees</label>
                 <div class="protocol-content">
-                    <img :src="$withBase('/img/4.lowFees.svg')" alt="">
+                    <img src="./img/4.lowFees.svg" alt="">
                     <h3>Efficient low-to-no fees</h3>
                     <p>
-                        &aelig;ternity is equipped with dozens of unique native transactions types for State
+                        æternity is equipped with dozens of unique native transactions types for State
                         Channels, Oracles, Names among others. All functionality is optimized to work with minimal
                         gas cost. Additionally, once established, within off-chain State Channels, there are no fees
                         for transactions or smart contract executions. On-chain, with Bitcoin-NG, the consensus
                         mechanism of the protocol allows for more transactions and gas (smart contract executions)
                         per block. This relaxes the fee and gas market and leads to lower cost. Combined with the
                         execution of smart contracts through the highly efficient FATE VM, less overall Gas is
-                        needed. Additionally with off-chain State Channels, the &aelig;ternity protocol reduces the
+                        needed. Additionally with off-chain State Channels, the æternity protocol reduces the
                         on-chain transaction and smart contract execution volumes massively, which lowers the fees.
                     </p>
                 </div>
@@ -172,10 +138,10 @@
             <div class="protocol-menu-item">
                 <label for="Interoperable-Oracles">Interoperable Oracles</label>
                 <div class="protocol-content">
-                    <img :src="$withBase('/img/5.oracles.svg')" alt="">
+                    <img src="./img/5.oracles.svg" alt="">
                     <h3>Interoperable Oracles</h3>
                     <p>
-                        Oracles are a special type of transactions on &aelig;ternity to request and provide data
+                        Oracles are a special type of transactions on æternity to request and provide data
                         from data providers and APIs. If a smart contract for example is in need of today's weather
                         data, a oracle request transaction including a data schema can be broadcasted on chain. Data
                         providers can respond to data and charge a fee for providing the response. The other way
@@ -190,7 +156,7 @@
             <div class="protocol-menu-item">
                 <label for="Open-Source">Open Source</label>
                 <div class="protocol-content">
-                    <img :src="$withBase('/img/6.openSource.svg')" alt="">
+                    <img src="./img/6.openSource.svg" alt="">
                     <h3>Open Source</h3>
                     <p>
                         The protocol and all essential developer resources are fully open source. There is no
@@ -203,14 +169,14 @@
             <div class="protocol-menu-item">
                 <label for="Decentralized">Decentralized</label>
                 <div class="protocol-content">
-                    <img :src="$withBase('/img/7.decentralized.svg')" alt="">
+                    <img src="./img/7.decentralized.svg" alt="">
                     <h3>Decentralized</h3>
                     <p>
                         With Satoshi’s heritage in its core (Nakamoto Consensus) the protocol is build to be
                         decentralized. Everyone can host a node and start mining, connect to the network and help to
                         secure the chain or verify transaction. The network is operated by an community of thousands
                         of nodes. It is fully trustless, there is no central authority, no master nodes or
-                        kill-switches. With Cuckoo Circle, &aelig;ternity has chosen a highly efficient
+                        kill-switches. With Cuckoo Circle, æternity has chosen a highly efficient
                         proof-of-work algorithm which is the first graph-theoretic proof-of-work, and the most
                         memory bound, yet with instant verification.
                     </p>
@@ -220,10 +186,10 @@
             <div class="protocol-menu-item">
                 <label for="Public-and-Private">Public and Private</label>
                 <div class="protocol-content">
-                    <img :src="$withBase('/img/8.public-private.svg')" alt="">
+                    <img src="./img/8.public-private.svg" alt="">
                     <h3>Public and Private</h3>
                     <p>
-                        The &aelig;ternity protocol is using the accounts model. All transactions are public by
+                        The æternity protocol is using the accounts model. All transactions are public by
                         default. Aeternity allows a very flexible and open design of accounts, which is called
                         Generalized Accounts that enable signing transactions with a high flexibility.
                         Cryptographically the protocol uses Blake2b (256 bits digest) and ed25519. It supports
@@ -238,7 +204,7 @@
             <div class="protocol-menu-item">
                 <label for="User-Friendly">User Friendly</label>
                 <div class="protocol-content">
-                    <img :src="$withBase('/img/9.userFriendly.svg')" alt="">
+                    <img src="./img/9.userFriendly.svg" alt="">
                     <h3>User Friendly</h3>
                     <p>
                         A built-in Naming System for human readable names allows you to point names to accounts and
@@ -252,13 +218,13 @@
             <div class="protocol-menu-item">
                 <label for="Governance">Governance</label>
                 <div class="protocol-content">
-                    <img :src="$withBase('/img/10.governance.svg')" alt="">
+                    <img src="./img/10.governance.svg" alt="">
                     <h3>Governance</h3>
                     <p>
-                        The &aelig;ternity community is governed by miners, users and developers. Through hard-fork
+                        The æternity community is governed by miners, users and developers. Through hard-fork
                         signaling node operators can show their support for hard upgrades. All token holders can
                         join a weighted delegated polling mechanism through an mobile and user friendly app with
-                        verifiable results on the &aelig;ternity blockchain. Discussions are taking place in chat
+                        verifiable results on the æternity blockchain. Discussions are taking place in chat
                         rooms, online forums, public events and in the aexpansions repository on GitHub.
                     </p>
                 </div>
@@ -267,11 +233,11 @@
             <div class="protocol-menu-item">
                 <label for="Development-Sustainability">Development Sustainability</label>
                 <div class="protocol-content">
-                    <img :src="$withBase('/img/11.sustainability.svg')" alt="">
+                    <img src="./img/11.sustainability.svg" alt="">
                     <h3>Development Sustainability</h3>
                     <p>
-                        The protocol is robust and reliable and build to last for &aelig;ternity even without
-                        maintenance or the development of new features. Nevertheless, the &aelig;ternity crypto
+                        The protocol is robust and reliable and build to last for æternity even without
+                        maintenance or the development of new features. Nevertheless, the æternity crypto
                         foundation currently receive around 10.8% of the mining reward to support the long-term
                         development and maintenance of the core protocol and essential resources. There is an open
                         R&D Grant program available at <a href="https://www.aeternity-foundation.org">www.aeternity-foundation.org</a>as
@@ -291,18 +257,18 @@
     <div class="section-content section-content--alt">
         <h2>Safe smart contract development with Sophia</h2>
         <p class="sophia-caption">
-            An &aelig;ternity blockchain language The Sophia is a language in the ML family. It is a strongly typed
+            An æternity blockchain language The Sophia is a language in the ML family. It is a strongly typed
             and has a restricted mutable state.
         </p>
     </div>
     <div class="sophia-content">
         <div class="sophia-graphic">
-            <img :src="$withBase('/img/What_is_Sophia_Graphic.svg')" alt="">
+            <img src="./img/What_is_Sophia_Graphic.svg" alt="">
         </div>
         <div class="sophia-text">
             <h3>What is Sophia?</h3>
-            <p><img :src="$withBase('/img/Sophia_Icon.svg')" alt="">
-                Sophia is customized for smart contracts, which can be published to a blockchain (the &aelig;ternity
+            <p><img src="./img/Sophia_Icon.svg" alt="">
+                Sophia is customized for smart contracts, which can be published to a blockchain (the æternity
                 BlockChain). Thus some features of conventional languages, such as floating point arithmetics, are
                 not present in Sophia, and some blockchain specific primitives, constructions and types have been
                 added.
@@ -322,15 +288,15 @@
             </ul>
             <h3>Educational material</h3>
             <p>
-                <img :src="$withBase('/img/Dacade_Icon.svg')" alt="">
+                <img src="./img/Dacade_Icon.svg" alt="">
                 <small>
                     <a href="https://dacade.org/ae-dev-101/introduction">Online Course from Dacade.org</a><br>
-                    Check out the highly recommended &aelig;ternity 101 course on Dacade, a peer learning platform.
+                    Check out the highly recommended æternity 101 course on Dacade, a peer learning platform.
                     Courses are free, a certificate will be given and you earn 100 AE token on completion.
                 </small>
             </p>
             <p>
-                <img :src="$withBase('/img/github-logo.svg')" alt="">
+                <img src="./img/github-logo.svg" alt="">
                 <small>
                     <a>Tutorials about Sophia</a><br>
                     Available on GitHub but might be outdated.
@@ -358,42 +324,42 @@
     <div class="section-content section-content--fancy">
         <h2>Getting started</h2>
         <p>
-            If you are new to &aelig;ternity and want to try out the Sophia Smart Contract Language, is is suggested
+            If you are new to æternity and want to try out the Sophia Smart Contract Language, is is suggested
             to use one of the community developed online IDE’s. They allow you to write contracts, compile them,
             post them to the chain on testnet and call its functions.
         </p>
         <div class="try">
             <div class="try-browser">
-                <h3><img :src="$withBase('/img/Try_it_in_browser_icon.svg')" alt="">Try it in the browser</h3>
+                <h3><img src="./img/Try_it_in_browser_icon.svg" alt="">Try it in the browser</h3>
                 <h4>Try it in the browser with one of the IDE’s</h4>
                 <ul class="try-browser-options">
                     <li>
-                        <img :src="$withBase('/img/Contracts_Laptop.svg')" alt="">
+                        <img src="./img/Contracts_Laptop.svg" alt="">
                         <a href="https://testnet.contracts.aepps.com">Contracts</a>
                     </li>
                     <li>
-                        <img :src="$withBase('/img/Playground_Laptop.svg')" alt="">
+                        <img src="./img/Playground_Laptop.svg" alt="">
                         <a href="https://testing.playground.aepps.com/editor">Playground</a>
                     </li>
                     <li>
-                        <img :src="$withBase('/img/FireEditor_Laptop.svg')" alt="">
+                        <img src="./img/FireEditor_Laptop.svg" alt="">
                         <a href="http://fireeditor.nikitafuchs.de">FireEditor</a>
                     </li>
                 </ul>
                 <p>
-                    &AElig;project is an &aelig;ternity framework which helps with setting up a project. The
-                    framework makes the development of smart contracts in the &aelig;ternity network pretty easy. It
+                    &AElig;project is an æternity framework which helps with setting up a project. The
+                    framework makes the development of smart contracts in the æternity network pretty easy. It
                     provides commands for compilation, deployment of smart contracts, running a local node, local
                     compiler and unit testing the contracts.
                 </p>
             </div>
             <div class="try-locally">
-                <h3><img :src="$withBase('/img/Try_it_locally_icon.svg')" alt="">Try it locally</h3>
+                <h3><img src="./img/Try_it_locally_icon.svg" alt="">Try it locally</h3>
                 <h4>Try it locally and setup your development environment in no-time.</h4>
                 <div class="try-locally-options">
-                    <img :src="$withBase('/img/AEProject_Github.svg')" alt="">
+                    <img src="./img/AEProject_Github.svg" alt="">
                     <div class="try-locally-aeproject">
-                        <img :src="$withBase('/img/AEProject_logo.svg')" alt="">
+                        <img src="./img/AEProject_logo.svg" alt="">
                         <a href="https://github.com/aeternity/aepp-aeproject-js">&AElig;Project</a>
                     </div>
                 </div>
@@ -420,23 +386,23 @@
     <div class="section-content section-content--normal">
         <h2>Developer tools</h2>
         <p class="developer_tools-caption">
-            Programming libraries are available. Any Javascript developer can build a simple &aelig;ternity app in
+            Programming libraries are available. Any Javascript developer can build a simple æternity app in
             one day. For a quick start and reference SDK it is recommended to use the JavaScript one.
         </p>
     </div>
     <div class="cards counter apis">
         <div class="card api">
             <div class="card-content">
-                <img :src="$withBase('/img/Developers_Tools_Section_icons.svg')" alt="">
+                <img src="./img/Developers_Tools_Section_icons.svg" alt="">
                 <h3>Node HTTP API</h3>
                 <p>
-                    &aelig;ternity <a href="https://api-docs.aeternity.io">Node API</a>
+                    æternity <a href="https://api-docs.aeternity.io">Node API</a>
                 </p>
             </div>
         </div>
         <div class="card api">
             <div class="card-content">
-                <img :src="$withBase('/img/Developers_Tools_Section_icons.svg')" alt="">
+                <img src="./img/Developers_Tools_Section_icons.svg" alt="">
                 <h3>SDK Frontend APIs</h3>
                 <ul class="unstyled">
                     <li>
@@ -456,11 +422,11 @@
         </div>
         <div class="card api">
             <div class="card-content">
-                <img :src="$withBase('/img/Developers_Tools_Section_icons.svg')" alt="">
+                <img src="./img/Developers_Tools_Section_icons.svg" alt="">
                 <h3>Middleware Backend API</h3>
                 <p>
                     The <a href="https://github.com/aeternity/aeternal">Middleware</a> is a caching and reporting
-                    layer which sits in front of the nodes of the &aelig;ternity blockchain. Its purpose is to
+                    layer which sits in front of the nodes of the æternity blockchain. Its purpose is to
                     respond to queries faster than the node can do, and to support queries that for reasons of
                     efficiency the node cannot or will not support itself.
                 </p>
@@ -468,7 +434,7 @@
         </div>
         <div class="card api">
             <div class="card-content">
-                <img :src="$withBase('/img/Developers_Tools_Section_icons.svg')" alt="">
+                <img src="./img/Developers_Tools_Section_icons.svg" alt="">
                 <h3>CLI - Command Line Client</h3>
                 <p>
                     Quickly test all of Aeternity’s blockchain features from your Terminal, you can Install and use
@@ -503,7 +469,7 @@
                 <h3>Hosted API Server, Public Nodes and Services</h3>
                 <p>
                     For convenience reasons, there are hosted services available to quick start the development of
-                    &aelig;ternity blockchain applications on testnet. Even though all services are available for
+                    æternity blockchain applications on testnet. Even though all services are available for
                     mainnet too, it is not advised to use these services in production. Therefore self-hosting
                     critical infrastructure is recommended.
                 </p>
@@ -581,7 +547,7 @@
     <div class="section-content section-content--normal">
         <h2>Interfaces and clients</h2>
         <p>
-            Three major clients to interact with &aelig;ternity blockchain applications, sign contract calls and do
+            Three major clients to interact with æternity blockchain applications, sign contract calls and do
             transactions.
         </p>
     </div>
@@ -594,7 +560,7 @@
         </div>
         <div class="card interface">
             <div class="card-content">
-                <h3>W&aelig;llet Browser Extension</h3>
+                <h3>Wællet Browser Extension</h3>
                 <a href="https://github.com/aeternity/aepp-waellet" class="button button--small">View on GitHub</a>
             </div>
         </div>
@@ -614,20 +580,20 @@
             A variety of community build wallets are available, such as:
         </p>
         <ul>
-            <li><a href="https://airgap.it"><img :src="$withBase('/img/Air_Gap_Icon.svg')" alt="">Airgap Vault and Wallet</a></li>
-            <li><a href="https://trustwallet.com"><img :src="$withBase('/img/Trust_Wallet_Icon.svg')" alt="">Trust Wallet</a></li>
+            <li><a href="https://airgap.it"><img src="./img/Air_Gap_Icon.svg" alt="">Airgap Vault and Wallet</a></li>
+            <li><a href="https://trustwallet.com"><img src="./img/Trust_Wallet_Icon.svg" alt="">Trust Wallet</a></li>
         </ul>
     </div>
     <div class="section-content section-content--normal">
         <p>
-            It is possible to buy &aelig;ternity tokens on exchanges like Binance, OKex, Huobi, gate.io and many
+            It is possible to buy æternity tokens on exchanges like Binance, OKex, Huobi, gate.io and many
             others. A full list of markets can be found via: <a href="https://coinmarketcap.com">coinmarketcap</a>
         </p>
         <ul>
-            <li><a href="https://www.binance.com/"><img :src="$withBase('/img/Binance_icon.svg')" alt="">binance</a></li>
-            <li><a href="https://www.okex.com"><img :src="$withBase('/img/Okex_icon.svg')" alt="">okex</a></li>
-            <li><a href="https://www.huobi.com"><img :src="$withBase('/img/Huobi_icon.svg')" alt="">huobi</a></li>
-            <li><a href="https://www.gate.io"><img :src="$withBase('/img/Gateio_icon.svg')" alt="">gate.io</a></li>
+            <li><a href="https://www.binance.com/"><img src="./img/Binance_icon.svg" alt="">binance</a></li>
+            <li><a href="https://www.okex.com"><img src="./img/Okex_icon.svg" alt="">okex</a></li>
+            <li><a href="https://www.huobi.com"><img src="./img/Huobi_icon.svg" alt="">huobi</a></li>
+            <li><a href="https://www.gate.io"><img src="./img/Gateio_icon.svg" alt="">gate.io</a></li>
         </ul>
     </div>
 </section>
@@ -638,21 +604,21 @@
     <div class="cards counter howtos">
         <div class="card howto">
             <div class="card-content">
-                <img :src="$withBase('/img/Host_a_Node_icon.svg')" alt="">
+                <img src="./img/Host_a_Node_icon.svg" alt="">
                 <h3>How to host a Node</h3>
                 <a href="https://docs.aeternity.io/" class="button button--small">View docs</a>
             </div>
         </div>
         <div class="card howto">
             <div class="card-content">
-                <img :src="$withBase('/img/Smart_Contract_Compiler_icon.svg')" alt="">
+                <img src="./img/Smart_Contract_Compiler_icon.svg" alt="">
                 <h3>How to host<br>the Sophia Smart Contract<br>Compiler</h3>
                 <a href="https://github.com/aeternity/aesophia_http" class="button button--small">View on GitHub</a>
             </div>
         </div>
         <div class="card howto">
             <div class="card-content">
-                <img :src="$withBase('/img/API_Server_Icon.svg')" alt="">
+                <img src="./img/API_Server_Icon.svg" alt="">
                 <h3>How to host a Middleware API Server</h3>
                 <a href="https://github.com/aeternity/aeternal" class="button button--small">View on GitHub</a>
             </div>
@@ -663,7 +629,7 @@
     <div class="section-content section-content--normal">
         <h2>For miners, pools and node operators</h2>
         <p>
-            To get the latest version of &aelig;ternity node, please check out the <a
+            To get the latest version of æternity node, please check out the <a
                 href="https://github.com/aeternity/aeternity/releases">latest published packages</a> and the <a
                 href="https://github.com/aeternity/aeternity/tree/master/docs/release-notes">release notes</a>
         </p>
@@ -704,31 +670,31 @@
     <ul class="icons communities">
         <li class="icon community">
             <a href="https://forum.aeternity.com/search?q=developers%20update%20call%20order%3Alatest">
-                <img :src="$withBase('/img/Public_Developers_icon.svg')" alt="">
+                <img src="./img/Public_Developers_icon.svg" alt="">
                 <span>Public developers update call</span>
             </a>
         </li>
         <li class="icon community">
             <a href="https://forum.aeternity.com">
-                <img :src="$withBase('/img/Forum_icon.svg')" alt="">
+                <img src="./img/Forum_icon.svg" alt="">
                 <span>Forum</span>
             </a>
         </li>
         <li class="icon community">
             <a href="https://devchat.aeternity.com">
-                <img :src="$withBase('/img/Devchat_icon.svg')" alt="">
+                <img src="./img/Devchat_icon.svg" alt="">
                 <span>Devchat</span>
             </a>
         </li>
         <li class="icon community">
             <a href="https://www.aeternity-foundation.org">
-                <img :src="$withBase('/img/Development_bounties_icon.svg')" alt="">
+                <img src="./img/Development_bounties_icon.svg" alt="">
                 <span>Development bounties</span>
             </a>
         </li>
         <li class="icon community">
             <a href="https://www.aeternity-foundation.org">
-                <img :src="$withBase('/img/Development_Grants_icon.svg')" alt="">
+                <img src="./img/Development_Grants_icon.svg" alt="">
                 <span>Development grants</span>
             </a>
         </li>

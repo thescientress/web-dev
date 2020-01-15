@@ -10,7 +10,7 @@
     margin: 40px 0 45px;
 }
 
-#sophia .section-button {
+#sophia .section-buttons > div {
     flex-direction: column-reverse;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .sophia-graphic {
-    background-image: url('../../../../public/img/Path_Sophia.svg');
+    background-image: url('../../../../../img/Path_Sophia.svg');
     background-position: top right;
     margin-top: 13px;
     padding: 0 20px 0 18px;

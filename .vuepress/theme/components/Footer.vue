@@ -12,25 +12,25 @@
         <div class="footer-links">
             <ul class="footer-icons">
                 <li class="footer-icon"><a href="https://github.com/aeternity">
-                    <img src="img/Footer_Github.svg" alt=""><span>GitHub</span></a>
+                    <img src="../../../img/Footer_Github.svg" alt=""><span>GitHub</span></a>
                 </li>
                 <li class="footer-icon"><a href="https://www.reddit.com/r/Aeternity/">
-                    <img src="img/Footer_Reddit.svg" alt=""><span>Reddit</span></a>
+                    <img src="../../../img/Footer_Reddit.svg" alt=""><span>Reddit</span></a>
                 </li>
                 <li class="footer-icon"><a href="https://blog.aeternity.com">
-                    <img src="img/Footer_Medium.svg" alt=""><span>Medium</span></a>
+                    <img src="../../../img/Footer_Medium.svg" alt=""><span>Medium</span></a>
                 </li>
             </ul>
-            <img src="img/aeternity-logo-white-stacked.svg" alt="" class="footer-logo">
+            <img src="../../../img/aeternity-logo-white-stacked.svg" alt="" class="footer-logo">
             <ul class="footer-icons">
                 <li class="footer-icon"><a href="https://telegram.me/aeternity">
-                    <img src="img/Footer_Telegram.svg" alt=""><span>Telegram</span></a>
+                    <img src="../../../img/Footer_Telegram.svg" alt=""><span>Telegram</span></a>
                 </li>
                 <li class="footer-icon"><a href="https://www.facebook.com/aeternityproject/">
-                    <img src="img/Footer_Facebook.svg" alt=""><span>Facebook</span></a>
+                    <img src="../../../img/Footer_Facebook.svg" alt=""><span>Facebook</span></a>
                 </li>
                 <li class="footer-icon"><a href="https://twitter.com/aeternity">
-                    <img src="img/Footer_Twitter.svg" alt=""><span>Twitter</span></a>
+                    <img src="../../../img/Footer_Twitter.svg" alt=""><span>Twitter</span></a>
                 </li>
             </ul>
         </div>

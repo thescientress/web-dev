@@ -1,6 +1,21 @@
 module.exports = {
     base: process.env.BASE_PATH || '/',
-    plugins: ['@vuepress/register-components'],
+    plugins: [
+        '@vuepress/register-components',
+        [
+            'vuepress-plugin-container',
+            {
+                type: 'content',
+                before: info => `<div class="${info}">`,
+                after: '</div>',
+            },
+        ],
+    ],
+    markdown: {
+        anchor: {
+            permalink: false
+        }
+    },
     themeConfig: {
         search: false,
         nav: [
@@ -15,9 +30,7 @@ module.exports = {
         // The key is the path for the locale to be nested under.
         // As a special case, the default locale can use '/' as its path.
         '/': {
-            lang: 'en-US', // this will be set as the lang attribute on <html>
-            title: 'Aeternity developers',
-            description: 'Aeternity Blockchain : Lightning Smart Contracts. Turing-Complete State-Channels. Oracles.'
+            lang: 'en-US' // this will be set as the lang attribute on <html>
         }
     }
 };

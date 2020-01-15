@@ -44,10 +44,9 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
-.section-button {
+.section-buttons > div {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -58,16 +57,12 @@
     width: 100%;
 }
 
-.section-button:first-child {
+.section-buttons > div:first-child {
     margin-left: 0;
 }
 
-.section-button:last-child {
+.section-buttons > div:last-child {
     margin-right: 0;
-}
-
-.section-buttons--reverse .section-button {
-    flex-direction: column-reverse;
 }
 
 /* --- Normal --- */
@@ -79,7 +74,7 @@
     z-index: 1;
 }
 
-.section-content--normal > p {
+.section--normal .section-content > p {
     margin-top: 0;
     max-width: 930px;
     width: 100%;
@@ -94,17 +89,17 @@
     z-index: 1;
 }
 
-.section-content--alt {
+.section--alt h3 {
+    line-height: 28px;
+}
+
+.section--alt .section-content {
     max-width: 1405px;
 }
 
-.section-content--alt > p {
+.section--alt .section-content > p {
     margin-top: 0;
     width: 100%;
-}
-
-.section--alt h3 {
-    line-height: 28px;
 }
 
 /* --- Fancy --- */
@@ -114,7 +109,7 @@
 }
 
 .section--fancy::before {
-    background-image: url("../../../public/img/section-back-alt.jpg");
+    background-image: url("../../../../img/section-back-alt.jpg");
 }
 
 .section--fancy h2 {
@@ -127,7 +122,7 @@
 }
 
 .section--fancy .button-text--github {
-    background-image: url("../../../public/img/Github_Icon-white.svg");
+    background-image: url("../../../../img/Github_Icon-white.svg");
 }
 
 /* --- Hero --- */
@@ -151,7 +146,7 @@
     text-align: center;
 }
 
-.section-content--hero {
+.section--hero .section-content {
     color: #fff;
     margin: 0 0 60px;
     max-width: 940px;
@@ -179,12 +174,12 @@
         line-height: 33px;
     }
 
-    .section-content--hero {
+    .section--hero .section-content {
         margin: 0 0 36px;
         max-width: 700px;
     }
 
-    .section-content--normal > p {
+    .section-normal .section-content > p {
         max-width: 780px;
     }
 
@@ -194,7 +189,7 @@
         max-width: 460px;
     }
 
-    .section-button {
+    .section-buttons > div {
         margin-right: 56px;
     }
 }
@@ -224,13 +219,13 @@
         padding-right: 15px;
     }
 
-    .section-content--hero {
+    .section--hero .section-content {
         color: #fff;
         margin: 0 0 36px;
         max-width: 700px;
     }
 
-    .section-content--normal > p {
+    .section--normal .section-content > p {
         max-width: 780px;
     }
 
@@ -245,7 +240,7 @@
         flex-direction: column;
     }
 
-    .section-button {
+    .section-buttons > div {
         margin-bottom: 15px;
         margin-right: 0;
         max-width: 345px;

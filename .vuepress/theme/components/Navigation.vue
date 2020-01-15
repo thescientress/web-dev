@@ -3,7 +3,7 @@
         <section class="main-nav">
             <div class="logo">
                 <a href="">
-                    <img src="img/logo.svg" alt="Aeternity">
+                    <img src="../../../img/logo.svg" alt="Aeternity">
                 </a>
             </div>
             <nav class="pages">

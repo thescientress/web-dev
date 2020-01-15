@@ -8,5 +8,8 @@
     "watch": "vuepress dev",
     "build": "vuepress build"
   },
-  "dependencies": {}
+  "dependencies": {
+    "markdown-it": "^9",
+    "markdown-it-attrs": "^3.0.1"
+  }
 }
