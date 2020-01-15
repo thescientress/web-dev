@@ -5,7 +5,7 @@
 }
 
 #header:before {
-    background-image: url("/img/Header_Section_Image_Background.jpg");
+    background-image: url("../../../../public/img/Header_Section_Image_Background.jpg");
     background-position: bottom right;
 }
 
