@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/web-dev',
     plugins: ['@vuepress/register-components'],
     themeConfig: {
         search: false,
