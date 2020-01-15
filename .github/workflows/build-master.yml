@@ -13,6 +13,7 @@ jobs:
       - name: Build and Deploy
         uses: testthedocs/github-pages-deploy-action@master
         env:
+          BASE_PATH: ${{ secrets.BASE_PATH }}
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BUILD_DIR: ".vuepress/dist" # The folder the action should deploy.
           BUILD_SCRIPT: npm install && npm run-script build # The build script the action should run prior to deploying.
