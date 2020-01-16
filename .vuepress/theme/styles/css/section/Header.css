@@ -9,6 +9,10 @@
     background-position: bottom right;
 }
 
+#header .section-buttons {
+    width: 100%;
+}
+
 @media screen and (max-width: 1366px) {
     #header {
         height: calc(100vh - 70px);

@@ -46,7 +46,7 @@
     justify-content: center;
 }
 
-.section-buttons > div {
+.section-buttons > * {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -57,11 +57,11 @@
     width: 100%;
 }
 
-.section-buttons > div:first-child {
+.section-buttons > *:first-child {
     margin-left: 0;
 }
 
-.section-buttons > div:last-child {
+.section-buttons > *:last-child {
     margin-right: 0;
 }
 
@@ -189,7 +189,7 @@
         max-width: 460px;
     }
 
-    .section-buttons > div {
+    .section-buttons > * {
         margin-right: 56px;
     }
 }
@@ -238,9 +238,10 @@
     .section-buttons {
         align-items: center;
         flex-direction: column;
+        width: 100%;
     }
 
-    .section-buttons > div {
+    .section-buttons > * {
         margin-bottom: 15px;
         margin-right: 0;
         max-width: 345px;
