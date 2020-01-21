@@ -176,6 +176,7 @@ Programming libraries are available. Any Javascript developer can build a simple
   ### CLI - Command Line Client
 
   Quickly test all of Aeternity’s blockchain features from your Terminal, you can Install and use our [NodeJS CLI](https://github.com/aeternity/aepp-cli-js).
+
 :::
 
 ::: slot buttons
@@ -264,12 +265,14 @@ others. A full list of markets can be found via: <a href="https://coinmarketcap.
 ## Run your own node and services
 
 ::: slot cards
+
 - ![](./img/Host_a_Node_icon.svg)
   ### How to host a Node
   [View docs](https://docs.aeternity.io)
 - ![](./img/API_Server_Icon.svg)
   ### How to host a Middleware API Server
   [View on GitHub](https://github.com/aeternity/aeternal)
+
 :::
 
 </Section>
