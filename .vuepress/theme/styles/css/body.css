@@ -66,6 +66,10 @@ a:not([href]):hover:after {
     display: none;
 }
 
+ul li > a:hover > img {
+    transform: scale(1.05);
+}
+
 p {
     margin: 26px 0;
     text-align: justify;
