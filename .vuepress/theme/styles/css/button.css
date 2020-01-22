@@ -32,8 +32,8 @@
     margin-top: 0;
 }
 
-.section-buttons > p:not(:first-child) {
-    margin-top: 20px;
+.section-buttons > ul + p {
+    margin-top: 50px;
 }
 
 .section-buttons > ul > li:first-child {
@@ -72,8 +72,8 @@
 .section-buttons > :not(p) a:hover {
     background: transparent;
     color: #f7296e;
-    text-decoration: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .section-buttons > :not(p) a:not([href]) {
@@ -96,6 +96,10 @@
 }
 
 @media screen and (max-width: 1366px) {
+    .section-buttons {
+        margin-top: 0;
+    }
+
     .section-buttons li p a {
         line-height: 35px;
     }
@@ -135,9 +139,6 @@ form input {
 form input::-webkit-input-placeholder {
     color: inherit;
     opacity: 0.5;
-}
-
-@media screen and (max-width: 1366px) {
 }
 
 @media screen and (max-width: 1023px) {

@@ -62,7 +62,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding: 0 70px 45px 0;
+    padding: 0 70px 0 0;
     width: 50%;
 }
 
@@ -84,7 +84,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding: 0 0 45px 70px;
+    padding: 0 0 0 70px;
     width: 50%;
 }
 
@@ -108,7 +108,7 @@
 
     #getting_started .section-content > ul {
         justify-content: center;
-        margin: 67px 20px 108px;
+        margin: 67px;
     }
 
     #getting_started .section-content > ul h3 {
@@ -152,12 +152,21 @@
 @media screen and (max-width: 1023px) {
     #getting_started .section-content > ul {
         flex-wrap: wrap;
+        margin-top: 15px;
     }
 
     #getting_started .section-content > ul > li {
         border: 0 !important;
         padding: 0 !important;
         width: 100% !important;
+    }
+
+    #getting_started .section-content > ul > li ul {
+        margin-top: 35px !important;
+    }
+
+    #getting_started .section-content > ul > li:first-child li {
+        margin-right: 0;
     }
 
     #getting_started .section-content > ul > li p {

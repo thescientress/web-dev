@@ -34,6 +34,10 @@
 }
 
 @media screen and (max-width: 1366px) {
+    #developer_tools .cards {
+        margin-bottom: 35px;
+    }
+
     #developer_tools .cards > ul > li {
         padding: 30px 20px;
     }

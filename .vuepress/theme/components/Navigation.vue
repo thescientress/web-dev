@@ -2,7 +2,7 @@
     <header>
         <section class="main-nav">
             <div class="logo">
-                <a href="">
+                <a :href="$withBase('/')">
                     <img src="../../../img/logo.svg" alt="Aeternity">
                 </a>
             </div>
@@ -12,16 +12,16 @@
                         <a href="" class="nav-link">Developers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Entrepreneurs</a>
+                        <a href="https://www.aeventures.io" class="nav-link">Entrepreneurs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Aeternity Consulting</a>
+                        <a href="https://www.aeternityconsulting.com" class="nav-link">Consulting</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Community</a>
+                        <a href="https://forum.aeternity.com" class="nav-link">Community</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">D&aelig;mo</a>
+                        <a href="https://www.aeternity-foundation.org" class="nav-link">Foundation</a>
                     </li>
                 </ul>
             </nav>

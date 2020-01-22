@@ -96,7 +96,7 @@ Sophia is a language in the ML family. It is a strongly typed and has a restrict
 <small>
 <a href="https://dacade.org/ae-dev-101/introduction">Online Course from Dacade.org</a><br>
 Check out the highly recommended æternity 101 course on Dacade, a peer learning platform.
-Courses are free, a certificate will be given and you earn 75 USD on completion.
+Courses are free and you will be given a certificate upon completion.
 </small>
 
 </div>
@@ -106,7 +106,7 @@ Courses are free, a certificate will be given and you earn 75 USD on completion.
 
 ::: slot buttons
 
-- [Get help](https://forum.aeternity.com/c/development/sophia-smart-contracts)
+- [Get help](https://forum.aeternity.com)
 
   ![](./img/aeternity-logo-small.svg) in the Forum
 - [Chat](https://telegram.me/aeternity)
@@ -139,7 +139,7 @@ In order to get started, try out the community developed online IDE or setup you
 
 ::: slot buttons
 
-- [Get help](https://forum.aeternity.com/c/development/sophia-smart-contracts)
+- [Get help](https://forum.aeternity.com)
 
   ![](./img/aeternity-logo-small.svg) in the Forum
 - [Chat](https://telegram.me/aeternity)
@@ -161,18 +161,18 @@ Programming libraries are available. Any Javascript developer can build a simple
   ### Node HTTP API
 
   æternity [Node API](https://api-docs.aeternity.io)
-- ![](./img/Developers_Tools_Section_icons.svg)
+- ![](./img/Frontend_icon.svg)
   ### SDK Frontend APIs
   - [JavaScript](https://github.com/aeternity/aepp-sdk-js) (recommended)
   - [Python](https://github.com/aeternity/aepp-sdk-python)
   - [Go](https://github.com/aeternity/aepp-sdk-go)
   - [Java](https://github.com/kryptokrauts/aepp-sdk-java) (Community Maintained)
   - [Elixir SDK](https://github.com/aeternity/aepp-sdk-elixir)
-- ![](./img/Developers_Tools_Section_icons.svg)
+- ![](./img/Aeternal_icon.svg)
   ### æternal Backend API
 
   The [æternal](https://github.com/aeternity/aeternal) is a caching and reporting layer which sits in front of the nodes of the æternity blockchain. Its purpose is to respond to queries faster than the node can do, and to support queries that for reasons of efficiency the node cannot or will not support itself.
-- ![](./img/Developers_Tools_Section_icons.svg)
+- ![](./img/Terminal_icon.svg)
   ### CLI - Command Line Client
 
   Quickly test all of Aeternity’s blockchain features from your Terminal, you can Install and use our [NodeJS CLI](https://github.com/aeternity/aepp-cli-js).
@@ -219,6 +219,8 @@ Programming libraries are available. Any Javascript developer can build a simple
     - Mobile Base [https://base.aepps.com](https://base.aepps.com)
     - AirGap [https://airgap.it](https://airgap.it)
     - TrustWallet [https://trustwallet.com](https://trustwallet.com)
+    - Atomic Wallet [https://atomicwallet.io](https://atomicwallet.io)
+    - Arkane Wallet [https://arkane.network](https://arkane.network)
 
 :::
 
@@ -301,9 +303,9 @@ To get the latest version of æternity node, please check out the [latest publis
 
 ## Join the community
 - [![](./img/Public_Developers_icon.svg) Youtube](https://www.youtube.com/channel/UCEsM0b7QPazeMR80DxNkzCA)
-- [![](./img/Development_bounties_icon.svg) Twitter](https://twitter.com/aeternity)
+- [![](./img/Twitter_icon.svg) Twitter](https://twitter.com/aeternity)
 - [![](./img/Forum_icon.svg) Forum](https://forum.aeternity.com)
-- [![](./img/Devchat_icon.svg) Telegram](https://telegram.me/aeternity)
+- [![](./img/Telegram_icon.svg) Telegram](https://telegram.me/aeternity)
 - [![](./img/Development_Grants_icon.svg) Development grants](https://www.aeternity-foundation.org)
 
 </Section>
