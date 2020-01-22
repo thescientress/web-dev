@@ -302,7 +302,7 @@ To get the latest version of æternity node, please check out the [latest publis
 <Section id="community" type="alt">
 
 ## Join the community
-- [![](./img/Public_Developers_icon.svg) Youtube](https://www.youtube.com/channel/UCEsM0b7QPazeMR80DxNkzCA)
+- [![](./img/Youtube_icon.svg) Youtube](https://www.youtube.com/channel/UCEsM0b7QPazeMR80DxNkzCA)
 - [![](./img/Twitter_icon.svg) Twitter](https://twitter.com/aeternity)
 - [![](./img/Forum_icon.svg) Forum](https://forum.aeternity.com)
 - [![](./img/Telegram_icon.svg) Telegram](https://telegram.me/aeternity)
