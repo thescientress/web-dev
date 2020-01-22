@@ -1,26 +1,26 @@
 ---
 title: Aeternity developers
-description: "Aeternity Blockchain : Lightning Smart Contracts. Turing-Complete State-Channels. Oracles."
+description: "Aeternity Blockchain : Lightning Smart Contracts, Turing-complete state channels, oracles"
 lang: en-US
 advantages:
   - image: /img/No_Scaling_Icon.svg
-    text: No scaling limits with built-in trust-less off-chain State Channels
+    text: No scaling limits with built-in trustless off-chain state channels
   - image: /img/Security_icon.svg
-    text: Highest security standards with a type safe VM and functional Smart Contract Language
+    text: Highest security standards with a type-safe VM and functional smart contract language
   - image: /img/Confirmation_Time_icon.svg
     text: Confirmation times ~3 Seconds
   - image: /img/Low_fees_Icon.svg
-    text: Low-fees on-chain due to a highly optimized Consensus, VM and native transaction types
+    text: Low fees on-chain due to a highly optimized consensus, VM and native transaction types
   - image: /img/No_fees_Icon.svg
-    text: No-fees off-chain for transactions and Smart Contract executions in State Channels
+    text: No fees off-chain for transactions and smart contract executions in state channels
   - image: /img/Naming_System_icon.svg
-    text: Build in Naming System for human readable names
+    text: Built-in naming system for human readable names
   - image: /img/Private_Transaction_icon.svg
-    text: Private transactions and Smart Contracts in State Channels
+    text: Private transactions and smart contracts in state channels
   - image: /img/Build_in_Oracles_icon.svg
     text: Built-in Oracles for accessing external API’s and real world data
   - image: /img/Highly_Flexible_Icon.svg
-    text: Highly flexible Generalized Account model supporting all types of signing options
+    text: Highly flexible generalized account model supporting all types of signing options
 ---
 
 <Section id="header" type="hero">
@@ -120,7 +120,7 @@ Courses are free and you will be given a certificate upon completion.
 
 ## Getting started
 
-In order to get started, try out the community developed online IDE or setup your own development enviroment with the local development framework **AEproject**.
+In order to get started, try out the community developed online IDE or setup your own development environment with the local development framework **AEproject**.
 
 - ### ![](./img/Try_it_in_browser_icon.svg) Try it in the browser
   Just click the link below to launch the FireEditor, a Web-based IDE. Start to write and test Sophia smart contracts instantly.
@@ -175,7 +175,7 @@ Programming libraries are available. Any Javascript developer can build a simple
 - ![](./img/Terminal_icon.svg)
   ### CLI - Command Line Client
 
-  Quickly test all of Aeternity’s blockchain features from your Terminal, you can Install and use our [NodeJS CLI](https://github.com/aeternity/aepp-cli-js).
+  Quickly test all of Aeternity’s blockchain features from your terminal, you can install and use our [NodeJS CLI](https://github.com/aeternity/aepp-cli-js).
 
 :::
 
