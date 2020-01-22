@@ -60,12 +60,17 @@ header {
     justify-content: center;
 }
 
-.nav-link {
+.nav-item a {
     color: #000;
     padding: 5px 7px;
 }
 
-.nav-current .nav-link {
+.nav-item a:hover {
+    color: #f7296e;
+    text-decoration: none;
+}
+
+.nav-current a {
     border-bottom: 1px solid #f7296e;
     color: #f7296e;
     font-weight: 700;

@@ -9,19 +9,19 @@
             <nav class="pages">
                 <ul class="nav-items">
                     <li class="nav-item nav-current">
-                        <a href="" class="nav-link">Developers</a>
+                        <a href="">Developers</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.aeventures.io" class="nav-link" target="_blank">Entrepreneurs</a>
+                        <a href="https://www.aeventures.io" target="_blank">Entrepreneurs</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.aeternityconsulting.com" class="nav-link" target="_blank">Consulting</a>
+                        <a href="https://www.aeternityconsulting.com" target="_blank">Consulting</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://forum.aeternity.com" class="nav-link" target="_blank">Community</a>
+                        <a href="https://forum.aeternity.com" target="_blank">Community</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.aeternity-foundation.org" class="nav-link" target="_blank">Foundation</a>
+                        <a href="https://www.aeternity-foundation.org" target="_blank">Foundation</a>
                     </li>
                 </ul>
             </nav>
