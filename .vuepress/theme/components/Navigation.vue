@@ -12,16 +12,16 @@
                         <a href="" class="nav-link">Developers</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.aeventures.io" class="nav-link">Entrepreneurs</a>
+                        <a href="https://www.aeventures.io" class="nav-link" target="_blank">Entrepreneurs</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.aeternityconsulting.com" class="nav-link">Consulting</a>
+                        <a href="https://www.aeternityconsulting.com" class="nav-link" target="_blank">Consulting</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://forum.aeternity.com" class="nav-link">Community</a>
+                        <a href="https://forum.aeternity.com" class="nav-link" target="_blank">Community</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.aeternity-foundation.org" class="nav-link">Foundation</a>
+                        <a href="https://www.aeternity-foundation.org" class="nav-link" target="_blank">Foundation</a>
                     </li>
                 </ul>
             </nav>
