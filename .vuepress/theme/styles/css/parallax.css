@@ -15,6 +15,7 @@
         transform-origin: center;
     }
 
+    .content__default,
     .section--hero,
     .section--fancy {
         transform-style: preserve-3d;
