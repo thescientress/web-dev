@@ -79,8 +79,15 @@
 
     #interfaces .cards > ul {
         flex-wrap: wrap;
+        justify-content: center;
         margin: 25px 0 15px;
         padding: 0;
+        width: calc(100vw - 30px);
+    }
+
+    #interfaces .cards > ul:before,
+    #interfaces .cards > ul:after {
+        content: none;
     }
 
     #interfaces .cards > ul > li {

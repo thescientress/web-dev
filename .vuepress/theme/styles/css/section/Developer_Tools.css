@@ -59,7 +59,7 @@
 @media screen and (max-width: 1023px) {
     #developer_tools .cards {
         margin-top: 0;
-        max-width: 360px;
+        max-width: 420px;
     }
 
     #developer_tools .cards > ul > li {
