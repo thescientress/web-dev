@@ -36,7 +36,6 @@
     align-items: center;
     background-size: 41.17%;
     color: #fff;
-    flex-direction: column;
     font-weight: 700;
     height: 12.35%;
     line-height: 22px;
@@ -114,7 +113,13 @@
 
 @media screen and (max-width: 1366px) {
     #technical_advantages {
-        padding-top: 86px;
+        min-height: 90vh;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+    #technical_advantages h2 {
+        margin-top: 0;
     }
 
     #technical_advantages blockquote {
@@ -125,122 +130,63 @@
     }
 
     .orbits {
+        display: block;
         margin-top: 30px;
         padding: 0;
+        width: auto;
     }
 
     .advantages {
-        background-size: 105%;
-        height: 57vw;
+        background-image: none !important;
+        height: auto;
         max-height: none;
+        padding: 0 20px;
+        width: auto;
     }
 
     .advantage {
+        display: flex;
+        flex-direction: row;
         font-weight: 400;
-        height: 16%;
-        width: 9%;
+        left: auto !important;
+        margin: 5px 20px;
+        max-width: none;
+        min-height: 50px;
+        padding-left: 70px;
+        position: relative;
+        text-align: start;
+        top: auto !important;
+        width: auto;
+    }
+
+    .advantage a {
+        background: transparent no-repeat top center;
+        background-size: contain;
+        display: block;
+        height: 50px;
+        left: 0;
+        margin-right: 20px;
+        position: absolute;
+        width: 50px;
     }
 
     .advantage span {
-        left: -46%;
-        margin-top: 5%;
-        position: absolute;
-        width: 196%;
-    }
-
-    .advantage:nth-child(1) {
-        left: 29.3%;
-        top: 12.04%;
-    }
-
-    .advantage:nth-child(2) {
-        left: 60.05%;
-        top: 12.66%;
-    }
-
-    .advantage:nth-child(3) {
-        left: 9.66%;
-        top: 29.07%;
-    }
-
-    .advantage:nth-child(4) {
-        left: 76.6%;
-        top: 27.37%;
-    }
-
-    .advantage:nth-child(5) {
-        left: 5.8%;
-        top: 52.77%;
-    }
-
-    .advantage:nth-child(6) {
-        left: 84.8%;
-        top: 57.77%;
-    }
-
-    .advantage:nth-child(7) {
-        left: 25.48%;
-        top: 66.25%;
-    }
-
-    .advantage:nth-child(8) {
-        left: 67.4%;
-        top: 66.65%;
-    }
-
-    .advantage:nth-child(9) {
-        left: 45.32%;
-        top: 77.28%;
+        margin: 0;
+        position: static;
+        width: auto;
     }
 }
 
 @media screen and (max-width: 1023px) {
+    .advantage {
+        min-height: 30px;
+        padding-left: 50px;
+    }
+
     .advantage a {
         cursor: pointer;
+        height: 30px;
         pointer-events: auto;
-    }
-
-    .advantage span {
-        background: #fff;
-        bottom: 100%;
-        color: #f7296e;
-        display: none;
-        font-size: 14px;
-        font-weight: normal;
-        left: 0;
-        line-height: 20px;
-        margin-bottom: 20px;
-        min-width: 120px;
-        padding: 18px 20px 18px 10px;
-        position: absolute;
-        text-align: left;
-        width: 20vw;
-    }
-
-    .advantage span:before {
-        border: 12px solid transparent;
-        border-top: 15px solid white;
-        bottom: -27px;
-        content: '';
-        display: block;
-        height: 0;
-        left: 12px;
-        position: absolute;
-        width: 0;
-    }
-
-    .advantage a:active + span,
-    .advantage a:focus + span {
-        display: block;
-    }
-
-    .advantage:nth-child(2n) span {
-        left: 100%;
-        transform: translateX(-100%);
-    }
-
-    .advantage:nth-child(2n) span:before {
-        left: auto;
-        right: 16px;
+        width: 30px;
     }
 }
