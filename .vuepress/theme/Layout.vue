@@ -2,6 +2,8 @@
     <div>
         <Navigation/>
         <main>
+            <div class="announcement" v-if="$page.frontmatter.announcement"
+                 v-html="$page.frontmatter.announcement"></div>
             <Content/>
             <Footer/>
         </main>

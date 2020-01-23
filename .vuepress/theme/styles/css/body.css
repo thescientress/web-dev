@@ -127,6 +127,37 @@ main {
     }
 }
 
+@keyframes fadein {
+    from {
+        opacity: 0;
+        top: -200px;
+    }
+    to {
+        opacity: 1;
+        top: 0;
+    }
+}
+
+.announcement {
+    animation: fadein 2s;
+    background-color: #f7296e;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 300;
+    opacity: 1;
+    padding: 0.7em 20px;
+    position: absolute;
+    text-align: center;
+    transition: opacity 1s;
+    width: 100%;
+    z-index: 1;
+}
+
+.announcement a {
+    color: #ffff;
+    font-weight: 500;
+}
+
 @media screen and (max-width: 1023px) {
     main {
         height: calc(100vh - 50px);

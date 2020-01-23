@@ -1,19 +1,20 @@
 <template>
     <section :id="id" :class="classes">
         <slot name="header"></slot>
-        <div class="section-content">
+        <div class="section-content top">
             <slot></slot>
         </div>
         <slot name="body"></slot>
-        <div class="cards">
+        <div class="cards" v-if="$slots.cards">
             <slot name="cards"></slot>
         </div>
-        <div class="section-buttons">
+        <div class="section-buttons" v-if="$slots.buttons">
             <slot name="buttons"></slot>
         </div>
-        <div class="section-content">
-            <slot name="footer"></slot>
+        <div class="section-content bottom" v-if="$slots.bottom">
+            <slot name="bottom"></slot>
         </div>
+        <slot name="footer"></slot>
     </section>
 </template>
 <script>

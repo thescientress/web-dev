@@ -2,19 +2,21 @@
 title: Aeternity developers
 description: "Aeternity Blockchain : Lightning Smart Contracts, Turing-complete state channels, oracles"
 lang: en-US
+announcement: |
+  Welcome to our brand new website, <a href="https://blog.aeternity.com" target="_blank">read more about it in our blog</a>.
 advantages:
   - image: /img/No_Scaling_Icon.svg
-    text: No scaling limits with built-in trustless off-chain state channels
+    text: No scaling limits with built-in trustless, off-chain State Channels
   - image: /img/Security_icon.svg
-    text: Highest security standards with a type-safe VM and functional smart contract language
+    text: Highest security standards with a type-safe VM and functional Smart Contract language
   - image: /img/Confirmation_Time_icon.svg
-    text: Confirmation times ~3 Seconds
+    text: ~3 second block confirmation times
   - image: /img/Low_fees_Icon.svg
-    text: Low fees on-chain due to a highly optimized consensus, VM and native transaction types
+    text: Low on-chain fees due to highly optimized consensus, VM, and native transaction types
   - image: /img/No_fees_Icon.svg
-    text: No fees off-chain for transactions and smart contract executions in state channels
+    text: No off-chain fees for transactions and Smart Contract execution in State Channels
   - image: /img/Naming_System_icon.svg
-    text: Built-in naming system for human readable names
+    text: Built-in Naming System for human-readable names
   - image: /img/Private_Transaction_icon.svg
     text: Private transactions and smart contracts in state channels
   - image: /img/Build_in_Oracles_icon.svg
@@ -25,8 +27,7 @@ advantages:
 
 <Section id="header" type="hero">
 
-# Welcome Developer,<br>Node Operator and Miner
-This page helps you to get started with æternity.
+# Welcome developers,<br>node operators, and miners
 
 ::: slot buttons
 
@@ -38,16 +39,14 @@ This page helps you to get started with æternity.
 
 <Section id="why">
 
-## The æternity Blockchain is open source, public and permissionless
-If you are already familiar with basic blockchain principles and smart contracts, start with learning
-about æternity’s unique features. The æternity protocol ships with a rich set of features
-and functionality out of the box.
-
-A full specification and documentation of the protocol can be found in the documentation hub and in the white paper. The source code and latest releases of the æternity node are available on [GitHub](https://github.com/aeternity/aeternity).
+## æternity blockchain is open source, public and permissionless
+æternity blockchain is an Erlang-based scalable smart contract platform engineered by programming pioneers to address some of the most fundamental challenges native to earlier blockchains. 
+By redesigning blockchain technology at the protocol level, the æternity developer community has enabled the core protocol to understand and integrate a rich set of functionalities out of the box.
+Full specifications and documentation of the protocol are in the [Documentation hub](https://aeternity.com/documentation-hub/) and the [White Paper](https://github.com/aeternity/white-paper/blob/master/paper.pdf).
 
 ::: slot buttons
 
-- [Documentation](https://aeternity.com/documentation-hub/)
+- [Documentation hub](https://aeternity.com/documentation-hub/)
 - [White Paper](https://github.com/aeternity/white-paper/blob/master/paper.pdf) 
 
 [![](./img/view-at-github.svg)](https://github.com/aeternity)
@@ -58,7 +57,7 @@ A full specification and documentation of the protocol can be found in the docum
 
 <Section id="technical_advantages" type="fancy">
 
-## Technical advantages compared to major platforms
+## Technical advantages
 
 <AdvantagesOrbits />
 
@@ -72,8 +71,8 @@ A full specification and documentation of the protocol can be found in the docum
 
 <Section id="sophia" type="alt">
 
-## Safe smart contract development with Sophia
-Sophia is a language in the ML family. It is a strongly typed and has a restricted mutable state. Sophia is a functional Ocaml like language which syntax most resembles that of Reason.
+## Safe Smart Contract Development with Sophia
+Sophia is functional Smart Contract language in the ML family. It is strongly-typed and has a restricted mutable state. Sophia is a Ocaml-like language with syntax mostly resembling that of Reason.
 
 ::: slot body
 
@@ -84,7 +83,7 @@ Sophia is a language in the ML family. It is a strongly typed and has a restrict
 <div class="sophia-text">
 
 ### What is Sophia?
-![](./img/Sophia_Icon.svg) Sophia is customized for smart contracts, which can be published to a blockchain (the æternity blockchain). Thus some features of conventional languages, such as floating point arithmetics, are not present in Sophia, and some blockchain specific primitives, constructions and types have been added.
+![](./img/Sophia_Icon.svg) Sophia Smart Contracts are fully customized to run on the æternity blockchain. Some features of conventional languages, such as floating point arithmetics for example, are not present, while some blockchain-specific primitives, constructions, and types have been added.
 
 ### Links
 - [Documentation](https://github.com/aeternity/protocol/blob/master/contracts/sophia.md)
@@ -123,19 +122,19 @@ Courses are free and you will be given a certificate upon completion.
 In order to get started, try out the community developed online IDE or setup your own development environment with the local development framework **AEproject**.
 
 - ### ![](./img/Try_it_in_browser_icon.svg) Try it in the browser
-  Just click the link below to launch the FireEditor, a Web-based IDE. Start to write and test Sophia smart contracts instantly.
+  Start writing and testing Sophia Smart Contracts instantly. Click on the link below to launch the FireEditor, a Web-based IDE.
   - ![](./img/FireEditor_Laptop.svg)
 
     [FireEditor](http://fireeditor.nikitafuchs.de)
 
 - ### ![](./img/Try_it_locally_icon.svg) Try it locally
-  Install it locally and setup your development environment in no-time:
+  Use AEproject to set up your local development environment in minutes.
   ```
   npm i -g aeproject
   ```
   - ![](./img/Terminal_Laptop.svg)
 
-    [Documentation](https://github.com/aeternity/aepp-aeproject-js)
+    [AEproject](https://github.com/aeternity/aepp-aeproject-js)
 
 ::: slot buttons
 
@@ -171,7 +170,7 @@ Programming libraries are available. Any Javascript developer can build a simple
 - ![](./img/Aeternal_icon.svg)
   ### æternal Backend API
 
-  The [æternal](https://github.com/aeternity/aeternal) is a caching and reporting layer which sits in front of the nodes of the æternity blockchain. Its purpose is to respond to queries faster than the node can do, and to support queries that for reasons of efficiency the node cannot or will not support itself.
+  [æternal](https://github.com/aeternity/aeternal) æternal is a caching layer and API server for æternity. It is used to respond to queries faster than the node and to support queries that the node cannot support for efficiency reasons.
 - ![](./img/Terminal_icon.svg)
   ### CLI - Command Line Client
 
@@ -199,13 +198,13 @@ Programming libraries are available. Any Javascript developer can build a simple
 ::: slot cards
 
 - ### Hosted API Server, Public Nodes and Services
-  For convenience reasons, there are hosted services available to quick start the development of æternity blockchain applications on testnet. Even though all services are available for mainnet too, it is not advised to use these services in production. Therefore self-hosting critical infrastructure is recommended.
+  Several hosted services are available to enable quick-start development of blockchain applications on the Testnet. Although all services are also available for the Mainnet, it is not advisable to use them in production environments. <b>Self-hosting critical infrastructure is recommended</b>.
   - Testnet æternal API Server [https://testnet.aeternal.io](https://testnet.aeternal.io)
   - Testnet API Gateway Nodes hosted on [https://testnet.aeternity.io/api](https://testnet.aeternity.io/api)
 
   > ![](./img/Faucet.svg)
   >
-  > To get some free AE tokens, use the testnet Token Faucet [https://faucet.aepps.com](https://faucet.aepps.com)
+  > To get free Testnet AE tokens, use the [Token Faucet](https://faucet.aepps.com).
 
 - ### Resources
   - #### Blockchain Explorers (Testnet/Mainnet)
@@ -215,12 +214,11 @@ Programming libraries are available. Any Javascript developer can build a simple
     - **AEknow**
       - [https://aeknow.org](https://aeknow.org)
   - #### Wallets
-    - Browser Waellet [https://waellet.com](https://waellet.com)
-    - Mobile Base [https://base.aepps.com](https://base.aepps.com)
-    - AirGap [https://airgap.it](https://airgap.it)
-    - TrustWallet [https://trustwallet.com](https://trustwallet.com)
-    - Atomic Wallet [https://atomicwallet.io](https://atomicwallet.io)
-    - Arkane Wallet [https://arkane.network](https://arkane.network)
+    - Base æpp (mobile) [https://base.aepps.com](https://base.aepps.com)
+    - Ledger Hardware Wallet (desktop) [https://base.aepps.com](https://base.aepps.com)
+    - Trust Wallet (Binance)  [https://trustwallet.com](https://trustwallet.com)
+    - Waellet (browser extension) [https://waellet.com](https://waellet.com)
+    - AirGap (iOS/Android) [https://airgap.it](https://airgap.it)
 
 :::
 
@@ -245,7 +243,7 @@ Three major clients to interact with æternity blockchain applications, sign con
 
 :::
 
-::: slot footer
+::: slot bottom
 
 A variety of community build wallets are available, such as:
 - [![](./img/Air_Gap_Icon.svg) **Airgap Vault and Wallet**](https://airgap.it)

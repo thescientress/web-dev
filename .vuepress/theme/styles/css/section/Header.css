@@ -1,7 +1,12 @@
 #header {
     height: calc(100vh - 125px);
     padding-bottom: 161px;
-    padding-top: 166px;
+    padding-top: 100px;
+}
+
+#header img {
+    margin-bottom: 20px;
+    width: 220px;
 }
 
 #header:before {
@@ -24,11 +29,14 @@
     #header {
         height: calc(100vh - 70px);
         padding-bottom: 123px;
-        padding-top: 100px;
     }
 
     #header .section-buttons a {
         height: 50px;
+    }
+
+    #header img {
+        width: 200px;
     }
 }
 
@@ -38,7 +46,6 @@
         height: calc(100vh - 50px);
         justify-content: center;
         padding-bottom: 123px;
-        padding-top: 100px;
     }
 
     #header .section-buttons a {
@@ -47,5 +54,9 @@
         line-height: 16px;
         max-width: 345px;
         width: calc(100% - 30px);
+    }
+
+    #header img {
+        width: 150px;
     }
 }

@@ -23,6 +23,9 @@
                     <li class="nav-item">
                         <a href="https://www.aeternity-foundation.org" target="_blank">Foundation</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="https://blog.aeternity.com" target="_blank">Blog</a>
+                    </li>
                 </ul>
             </nav>
             <div class="lang-switcher">
