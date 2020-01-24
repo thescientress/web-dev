@@ -27,6 +27,26 @@
                     <li class="nav-item">
                         <a href="https://blog.aeternity.com" target="_blank">Blog</a>
                     </li>
+                    <li class="social">
+                        <a href="https://github.com/aeternity">
+                            <img src="../../../img/Social_GitHub.svg" alt="">
+                        </a>
+                        <a href="https://www.reddit.com/r/Aeternity/">
+                            <img src="../../../img/Social_Reddit.svg" alt="">
+                        </a>
+                        <a href="https://blog.aeternity.com">
+                            <img src="../../../img/Social_Medium.svg" alt="">
+                        </a>
+                        <a href="https://telegram.me/aeternity">
+                            <img src="../../../img/Social_Telegram.svg" alt="">
+                        </a>
+                        <a href="https://www.facebook.com/aeternityproject/">
+                            <img src="../../../img/Social_Facebook.svg" alt="">
+                        </a>
+                        <a href="https://twitter.com/aeternity">
+                            <img src="../../../img/Social_Twitter.svg" alt="">
+                        </a>
+                    </li>
                 </ul>
             </nav>
             <div :class="{'lang-switcher': true, active: langActive}">

@@ -27,7 +27,7 @@
         }
 
         main {
-            overflow-y: overlay;
+            overflow-y: hidden;
             perspective: none;
             transform-style: initial;
             height: auto;
