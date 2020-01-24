@@ -20,5 +20,24 @@
     .section--fancy {
         transform-style: preserve-3d;
     }
+
+    @media screen and (max-width: 1023px) {
+        main {
+            overflow-y: overlay;
+            perspective: none;
+            transform-style: initial;
+        }
+
+        .section::before {
+            transform: none;
+            -moz-transform: none;
+        }
+
+        .content__default,
+        .section--hero,
+        .section--fancy {
+            transform-style: initial;
+        }
+    }
 }
 
