@@ -62,7 +62,7 @@
     background-position: top right;
     margin-top: 13px;
     padding: 0 20px 0 18px;
-    width: 100%;
+    width: 50%;
 }
 
 .sophia-graphic img {
@@ -111,6 +111,7 @@
     .sophia-graphic {
         background-image: none;
         margin: 0 auto 50px;
+        width: 100%;
     }
 
     .sophia-graphic img {
