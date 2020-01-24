@@ -97,7 +97,7 @@
     .cards {
         box-sizing: border-box;
         counter-reset: total;
-        justify-content: normal;
+        justify-content: center;
         margin-top: 0;
         max-width: 420px;
         overflow-x: auto;

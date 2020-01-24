@@ -176,9 +176,7 @@
 
     .protocol-menu {
         animation: fadein 0.1s 0.3s linear backwards;
-        height: 100vh;
-        max-height: 667px;
-        min-height: 420px;
+        height: 667px;
         overflow: hidden;
         position: relative;
         scroll-padding: 0 0 0 1000%;
@@ -273,7 +271,7 @@
 
     .protocol-content p {
         font-size: 15px;
-        line-height: 24px;
+        line-height: 19px;
     }
 
     .protocol-content > img:first-child {

@@ -90,7 +90,7 @@
 
 @media screen and (max-width: 1023px) {
     #sophia h2 {
-        margin: 36px;
+        margin: 36px 0;
     }
 
     #sophia .section-content {
@@ -105,7 +105,7 @@
     .sophia-content {
         flex-wrap: wrap;
         margin: 0;
-        padding: 0 15px;
+        padding: 0;
     }
 
     .sophia-graphic {
@@ -118,7 +118,7 @@
     }
 
     .sophia-text {
-        padding: 0 15px;
+        padding: 0;
         text-align: center;
         width: auto;
     }
@@ -130,11 +130,12 @@
     }
 
     .sophia-text p:first-of-type {
-        text-align: justify;
+        flex-direction: row;
+        text-align: start;
     }
 
     .sophia-content p img {
-        margin: 0 0 15px;
+        margin: 0 15px 0 0;
     }
 
     .sophia-text h3:first-child {

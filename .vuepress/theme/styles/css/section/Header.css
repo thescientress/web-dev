@@ -4,11 +4,6 @@
     padding-top: 100px;
 }
 
-#header img {
-    margin-bottom: 20px;
-    width: 220px;
-}
-
 #header:before {
     background-image: url("../../../../../img/Header_Section_Image_Background.jpg");
     background-position: bottom right;
@@ -28,15 +23,11 @@
 @media screen and (max-width: 1366px) {
     #header {
         height: calc(100vh - 70px);
-        padding-bottom: 123px;
+        padding-bottom: unset;
     }
 
     #header .section-buttons a {
         height: 50px;
-    }
-
-    #header img {
-        width: 200px;
     }
 }
 
@@ -45,7 +36,7 @@
         box-sizing: border-box;
         height: calc(100vh - 50px);
         justify-content: center;
-        padding-bottom: 123px;
+        padding-top: 50px;
     }
 
     #header .section-buttons a {
@@ -54,9 +45,5 @@
         line-height: 16px;
         max-width: 345px;
         width: calc(100% - 30px);
-    }
-
-    #header img {
-        width: 150px;
     }
 }

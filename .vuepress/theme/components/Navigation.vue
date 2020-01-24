@@ -1,13 +1,14 @@
 <template>
     <header>
-        <section class="main-nav">
+        <section :class="{'main-nav': true, active: navActive}">
             <div class="logo">
                 <a :href="$withBase('/')">
                     <img src="../../../img/logo.svg" alt="Aeternity">
                 </a>
             </div>
             <nav class="pages">
-                <ul class="nav-items">
+                <button v-on:click="navToggle"></button>
+                <ul class="nav-items" v-on:click.stop="navToggle">
                     <li class="nav-item nav-current">
                         <a href="">Developers</a>
                     </li>
@@ -28,8 +29,8 @@
                     </li>
                 </ul>
             </nav>
-            <div class="lang-switcher">
-                <button type="button" class="lang-current">ENG</button>
+            <div :class="{'lang-switcher': true, active: langActive}">
+                <button type="button" class="lang-current" v-on:click="langToggle">ENG</button>
                 <div class="lang-menu">
                     <ul class="lang-items">
                         <li class="lang-item">
@@ -53,3 +54,21 @@
         </section>
     </header>
 </template>
+<script>
+    export default {
+        data: () => {
+            return {
+                navActive: false,
+                langActive: false
+            }
+        },
+        methods: {
+            navToggle: function () {
+                this.navActive = !this.navActive
+            },
+            langToggle: function () {
+                this.navActive = !this.navActive
+            }
+        }
+    }
+</script>

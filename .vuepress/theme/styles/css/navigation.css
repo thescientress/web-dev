@@ -2,9 +2,10 @@ header {
     background: #fff;
     box-shadow: 0 0 4px 1px #7c7c7c80;
     height: 125px;
-    position: sticky;
+    position: fixed;
+    top: 0;
     width: 100vw;
-    z-index: 1;
+    z-index: 2;
 }
 
 .main-nav {
@@ -74,6 +75,21 @@ header {
     border-bottom: 1px solid #f7296e;
     color: #f7296e;
     font-weight: 700;
+}
+
+.pages button {
+    align-items: center;
+    align-self: stretch;
+    background: transparent;
+    border: 0;
+    display: none;
+    justify-items: center;
+    justify-self: flex-end;
+}
+
+.pages button:before {
+    content: '\2261';
+    font-size: 34px;
 }
 
 .lang-switcher {
@@ -192,7 +208,32 @@ header {
         display: none;
     }
 
-    .pages {
+    .nav-items {
+        align-items: start;
+        background: white;
+        box-sizing: border-box;
         display: none;
+        flex-direction: column;
+        height: 100%;
+        justify-content: start;
+        max-height: 700px;
+        max-width: 500px;
+        padding: 50px;
+        position: fixed;
+        right: 0;
+        top: 50px;
+        width: 100%;
+    }
+
+    .active .nav-items {
+        display: flex;
+    }
+
+    .pages {
+        justify-content: flex-end;
+    }
+
+    .pages button {
+        display: flex;
     }
 }

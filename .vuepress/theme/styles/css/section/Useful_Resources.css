@@ -119,8 +119,13 @@
         text-align: start;
     }
 
+    #useful .cards > ul > li > p {
+        text-align: start;
+    }
+
     #useful .cards > ul > li > ul ul {
         margin-left: 20px;
+        text-align: start;
     }
 
     #useful .cards > ul > li > ul > li {
