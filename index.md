@@ -115,6 +115,7 @@ Courses are free and you will be given a certificate upon completion.
 :::
 
 </Section>
+
 <Section id="getting_started" type="fancy">
 
 ## Getting started

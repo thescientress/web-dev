@@ -89,7 +89,7 @@
 }
 
 #getting_started .section-content > ul > li:last-child ul {
-    margin-top: 35px;
+    margin-top: 40px;
 }
 
 @media screen and (max-width: 1366px) {
@@ -127,10 +127,6 @@
         margin-top: 54px;
     }
 
-    #getting_started .section-content > ul > li p {
-        text-align: center;
-    }
-
     #getting_started .section-content > ul > li:first-child li {
         margin-bottom: 27px;
         margin-right: 15px;
@@ -161,15 +157,16 @@
         width: 100% !important;
     }
 
+    #getting_started .section-content > ul p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
     #getting_started .section-content > ul > li ul {
         margin-top: 35px !important;
     }
 
     #getting_started .section-content > ul > li:first-child li {
         margin-right: 0;
-    }
-
-    #getting_started .section-content > ul > li p {
-        text-align: center;
     }
 }

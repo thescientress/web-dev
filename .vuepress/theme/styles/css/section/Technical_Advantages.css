@@ -15,7 +15,7 @@
     width: 100%;
 }
 
-.advantages {
+#technical_advantages ul {
     height: 51vw;
     max-height: 978px;
     max-width: 1780px;
@@ -23,16 +23,7 @@
     width: 100%;
 }
 
-.advantage a {
-    background: transparent no-repeat top center;
-    background-size: contain;
-    content: '';
-    display: block;
-    height: 100%;
-    width: 100%;
-}
-
-.advantage {
+#technical_advantages li {
     align-items: center;
     background-size: 41.17%;
     color: #fff;
@@ -46,58 +37,64 @@
     width: 6.75%;
 }
 
-.advantage a {
+#technical_advantages li :first-child {
+    background: transparent no-repeat top center;
+    background-size: contain;
+    content: '';
+    display: block;
+    height: 100%;
     pointer-events: none;
+    width: 100%;
 }
 
-.advantage span {
+#technical_advantages li :last-child {
     left: -68%;
     margin-top: 17%;
     position: absolute;
     width: 239%;
 }
 
-.advantage:nth-child(1) {
+#technical_advantages li:nth-child(1) {
     left: 34.10%;
     top: 11.34%;
 }
 
-.advantage:nth-child(2) {
+#technical_advantages li:nth-child(2) {
     left: 59.15%;
     top: 12.06%;
 }
 
-.advantage:nth-child(3) {
+#technical_advantages li:nth-child(3) {
     left: 14.06%;
     top: 30.67%;
 }
 
-.advantage:nth-child(4) {
+#technical_advantages li:nth-child(4) {
     left: 79.10%;
     top: 27.67%;
 }
 
-.advantage:nth-child(5) {
+#technical_advantages li:nth-child(5) {
     left: 7%;
     top: 53.27%;
 }
 
-.advantage:nth-child(6) {
+#technical_advantages li:nth-child(6) {
     left: 87.30%;
     top: 56.27%;
 }
 
-.advantage:nth-child(7) {
+#technical_advantages li:nth-child(7) {
     left: 24.58%;
     top: 67.65%;
 }
 
-.advantage:nth-child(8) {
+#technical_advantages li:nth-child(8) {
     left: 65.67%;
     top: 70.65%;
 }
 
-.advantage:nth-child(9) {
+#technical_advantages li:nth-child(9) {
     left: 46.62%;
     top: 76.78%;
 }
@@ -113,9 +110,7 @@
 
 @media screen and (max-width: 1366px) {
     #technical_advantages {
-        min-height: 90vh;
-        padding-bottom: 60px;
-        padding-top: 60px;
+        padding: 60px 20px;
     }
 
     #technical_advantages h2 {
@@ -124,9 +119,9 @@
 
     #technical_advantages blockquote {
         align-items: center;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 22px;
-        margin: 112px 20px 104px;
+        margin: 62px 0 64px;
     }
 
     .orbits {
@@ -136,57 +131,48 @@
         width: auto;
     }
 
-    .advantages {
+    #technical_advantages ul {
         background-image: none !important;
         height: auto;
         max-height: none;
-        padding: 0 20px;
         width: auto;
     }
 
-    .advantage {
+    #technical_advantages li {
+        align-items: center;
         display: flex;
         flex-direction: row;
         font-weight: 400;
         left: auto !important;
         margin: 5px 20px;
         max-width: none;
-        min-height: 50px;
-        padding-left: 70px;
         position: relative;
         text-align: start;
         top: auto !important;
         width: auto;
     }
 
-    .advantage a {
+    #technical_advantages li :first-child {
+        align-self: start;
         background: transparent no-repeat top center;
         background-size: contain;
-        display: block;
+        flex-shrink: 0;
         height: 50px;
-        left: 0;
         margin-right: 20px;
-        position: absolute;
         width: 50px;
     }
 
-    .advantage span {
+    #technical_advantages li :last-child {
         margin: 0;
         position: static;
         width: auto;
     }
+
 }
 
 @media screen and (max-width: 1023px) {
-    .advantage {
-        min-height: 30px;
-        padding-left: 50px;
-    }
-
-    .advantage a {
-        cursor: pointer;
+    #technical_advantages li :first-child {
         height: 30px;
-        pointer-events: auto;
         width: 30px;
     }
 }

@@ -45,7 +45,7 @@
     align-items: flex-start;
     display: inline-flex;
     margin-bottom: 41px;
-    text-align: justify;
+    text-align: start;
 }
 
 .sophia-text p + p {
@@ -62,7 +62,7 @@
     background-position: top right;
     margin-top: 13px;
     padding: 0 20px 0 18px;
-    width: 50%;
+    width: 100%;
 }
 
 .sophia-graphic img {
@@ -105,19 +105,20 @@
     .sophia-content {
         flex-wrap: wrap;
         margin: 0;
+        padding: 0 15px;
     }
 
     .sophia-graphic {
         background-image: none;
-        margin: 0 auto 20px;
+        margin: 0 auto 50px;
     }
 
     .sophia-graphic img {
-        margin-left: -3vw;
+        margin-top: 20px;
     }
 
     .sophia-text {
-        padding: 0;
+        padding: 0 15px;
         text-align: center;
         width: auto;
     }
@@ -142,5 +143,6 @@
 
     .sophia-content p small {
         font-size: 14px;
+        margin: 0 10%;
     }
 }
