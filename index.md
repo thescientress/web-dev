@@ -42,12 +42,11 @@ advantages:
 ## æternity blockchain is open source, public and permissionless
 æternity blockchain is an Erlang-based scalable smart contract platform engineered by programming pioneers to address some of the most fundamental challenges native to earlier blockchains. 
 By redesigning blockchain technology at the protocol level, the æternity developer community has enabled the core protocol to understand and integrate a rich set of functionalities out of the box.
-Full specifications and documentation of the protocol are in the [Documentation hub](https://aeternity.com/documentation-hub/) and the [White Paper](https://github.com/aeternity/white-paper/blob/master/paper.pdf).
+Full specifications and documentation of the protocol are in the [Documentation hub](https://aeternity.com/documentation-hub/).
 
 ::: slot buttons
 
 - [Documentation hub](https://aeternity.com/documentation-hub/)
-- [White Paper](https://github.com/aeternity/white-paper/blob/master/paper.pdf) 
 
 [![](./img/view-at-github.svg)](https://github.com/aeternity)
 

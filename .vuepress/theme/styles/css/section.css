@@ -40,12 +40,13 @@
 }
 
 .section blockquote p {
+    margin: 0;
     text-align: start;
 }
 
 .section blockquote p img:only-child {
     display: inline-block;
-    margin-right: 7px;
+    margin-right: 15px;
     vertical-align: middle;
 }
 
