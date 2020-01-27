@@ -3,7 +3,7 @@ title: Aeternity developers
 description: "Aeternity Blockchain : Lightning Smart Contracts, Turing-complete state channels, oracles"
 lang: en-US
 announcement: |
-  Welcome to our brand new website, <a href="https://blog.aeternity.com" target="_blank">read more about it in our blog</a>.
+  Welcome to our brand new website, <a href="https://forum.aeternity.com/c/announcements" target="_blank">read more about it in the forum</a>.
 advantages:
   - image: /img/No_Scaling_Icon.svg
     text: No scaling limits with built-in trustless, off-chain State Channels
@@ -27,7 +27,7 @@ advantages:
 
 <Section id="header" type="hero">
 
-# Welcome developers,<br>node operators, and miners
+# A Blockchain for scalable,<br> secure and decentralised æpps
 
 ::: slot buttons
 
