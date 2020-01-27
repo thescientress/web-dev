@@ -90,12 +90,9 @@ Sophia is functional Smart Contract language in the ML family. It is strongly-ty
 - [Code Highlighting](https://marketplace.visualstudio.com/items?itemName=MilenRadkov.sophia) for VSCode and other IDE’s
 
 ### Educational material
-![](./img/Dacade_Icon.svg)
-<small>
-<a href="https://dacade.org/ae-dev-101/introduction">Online Course from Dacade.org</a><br>
+![](./img/Dacade_Icon.svg) [Online Course from Dacade.org](https://dacade.org/ae-dev-101/introduction)<br>
 Check out the highly recommended æternity 101 course on Dacade, a peer learning platform.
 Courses are free and you will be given a certificate upon completion.
-</small>
 
 </div>
 </div>
@@ -119,7 +116,7 @@ Courses are free and you will be given a certificate upon completion.
 
 ## Getting started
 
-In order to get started, try out the community developed online IDE or setup your own development environment with the local development framework **AEproject**.
+In order to get started, try out the community developed online IDE or setup your own development environment with the local development framework AEproject.
 
 - ### ![](./img/Try_it_in_browser_icon.svg) Try it in the browser
   Start writing and testing Sophia Smart Contracts instantly. Click on the link below to launch the FireEditor, a Web-based IDE.

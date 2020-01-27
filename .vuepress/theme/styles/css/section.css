@@ -57,6 +57,10 @@
     width: 100%;
 }
 
+.section-content p {
+    line-height: 30px;
+}
+
 .section-content:empty {
     display: none;
 }
@@ -155,6 +159,7 @@
     }
 
     .section-content p {
+        line-height: 26px;
         text-align: center;
     }
 
@@ -209,6 +214,11 @@
         box-sizing: border-box;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .section-content {
+        font-size: 16px;
+        line-height: 24px;
     }
 
     .section--hero .section-content {

@@ -5,7 +5,7 @@
 
 #interfaces .section-content > ul {
     display: flex;
-    margin: 38px 0 30px;
+    margin: 20px 0 40px;
 }
 
 #interfaces .section-content > ul > li {
@@ -28,13 +28,13 @@
 }
 
 #interfaces .section-content p {
-    margin: 35px 0 0;
+    margin: 0;
     max-width: 762px;
     text-align: center;
 }
 
-#interfaces h2 {
-    margin-bottom: 0;
+#interfaces .cards {
+    margin: 0 0 35px;
 }
 
 #interfaces .cards > ul {
@@ -72,6 +72,12 @@
     line-height: 35px;
 }
 
+@media screen and (max-width: 1366px) {
+    #interfaces .cards {
+        padding: 0;
+    }
+}
+
 @media screen and (max-width: 1023px) {
     #interfaces {
         padding-bottom: 45px;
@@ -100,7 +106,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 38px 0 30px;
+        margin: 0 0 30px;
     }
 
     #interfaces .section-content > ul > li {
@@ -112,6 +118,6 @@
     }
 
     #interfaces .section-content p {
-        margin: 35px 0 0;
+        margin: 0 0 0;
     }
 }

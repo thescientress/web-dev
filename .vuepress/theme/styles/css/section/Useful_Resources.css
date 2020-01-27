@@ -74,7 +74,6 @@
     #useful .cards > ul > li {
         flex-basis: 550px;
         font-size: 16px;
-        line-height: 26px;
         margin-right: 40px;
         padding: 30px 39px;
     }
@@ -126,11 +125,6 @@
     #useful .cards > ul > li > ul ul {
         margin-left: 20px;
         text-align: start;
-    }
-
-    #useful .cards > ul > li > ul > li {
-        border: 0;
-        padding: 10px 0;
     }
 
     #useful .cards > ul > li > ul ul li {

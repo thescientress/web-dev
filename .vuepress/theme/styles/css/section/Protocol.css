@@ -101,6 +101,10 @@
     width: 50%;
 }
 
+.protocol-content > div {
+    max-height: 460px;
+}
+
 .protocol-content > img:first-child {
     position: absolute;
     top: 45px;
@@ -114,7 +118,6 @@
 }
 
 .protocol-content p {
-    line-height: 23px;
     margin-bottom: 20px;
     margin-top: 0;
     overflow-wrap: break-word;
@@ -143,6 +146,10 @@
     .protocol-content {
         padding: 108px 38px 10px;
         width: 47%;
+    }
+
+    .protocol-content > div {
+        max-height: 460px;
     }
 
     .protocol-content > img:first-child {
@@ -267,11 +274,6 @@
         position: absolute;
         top: -40px;
         width: 100px;
-    }
-
-    .protocol-content p {
-        font-size: 15px;
-        line-height: 19px;
     }
 
     .protocol-content > img:first-child {
