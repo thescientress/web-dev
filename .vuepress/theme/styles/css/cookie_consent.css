@@ -1,0 +1,46 @@
+#cookie_consent {
+    animation: cookieSlideIn 0.5s forwards;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    background-color: #f7296e;
+    bottom: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 300;
+    opacity: 0;
+    padding: 0.7em 20px;
+    position: absolute;
+    text-align: center;
+    transform: translateY(100%);
+    transition: opacity 1s;
+    width: 100%;
+    z-index: 1;
+}
+
+#accept_cookies {
+    background: #fff;
+    border: 1px solid #fff;
+    color: #f7296e;
+    cursor: pointer;
+    font-weight: 500;
+    height: 25px;
+    margin-left: 20px;
+    width: 100px;
+}
+
+#deny_cookies {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    height: 25px;
+    margin-left: 20px;
+    width: 100px;
+}
+
+@keyframes cookieSlideIn {
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
