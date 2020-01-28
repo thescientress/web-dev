@@ -61,7 +61,7 @@ Full specifications and documentation of the protocol are in the [Documentation 
 
 > ![](./img/Erlang_Icon-alt.svg) 
 > 
-> Reference implementation written in Erlang by industry experts, the language that powers 90% of today’s world wide web. [Learn more](http://erlang.com)
+> Reference implementation written in Erlang by industry experts, the language that powers 90% of today’s world wide web. [Learn more](https://en.wikipedia.org/wiki/Erlang_(programming_language))
 
 </Section>
 
