@@ -31,7 +31,7 @@ advantages:
 
 ::: slot buttons
 
-- [Get started](#why)
+- [Get involved](https://forum.aeternity.com)
 
 :::
 
@@ -47,8 +47,7 @@ Full specifications and documentation of the protocol are in the [Documentation 
 ::: slot buttons
 
 - [Documentation hub](https://aeternity.com/documentation-hub/)
-
-[![](./img/view-at-github.svg)](https://github.com/aeternity)
+- [GitHub](https://github.com/aeternity)
 
 :::
 
@@ -71,7 +70,7 @@ Full specifications and documentation of the protocol are in the [Documentation 
 <Section id="sophia" type="alt">
 
 ## Safe Smart Contract Development with Sophia
-Sophia is functional Smart Contract language in the ML family. It is strongly-typed and has a restricted mutable state. Sophia is a Ocaml-like language with syntax mostly resembling that of Reason.
+Sophia is a functional Smart Contract language in the ML family. It is strongly-typed and has a restricted mutable state. Sophia is a Ocaml-like language with syntax mostly resembling that of Reason.
 
 ::: slot body
 
@@ -82,7 +81,7 @@ Sophia is functional Smart Contract language in the ML family. It is strongly-ty
 <div class="sophia-text">
 
 ### What is Sophia?
-![](./img/Sophia_Icon.svg) Sophia Smart Contracts are fully customized to run on the æternity blockchain. Some features of conventional languages, such as floating point arithmetics for example, are not present, while some blockchain-specific primitives, constructions, and types have been added.
+![](./img/Sophia_Icon.svg) The Sophia language was created to easily utilize the potentials of the æternity protocol. Some features of conventional languages, such as floating point arithmetics for example, are not present, while some blockchain-specific primitives, constructions, and types have been added.
 
 ### Links
 - [Documentation](https://github.com/aeternity/protocol/blob/master/contracts/sophia.md)
@@ -104,9 +103,6 @@ Courses are free and you will be given a certificate upon completion.
 - [Get help](https://forum.aeternity.com)
 
   ![](./img/aeternity-logo-small.svg) in the Forum
-- [Chat](https://telegram.me/aeternity)
-
-  ![](./img/aeternity-logo-small.svg) in Telegram
 
 :::
 
@@ -119,10 +115,10 @@ Courses are free and you will be given a certificate upon completion.
 In order to get started, try out the community developed online IDE or setup your own development environment with the local development framework AEproject.
 
 - ### ![](./img/Try_it_in_browser_icon.svg) Try it in the browser
-  Start writing and testing Sophia Smart Contracts instantly. Click on the link below to launch the FireEditor, a Web-based IDE.
+  Start writing and testing Sophia Smart Contracts instantly. Click on the link below to launch the Contract compiler.
   - ![](./img/FireEditor_Laptop.svg)
 
-    [FireEditor](http://fireeditor.nikitafuchs.de)
+    [Contract compiler](http://contracts.aepps.com)
 
 - ### ![](./img/Try_it_locally_icon.svg) Try it locally
   Use AEproject to set up your local development environment in minutes.
@@ -138,9 +134,6 @@ In order to get started, try out the community developed online IDE or setup you
 - [Get help](https://forum.aeternity.com)
 
   ![](./img/aeternity-logo-small.svg) in the Forum
-- [Chat](https://telegram.me/aeternity)
-
-  ![](./img/aeternity-logo-small.svg) in Telegram
 
 :::
 
@@ -156,14 +149,14 @@ Programming libraries are available. Any Javascript developer can build a simple
 - ![](./img/Developers_Tools_Section_icons.svg)
   ### Node HTTP API
 
-  æternity [Node API](https://api-docs.aeternity.io)
+  Hosted and auto-generated [æternity Node API](https://api-docs.aeternity.io) documentation
 - ![](./img/Frontend_icon.svg)
   ### SDK Frontend APIs
   - [JavaScript](https://github.com/aeternity/aepp-sdk-js) (recommended)
-  - [Python](https://github.com/aeternity/aepp-sdk-python)
-  - [Go](https://github.com/aeternity/aepp-sdk-go)
-  - [Java](https://github.com/kryptokrauts/aepp-sdk-java) (Community Maintained)
-  - [Elixir SDK](https://github.com/aeternity/aepp-sdk-elixir)
+  - [Python](https://github.com/aeternity/aepp-sdk-python) (community maintained)
+  - [Go](https://github.com/aeternity/aepp-sdk-go) (community maintained)
+  - [Java](https://github.com/kryptokrauts/aepp-sdk-java) (community maintained)
+  - [Elixir SDK](https://github.com/aeternity/aepp-sdk-elixir) (community maintained)
 - ![](./img/Aeternal_icon.svg)
   ### æternal Backend API
 
@@ -180,9 +173,6 @@ Programming libraries are available. Any Javascript developer can build a simple
 - [Get help](https://forum.aeternity.com/c/aepplications)
 
   ![](./img/aeternity-logo-small.svg) in the Forum
-- [Chat](https://telegram.me/aeternity)
-
-  ![](./img/aeternity-logo-small.svg) in Telegram
 
 :::
 
@@ -196,6 +186,8 @@ Programming libraries are available. Any Javascript developer can build a simple
 
 - ### Hosted API Server, Public Nodes and Services
   Several hosted services are available to enable quick-start development of blockchain applications on the Testnet. Although all services are also available for the Mainnet, it is not advisable to use them in production environments. <b>Self-hosting critical infrastructure is recommended</b>.
+  - Mainnet æternal API Server [https://mainnet.aeternal.io](https://mainnet.aeternal.io)
+  - Mainnet API Gateway Nodes hosted on [https://testnet.aeternity.io/api](https://mainnet.aeternity.io/api)
   - Testnet æternal API Server [https://testnet.aeternal.io](https://testnet.aeternal.io)
   - Testnet API Gateway Nodes hosted on [https://testnet.aeternity.io/api](https://testnet.aeternity.io/api)
 
