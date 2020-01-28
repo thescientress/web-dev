@@ -19,6 +19,7 @@
 
 #why .section-buttons {
     margin-top: 40px;
+    width: 100%;
 }
 
 @media screen and (max-width: 1366px) {
