@@ -28,23 +28,29 @@
                         <a href="https://blog.aeternity.com" target="_blank">Blog</a>
                     </li>
                     <li class="social">
-                        <a href="https://github.com/aeternity">
+                        <a href="https://github.com/aeternity" target="_blank">
                             <img src="../../../img/Social_GitHub.svg" alt="">
                         </a>
-                        <a href="https://forum.aeternity.com">
+                        <a href="https://forum.aeternity.com" target="_blank">
                             <img src="../../../img/Social_Forum.svg" alt="">
                         </a>
-                        <a href="https://blog.aeternity.com">
+                        <a href="https://blog.aeternity.com" target="_blank">
                             <img src="../../../img/Social_Medium.svg" alt="">
                         </a>
-                        <a href="https://telegram.me/aeternity">
+                        <a href="https://telegram.me/aeternity" target="_blank">
                             <img src="../../../img/Social_Telegram.svg" alt="">
                         </a>
-                        <a href="https://www.facebook.com/aeternityproject/">
+                        <a href="https://www.facebook.com/aeternityproject/" target="_blank">
                             <img src="../../../img/Social_Facebook.svg" alt="">
                         </a>
-                        <a href="https://twitter.com/aeternity">
+                        <a href="https://twitter.com/aeternity" target="_blank">
                             <img src="../../../img/Social_Twitter.svg" alt="">
+                        </a>
+                        <a href="http://qm.qq.com/cgi-bin/qm/qr?k=SyRwX1h8CaeNyGpLfy0r74EYqwJ6KERj" target="_blank">
+                            <img src="../../../img/Social_QQ.svg" alt="">
+                        </a>
+                        <a href="https://weibo.com/aechinacn" target="_blank">
+                            <img src="../../../img/Social_Weibo.svg" alt="">
                         </a>
                     </li>
                 </ul>

@@ -250,6 +250,11 @@ header {
 
     .nav-items .social {
         display: flex;
+        justify-content: center;
+    }
+
+    .nav-items .social a {
+        flex-basis: 50px;
     }
 
     .active .nav-items {

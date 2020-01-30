@@ -47,28 +47,31 @@
 }
 
 .footer-icons {
+    align-content: space-evenly;
     align-items: center;
     display: flex;
     flex-basis: 100%;
+    flex-flow: wrap;
     flex-grow: 1;
     flex-shrink: 1;
-    max-width: 567px;
+    justify-content: space-evenly;
+    justify-items: center;
+    max-width: 650px;
 }
 
 .footer-icon {
-    flex-basis: 100%;
-    flex-grow: 1;
+    display: flex;
     flex-shrink: 1;
+    justify-content: center;
+    margin-right: 20px;
 }
 
 .footer-icon a {
     align-items: center;
     color: #fff;
     display: flex;
-    flex-basis: 100%;
     font-family: "SegoeUI", "Segoe UI", sans-serif;
     font-size: 16px;
-    justify-content: center;
     letter-spacing: -0.029em;
 }
 
@@ -76,12 +79,15 @@
     margin: 0 30px;
 }
 
+.footer-icon:last-child,
 .footer-icon:last-child a {
     margin-right: 0;
 }
 
 .footer-icon img {
-    margin-right: 43px;
+    flex-basis: 29px;
+    flex-grow: 0;
+    margin-right: 33px;
 }
 
 @media screen and (max-width: 1366px) {
@@ -89,16 +95,22 @@
         font-size: 50px;
     }
 
-    .footer-icons {
-        max-width: 420px;
+    .footer-icon {
+        flex-basis: 100px;
+        flex-grow: 0;
+        flex-shrink: 1;
+        justify-content: center;
+        margin-right: 0;
     }
 
     .footer-icon img {
         margin-right: 20px;
     }
 
+    .footer-icon:last-child a,
     .footer-icon a {
-        margin-right: 50px;
+        margin-right: 20px;
+        width: 100%;
     }
 
     .subscribe {
@@ -142,6 +154,7 @@
     }
 
     .footer-icon {
+        flex-basis: auto;
         margin-bottom: 20px;
     }
 
