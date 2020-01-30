@@ -9,7 +9,7 @@ export default ({
                     isServer // is this enhancement applied in server-rendering or client
                 }) => {
     Vue.use(VueGtag, {
-        config: {id: 'UA-89489770-2'},
+        config: {id: siteData.themeConfig['GA_ID']},
         enabled: Cookies.get('opt_in') === '1'
     }, router);
 }

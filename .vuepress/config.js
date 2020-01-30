@@ -21,6 +21,7 @@ module.exports = {
         }
     },
     themeConfig: {
+        'GA_ID': process.env.GA_ID || 'UA-89489770-3',
         search: false,
         nav: [
             {text: 'Developers', link: '/'},
