@@ -65,7 +65,7 @@
 }
 
 .protocol-menu :checked + * > label {
-    background: linear-gradient(to right, rgba(247, 41, 110, 0.35), transparent 50%, transparent);
+    background: linear-gradient(to right, #f7296e5b, #f7296e00 50%, #f7296e00);
     border-left-color: #f7296e;
     color: #f7296e;
     font-weight: 700;
@@ -90,7 +90,7 @@
 .protocol-content {
     background: #fff;
     bottom: 0;
-    box-shadow: 0 0 13px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 13px #0000002b;
     box-sizing: border-box;
     display: none;
     line-height: 30px;
@@ -165,7 +165,7 @@
     }
 
     .protocol-content > div:after {
-        background-image: linear-gradient(0deg, #fff, transparent);
+        background-image: linear-gradient(to top, #fff, #ffffff00);
         bottom: 50px;
         content: '';
         height: 40px;

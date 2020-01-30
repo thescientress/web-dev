@@ -223,7 +223,7 @@ header {
 
     .nav-items {
         align-items: stretch;
-        background: white linear-gradient(180deg, #00000022, transparent 4px);
+        background: #fff linear-gradient(to bottom, #0000002b, #ffffff00 4px);
         border: 1px solid #f5f5f5;
         box-sizing: border-box;
         display: none;
