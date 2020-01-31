@@ -2,6 +2,14 @@ module.exports = {
     head: [
         ['link', {rel: 'icon', type: 'image/png', href: '/img/favicon-16x16.png', sizes: '16x16'}],
         ['link', {rel: 'icon', type: 'image/png', href: '/img/favicon-32x32.png', sizes: '32x32'}],
+        ['link', {rel: 'canonical', href: 'https://aeternity.com'}],
+        ['meta', {property: 'og:description', content: 'æternity is a public open source smart contract platform.'}],
+        ['meta', {property: 'og:title', content: 'æternity - a blockchain for scalable, secure and decentralized æpps'}],
+        ['meta', {property: 'og:url', content: 'https://aeternity.com/img/og-aeternity.jpg'}],
+        ['meta', {property: 'og:image', content: 'https://aeternity.com'}],
+        ['meta', {property: 'og:type', content: 'website'}],
+        ['meta', {property: 'twitter:card', content: 'summary_large_image'}],
+        ['meta', {property: 'twitter:site', content: '@aeternity'}],
     ],
     base: process.env.BASE_PATH || '/',
     plugins: [
