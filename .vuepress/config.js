@@ -21,10 +21,10 @@ module.exports = {
             content: 'æternity - a blockchain for scalable, secure and decentralized æpps'
         }],
         ['meta', {
-            property: 'og:url',
+            property: 'og:image',
             content: 'https://aeternity.com' + basePath + 'img/og-aeternity.jpg'
         }],
-        ['meta', {property: 'og:image', content: 'https://aeternity.com' + basePath}],
+        ['meta', {property: 'og:url', content: 'https://aeternity.com' + basePath}],
         ['meta', {property: 'og:type', content: 'website'}],
         ['meta', {property: 'twitter:card', content: 'summary_large_image'}],
         ['meta', {property: 'twitter:site', content: '@aeternity'}],
