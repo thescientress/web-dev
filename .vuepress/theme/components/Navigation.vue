@@ -13,19 +13,7 @@
                         <a href="">Developers</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.aeventures.io" target="_blank">Entrepreneurs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://www.aeternityconsulting.com" target="_blank">Consulting</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://forum.aeternity.com" target="_blank">Community</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://www.aeternity-foundation.org" target="_blank">Foundation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://blog.aeternity.com" target="_blank">Blog</a>
+                        <a href="https://forum.aeternity.com" target="_blank">Forum</a>
                     </li>
                     <li class="social">
                         <a href="https://github.com/aeternity" target="_blank">
