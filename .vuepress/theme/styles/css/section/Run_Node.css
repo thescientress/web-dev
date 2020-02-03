@@ -18,7 +18,8 @@
         padding: 0;
     }
 
-    #run_node .cards > ul:before, #run_node .cards > ul:after {
+    #run_node .cards > ul:before,
+    #run_node .cards > ul:after {
         content: none;
     }
 

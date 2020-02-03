@@ -11,12 +11,14 @@
 }
 
 .cards > ul {
+    --total: '';
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
 .cards > ul > li {
+    --num: '';
     align-items: center;
     background-color: #fff;
     border-radius: 10px;
@@ -108,6 +110,7 @@
     }
 
     .cards > ul {
+        counter-reset: num 0 total var(--total);
         justify-content: start;
     }
 
@@ -128,12 +131,13 @@
     }
 
     .cards > ul > li {
+        --num: counter(num);
         counter-increment: num;
         position: relative;
     }
 
     .cards > ul > li:before {
-        content: "( " counter(num) " / " counter(total) " )" !important;
+        content: '( ' var(--num) " / " var(--total) " )" !important;
         font-size: 16px;
         font-weight: 500;
         left: 0;
@@ -141,5 +145,9 @@
         right: 0;
         text-align: center;
         top: -40px;
+    }
+
+    .cards > ul > li:only-of-type:before {
+        content: none;
     }
 }

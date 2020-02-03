@@ -30,7 +30,9 @@
                 // reset css counter "total" for each UL so we can use it in CSS
                 this.$el
                     .querySelectorAll('.cards > ul')
-                    .forEach(el => el.style.counterReset = 'total ' + el.childElementCount);
+                    .forEach(el => {
+                        el.style.cssText = `--total: '${el.childElementCount}'`;
+                    });
             })
         }
     }

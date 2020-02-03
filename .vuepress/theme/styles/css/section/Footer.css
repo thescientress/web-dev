@@ -6,7 +6,7 @@
 
 #footer:before {
     top: -30%;
-    -moz-transform: scale(1);
+    transform: none;
     transform-origin: top;
 }
 

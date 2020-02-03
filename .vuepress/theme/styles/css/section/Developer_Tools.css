@@ -49,6 +49,7 @@
 
     #developer_tools .cards > ul > li p {
         margin: 0 auto;
+        text-align: start;
     }
 
     #developer_tools .developer_tools-caption {
