@@ -22,7 +22,7 @@
     width: 100%;
 }
 
-@media screen and (max-width: 1366px) {
+@media (max-width: 1366px) {
     #why {
         padding-top: 36px;
     }

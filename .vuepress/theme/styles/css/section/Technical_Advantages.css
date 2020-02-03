@@ -108,7 +108,7 @@
     color: #f7296e;
 }
 
-@media screen and (max-width: 1366px) {
+@media (max-width: 1366px) {
     #technical_advantages {
         padding: 60px 20px;
     }

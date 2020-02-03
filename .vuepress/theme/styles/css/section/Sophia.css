@@ -72,7 +72,7 @@
     margin-top: 3px;
 }
 
-@media screen and (max-width: 1366px) {
+@media (max-width: 1366px) {
     .sophia-content {
         line-height: 26px;
     }
@@ -97,7 +97,8 @@
     }
 
     .sophia-graphic img {
-        margin-top: 20px;
+        display: block;
+        margin: 20px auto;
     }
 
     .sophia-text {

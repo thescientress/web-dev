@@ -20,7 +20,7 @@
     width: 450px;
 }
 
-@media screen and (max-width: 1366px) {
+@media (max-width: 1366px) {
     #header {
         height: calc(100vh - 70px);
         padding-bottom: unset;

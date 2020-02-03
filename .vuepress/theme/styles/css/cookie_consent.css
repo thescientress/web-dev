@@ -6,6 +6,7 @@
     bottom: 0;
     box-sizing: border-box;
     color: #fff;
+    display: none;
     font-weight: 300;
     opacity: 0;
     padding: 0.7em 20px;
@@ -36,6 +37,12 @@
     height: 25px;
     margin-left: 20px;
     width: 100px;
+}
+
+@media screen {
+    #cookie_consent {
+        display: block;
+    }
 }
 
 @keyframes cookieSlideIn {

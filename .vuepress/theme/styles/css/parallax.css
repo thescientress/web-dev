@@ -1,49 +1,58 @@
 @supports (perspective: 2px) and (transform: translateZ(-1px)) and (transform: scale(1.5)) {
-    body {
-        overflow-y: hidden;
-    }
-
-    main {
-        overflow-y: overlay;
-        perspective: 2px;
-        transform-style: preserve-3d;
-    }
-
-    .section::before {
-        transform: translateZ(-1px) scale(1.5);
-        -moz-transform: translateX(-4px) translateZ(-1px) scale(1.5);
-        transform-origin: center;
-    }
-
-    .content__default,
-    .section--hero,
-    .section--fancy {
-        transform-style: preserve-3d;
-    }
-
-    @media screen and (max-width: 1023px) {
+    @media screen {
         body {
-            overflow-y: overlay;
+            overflow-y: hidden;
         }
 
         main {
-            overflow-y: hidden;
-            perspective: none;
-            transform-style: initial;
-            height: auto;
-            position: relative;
-            top: 0;
+            height: calc(100vh - 125px);
+            overflow-y: overlay;
+            perspective: 2px;
+            transform-style: preserve-3d;
         }
 
         .section::before {
-            transform: none;
-            -moz-transform: none;
+            transform: translateZ(-1px) scale(1.5);
+            -moz-transform: translateX(-4px) translateZ(-1px) scale(1.5);
+            transform-origin: center;
         }
 
         .content__default,
         .section--hero,
         .section--fancy {
-            transform-style: initial;
+            transform-style: preserve-3d;
+        }
+
+        @media screen and (max-width: 1366px) {
+            main {
+                height: calc(100vh - 70px);
+            }
+        }
+
+        @media screen and (max-width: 1023px) {
+            body {
+                overflow-y: overlay;
+            }
+
+            main {
+                overflow-y: hidden;
+                perspective: none;
+                transform-style: initial;
+                height: auto;
+                position: relative;
+                top: 0;
+            }
+
+            .section::before {
+                transform: none;
+                -moz-transform: none;
+            }
+
+            .content__default,
+            .section--hero,
+            .section--fancy {
+                transform-style: initial;
+            }
         }
     }
 }

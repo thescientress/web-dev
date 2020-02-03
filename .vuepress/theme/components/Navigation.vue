@@ -9,9 +9,6 @@
             <nav class="pages">
                 <button v-on:click="navToggle"></button>
                 <ul class="nav-items" v-on:click.stop="navToggle">
-                    <li class="nav-item nav-current">
-                        <a href="">Developers</a>
-                    </li>
                     <li class="nav-item">
                         <a href="https://forum.aeternity.com" target="_blank">Forum</a>
                     </li>

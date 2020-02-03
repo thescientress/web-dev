@@ -33,7 +33,7 @@
     text-align: justify;
 }
 
-@media screen and (max-width: 1366px) {
+@media (max-width: 1366px) {
     #developer_tools .cards {
         margin-bottom: 35px;
     }

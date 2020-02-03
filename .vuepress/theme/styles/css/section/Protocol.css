@@ -125,7 +125,7 @@
     overflow-y: auto;
 }
 
-@media screen and (max-width: 1366px) {
+@media (max-width: 1366px) {
     #protocol {
         padding: 70px 30px 50px;
     }

@@ -87,7 +87,7 @@
     margin-top: 40px;
 }
 
-@media screen and (max-width: 1366px) {
+@media (max-width: 1366px) {
     #getting_started {
         padding-bottom: 50px;
         padding-top: 67px;

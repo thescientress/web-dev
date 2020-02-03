@@ -2,7 +2,6 @@ header {
     background: #fff;
     box-shadow: 0 0 4px 1px #7c7c7c80;
     height: 125px;
-    position: fixed;
     top: 0;
     width: 100vw;
     z-index: 2;
@@ -48,6 +47,7 @@ header {
 .nav-items {
     display: flex;
     flex-grow: 1;
+    justify-content: flex-end;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -58,7 +58,6 @@ header {
     display: flex;
     flex-basis: auto;
     justify-content: center;
-    margin-right: 10%;
 }
 
 .nav-item a {
@@ -94,7 +93,7 @@ header {
 }
 
 .lang-switcher {
-    display: flex;
+    display: none;
     flex-basis: 190px;
     flex-grow: 0;
     justify-content: flex-end;
@@ -198,7 +197,6 @@ header {
     }
 
     .lang-switcher {
-        display: flex;
         flex-basis: 56px;
     }
 }
@@ -215,10 +213,6 @@ header {
     .logo {
         flex-basis: 106px;
         height: 17px;
-    }
-
-    .lang-switcher {
-        display: none;
     }
 
     .nav-items {
@@ -272,5 +266,11 @@ header {
 
     .pages button {
         display: flex;
+    }
+}
+
+@media screen {
+    header {
+        position: fixed;
     }
 }
