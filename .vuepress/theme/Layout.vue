@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Navigation/>
+        <Navigation :scroll="scrollTop"/>
         <main>
             <div class="announcement" v-if="$page.frontmatter.announcement"
                  v-html="$page.frontmatter.announcement"></div>
@@ -25,5 +25,21 @@
             Footer,
             CookieConsent
         },
+        data: () => {
+            return {
+                scrollTop: 0
+            }
+        },
+        methods: {
+            onScroll: function (target) {
+                this.scrollTop = target.scrollTop;
+            }
+        },
+        mounted: function () {
+            let htmlEl = document.querySelector('html');
+            let mainEl = htmlEl.querySelector('main');
+            window.addEventListener('scroll', () => this.onScroll(htmlEl));
+            document.querySelector('main').addEventListener('scroll', () => this.onScroll(mainEl));
+        }
     }
 </script>

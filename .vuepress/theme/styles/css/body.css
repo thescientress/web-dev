@@ -94,7 +94,6 @@ main {
     box-sizing: border-box;
     overflow-x: hidden;
     position: absolute;
-    top: 125px;
     width: 100%;
 }
 
@@ -137,7 +136,7 @@ main {
 
 @media screen and (max-width: 1366px) {
     main {
-        top: 70px;
+        top: var(--nav-height);
     }
 
     p {
@@ -171,8 +170,8 @@ main {
     }
 
     main {
-        height: auto;
-        margin-top: 50px;
+        height: auto !important;
+        margin-top: var(--nav-height);
         position: static;
     }
 

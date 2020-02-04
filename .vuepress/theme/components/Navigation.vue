@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header :class="{scroll: scroll > 0}">
         <section :class="{'main-nav': true, active: navActive}">
             <div class="logo">
                 <a :href="$withBase('/')">
@@ -7,8 +7,8 @@
                 </a>
             </div>
             <nav class="pages">
-                <button v-on:click="navToggle"></button>
-                <ul class="nav-items" v-on:click.stop="navToggle">
+                <button v-on:click="toggleNav"></button>
+                <ul class="nav-items" v-on:click.stop="toggleNav">
                     <li class="nav-item">
                         <a href="https://forum.aeternity.com" target="_blank">Forum</a>
                     </li>
@@ -41,7 +41,7 @@
                 </ul>
             </nav>
             <div :class="{'lang-switcher': true, active: langActive}">
-                <button type="button" class="lang-current" v-on:click="langToggle">ENG</button>
+                <button type="button" class="lang-current" v-on:click="toggleLang">ENG</button>
                 <div class="lang-menu">
                     <ul class="lang-items">
                         <li class="lang-item">
@@ -67,17 +67,21 @@
 </template>
 <script>
     export default {
+        props: {
+            'scroll': 0
+        },
         data: () => {
             return {
+                onTop: true,
                 navActive: false,
                 langActive: false
             }
         },
         methods: {
-            navToggle: function () {
+            toggleNav: function () {
                 this.navActive = !this.navActive
             },
-            langToggle: function () {
+            toggleLang: function () {
                 this.navActive = !this.navActive
             }
         }

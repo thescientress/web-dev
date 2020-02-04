@@ -1,5 +1,5 @@
 #header {
-    height: calc(100vh - 125px);
+    height: calc(100vh - var(--nav-height));
     padding-bottom: 161px;
     padding-top: 100px;
 }

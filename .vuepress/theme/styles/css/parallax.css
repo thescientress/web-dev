@@ -5,10 +5,15 @@
         }
 
         main {
-            height: calc(100vh - 125px);
+            height: calc(100vh - var(--nav-height));
             overflow-y: overlay;
             perspective: 2px;
             transform-style: preserve-3d;
+            top: var(--nav-height);
+        }
+
+        .scroll + main {
+            height: calc(100vh - 85px);
         }
 
         .section::before {
@@ -23,12 +28,6 @@
             transform-style: preserve-3d;
         }
 
-        @media screen and (max-width: 1366px) {
-            main {
-                height: calc(100vh - 70px);
-            }
-        }
-
         @media screen and (max-width: 1023px) {
             body {
                 overflow-y: overlay;
@@ -38,9 +37,9 @@
                 overflow-y: hidden;
                 perspective: none;
                 transform-style: initial;
-                height: auto;
+                height: auto !important;
                 position: relative;
-                top: 0;
+                top: 0 !important;
             }
 
             .section::before {
