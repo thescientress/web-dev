@@ -33,6 +33,10 @@
     line-height: 24px;
 }
 
+#state_channels blockquote a {
+    color: #f7296e;
+}
+
 @media (max-width: 1366px) {
     #state_channels .bottom blockquote {
         margin-right: 0;
