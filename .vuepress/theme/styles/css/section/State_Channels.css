@@ -46,6 +46,7 @@
 
 @media screen and (max-width: 1023px) {
     #state_channels .bottom {
+        align-items: center;
         flex-basis: auto;
         flex-direction: column;
     }
