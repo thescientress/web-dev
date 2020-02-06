@@ -96,7 +96,7 @@ smart contract code, only in the case of a disagreement between the contracting 
 
 > ### State Channels
 > 
-> aeternity can scale to billions
+> æternity can scale to billions
 > of transactions with off-chain
 > State Channels. [Read more](https://github.com/aeternity/protocol/tree/master/channels)
 
