@@ -2,18 +2,8 @@ let basePath = process.env.BASE_PATH || '/';
 
 module.exports = {
     head: [
-        ['link', {
-            rel: 'icon',
-            type: 'image/png',
-            href: '/img/favicon-16x16.png',
-            sizes: '16x16'
-        }],
-        ['link', {
-            rel: 'icon',
-            type: 'image/png',
-            href: '/img/favicon-32x32.png',
-            sizes: '32x32'
-        }],
+        ['link', {rel: 'icon', type: 'image/png', href: '/img/favicon-16x16.png', sizes: '16x16'}],
+        ['link', {rel: 'icon', type: 'image/png', href: '/img/favicon-32x32.png', sizes: '32x32'}],
         ['link', {rel: 'canonical', href: 'https://aeternity.com' + basePath}],
         ['meta', {property: 'og:description', content: 'æternity is a public open source smart contract platform.'}],
         ['meta', {
