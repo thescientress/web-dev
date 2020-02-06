@@ -44,7 +44,10 @@ module.exports = {
     markdown: {
         anchor: {
             permalink: false
-        }
+        },
+        toc: {
+            includeLevel: [2]
+        },
     },
     themeConfig: {
         'GA_ID': process.env.GA_ID || 'UA-89489770-3',

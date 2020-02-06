@@ -21,7 +21,7 @@
 
 .metrics {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     max-width: 1776px;
     overflow-x: overlay;
     width: 100%;
@@ -98,5 +98,9 @@
 
     .metrics li > div:last-of-type {
         font-size: 12px;
+    }
+
+    .metrics {
+        justify-content: start;
     }
 }

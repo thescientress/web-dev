@@ -1,9 +1,7 @@
 ---
+lang: en-US
 title: æternity - a blockchain for scalable, secure and decentralized æpps
 description: "æternity is a permissionless, public, decentralized open source smart contract platform."
-lang: en-US
-announcement: |
-  Welcome to our brand new website, <a href="https://forum.aeternity.com/t/a-website-that-fits-introducing-aeternity-s-new-website/5898" target="_blank">read more about it in the forum</a>.
 advantages:
   - image: /img/No_Scaling_Icon.svg
     text: No scaling limits with built-in trustless, off-chain State Channels
@@ -24,22 +22,48 @@ advantages:
   - image: /img/Highly_Flexible_Icon.svg
     text: Highly flexible generalized account model supporting all types of signing options
 metrics:
-  - image: /img/Metrics_Commits.svg
+  commits:
+    image: /img/Metrics_Commits.svg
     text: GitHub Commits
     value: 5496
-  - image: /img/Metrics_Transactions.svg
-    text: Total Transactions
-    value: 1218537
-  - image: /img/Metrics_Names.svg
-    text: Names Claimed
-    value: 1654
-  - image: /img/Metrics_Mined.svg
+    src:
+      url: https://api.github.com/repositories/99802036/commits?per_page=1
+      type: headers
+      path: Link
+      regex: '[\d]+(?=>; rel="last")'
+  blocks:
+    image: /img/Metrics_Mined.svg
     text: Blocks Mined
     value: 200694
-  - image: /img/Metrics_Accounts.svg
-    text: Active Accounts
+    src:
+      url: https://mainnet.aeternal.io/v2/key-blocks/current/height
+      type: json
+      path: result.height
+  transactions:
+    image: /img/Metrics_Transactions.svg
+    text: Total Transactions
     value: 1218537
+    src:
+      url: https://mdw.aepps.com/middleware/count/current
+      type: json
+      path: result.count
+  names:
+    image: /img/Metrics_Names.svg
+    text: Names Claimed
+    value: 1654
+    src:
+      url: https://mainnet.aeternal.io/middleware/names
+      type: json
+      path: result.length
 ---
+
+::: slot announcement
+Welcome to our brand new website, [read more about it in the forum](https://forum.aeternity.com/t/a-website-that-fits-introducing-aeternity-s-new-website/5898).
+:::
+
+::: slot aside
+[[toc]]
+:::
 
 <Section id="header" type="hero">
 

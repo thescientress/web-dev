@@ -2,11 +2,15 @@
     <div>
         <Navigation :scroll="scrollTop"/>
         <main>
-            <div class="announcement" v-if="$page.frontmatter.announcement"
-                 v-html="$page.frontmatter.announcement"></div>
+            <div class="announcement">
+                <Content slot-key="announcement"/>
+            </div>
             <Content/>
             <Footer/>
         </main>
+        <aside>
+            <Content slot-key="aside"/>
+        </aside>
         <CookieConsent/>
     </div>
 </template>
