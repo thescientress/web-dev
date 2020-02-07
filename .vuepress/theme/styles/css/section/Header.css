@@ -9,11 +9,11 @@
     background-position: bottom right;
 }
 
-#header .section-buttons {
+#header .buttons {
     width: 100%;
 }
 
-#header .section-buttons a {
+#header .buttons a {
     font-size: 20px;
     height: 60px;
     line-height: 25px;
@@ -25,7 +25,7 @@
         padding-bottom: unset;
     }
 
-    #header .section-buttons a {
+    #header .buttons a {
         height: 50px;
     }
 }
@@ -37,7 +37,7 @@
         padding-top: 50px;
     }
 
-    #header .section-buttons a {
+    #header .buttons a {
         font-size: 16px;
         height: 40px;
         line-height: 16px;

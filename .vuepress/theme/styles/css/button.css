@@ -1,4 +1,4 @@
-.section-buttons {
+.buttons {
     align-items: center;
     display: flex;
     flex-flow: wrap;
@@ -7,18 +7,18 @@
     text-align: center;
 }
 
-.section-buttons:empty {
+.buttons:empty {
     display: none;
 }
 
-.section-buttons > ul {
+.buttons > ul {
     align-items: center;
     display: flex;
     flex-basis: 100%;
     justify-content: center;
 }
 
-.section-buttons > ul > li {
+.buttons > ul > li {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -27,25 +27,25 @@
     text-align: center;
 }
 
-.section-buttons p {
+.buttons p {
     margin-bottom: 0;
     margin-top: 0;
 }
 
-.section-buttons > ul + p {
+.buttons > ul + p {
     margin-top: 50px;
 }
 
-.section-buttons > ul > li:first-child {
+.buttons > ul > li:first-child {
     margin-left: 0;
 }
 
-.section-buttons > ul > li:last-child {
+.buttons > ul > li:last-child {
     margin-right: 0;
 }
 
 [type=submit],
-.section-buttons > :not(p) a {
+.buttons > :not(p) a {
     align-items: center;
     background: #f7296e;
     border: 2px solid #f7296e;
@@ -64,62 +64,62 @@
     width: 350px;
 }
 
-.section-buttons ul > li > p > a {
+.buttons ul > li > p > a {
     width: 165px;
 }
 
 [type=submit]:hover,
-.section-buttons > :not(p) a:hover {
+.buttons > :not(p) a:hover {
     background: transparent;
     color: #f7296e;
     cursor: pointer;
     text-decoration: none;
 }
 
-.section-buttons > :not(p) a:not([href]) {
+.buttons > :not(p) a:not([href]) {
     color: #fff;
     opacity: 0.4;
 }
 
-.section-buttons > :not(p) a:not([href]):hover {
+.buttons > :not(p) a:not([href]):hover {
     color: #f7296e;
     opacity: 0.7;
 }
 
-.section-buttons li p {
+.buttons li p {
     font-size: 14px;
     line-height: 40px;
 }
 
-.section-buttons li p img {
+.buttons li p img {
     margin-right: 5px;
 }
 
 @media screen and (max-width: 1366px) {
-    .section-buttons {
+    .buttons {
         margin-top: 0;
     }
 
-    .section-buttons li p a {
+    .buttons li p a {
         line-height: 35px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .section-buttons > ul {
+    .buttons > ul {
         align-items: center;
         flex-direction: column;
         width: 100%;
     }
 
-    .section-buttons > ul > li {
+    .buttons > ul > li {
         margin-bottom: 15px;
         margin-right: 0 !important;
         max-width: 345px;
         width: calc(100% - 30px);
     }
 
-    .section-buttons li p a {
+    .buttons li p a {
         line-height: 45px;
     }
 }

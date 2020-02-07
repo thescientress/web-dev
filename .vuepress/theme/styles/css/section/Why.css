@@ -17,7 +17,7 @@
     max-width: 902px;
 }
 
-#why .section-buttons {
+#why .buttons {
     margin-top: 40px;
     width: 100%;
 }
@@ -48,7 +48,7 @@
         margin-bottom: 49px;
     }
 
-    #why .section-buttons a {
+    #why .buttons a {
         font-size: 16px;
         height: 40px;
         line-height: 16px;

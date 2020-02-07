@@ -1,20 +1,12 @@
 <template>
     <section :id="id" :class="['section', 'section--' + type]">
         <slot name="header"></slot>
-        <div class="section-content top">
+        <div class="section-content default">
             <slot></slot>
         </div>
-        <slot name="body"></slot>
-        <div class="cards" v-if="$slots.cards">
-            <slot name="cards"></slot>
+        <div v-for="slot in slots" :class="slot">
+            <slot :name="slot"></slot>
         </div>
-        <div class="section-buttons" v-if="$slots.buttons">
-            <slot name="buttons"></slot>
-        </div>
-        <div class="section-content bottom" v-if="$slots.bottom">
-            <slot name="bottom"></slot>
-        </div>
-        <slot name="footer"></slot>
     </section>
 </template>
 <script>
@@ -25,6 +17,12 @@
                 .forEach(el => {
                     el.style.cssText = `--total: '${el.childElementCount}'`;
                 });
+        },
+        computed: {
+            slots() {
+                let staticSlots = ['default', 'header'];
+                return Object.keys(this.$slots).filter(slot => staticSlots.indexOf(slot) < 0);
+            }
         }
     }
 </script>

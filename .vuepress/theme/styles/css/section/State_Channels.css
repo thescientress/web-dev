@@ -6,6 +6,7 @@
 
 #state_channels .bottom {
     align-items: start;
+    display: flex;
     flex-direction: row;
     justify-content: center;
 }
