@@ -74,7 +74,7 @@
     z-index: 1;
 }
 
-.section--normal .section-content > p {
+.section--normal .section-content.default > p {
     margin-top: 0;
     max-width: 930px;
     width: 100%;
@@ -151,6 +151,15 @@
     color: #fff;
     margin: 0 0 40px;
     max-width: 1200px;
+}
+
+.section > .image {
+    max-width: 1920px;
+    text-align: center;
+}
+
+.section > .image img {
+    width: 100%;
 }
 
 @media screen and (max-width: 1366px) {
