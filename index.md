@@ -107,6 +107,53 @@ Full specifications and documentation of the protocol are in the [Documentation 
 
 <Metrics/>
 
+<Section id="innovative">
+
+## Why æternity is so innovative?
+æternity is the answer to current challenges in blockchain technology.
+
+::: slot ribbon
+
+- ![](./img/Ribbon_Smart_Contracts.svg) Smart contracts
+  - ### Smart contracts
+    An oracle connects real-world data with 
+    smart contracts. æternity's oracles are truly 
+    first-class objects on the blockchain. 
+
+    [Read more](#)
+- ![](./img/Ribbon_Consensus.svg) Consensus
+  - ### Consensus
+    An oracle connects real-world data with 
+    smart contracts. æternity's oracles are truly 
+    first-class objects on the blockchain. 
+
+    [Read more](#)
+- ![](./img/Ribbon_Oracles.svg) Oracles
+  - ### Oracles
+    An oracle connects real-world data with 
+    smart contracts. æternity's oracles are truly 
+    first-class objects on the blockchain. 
+
+    [Read more](#)
+- ![](./img/Ribbon_Unique_Governance.svg) Unique governance
+  - ### Unique governance
+    An oracle connects real-world data with 
+    smart contracts. æternity's oracles are truly 
+    first-class objects on the blockchain. 
+
+    [Read more](#)
+- ![](./img/Ribbon_Naming_System.svg) Naming system
+  - ### Naming system
+    An oracle connects real-world data with 
+    smart contracts. æternity's oracles are truly 
+    first-class objects on the blockchain. 
+
+    [Read more](#)
+
+:::
+
+</Section>
+
 <Section id="state_channels">
 
 ## State Channels

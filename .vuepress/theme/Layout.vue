@@ -35,7 +35,7 @@
             }
         },
         methods: {
-            onScroll: function (target) {
+            onScroll(target) {
                 this.scrollTop = target.scrollTop;
             }
         },
@@ -43,7 +43,7 @@
             let htmlEl = document.querySelector('html');
             let mainEl = htmlEl.querySelector('main');
             window.addEventListener('scroll', () => this.onScroll(htmlEl));
-            document.querySelector('main').addEventListener('scroll', () => this.onScroll(mainEl));
+            mainEl.addEventListener('scroll', () => this.onScroll(mainEl));
         }
     }
 </script>
