@@ -67,6 +67,7 @@
 
     #state_channels .bottom blockquote {
         margin-top: 0;
+        flex-basis: auto;
     }
 
     #state_channels .bottom blockquote p {
