@@ -175,6 +175,30 @@ smart contract code, only in the case of a disagreement between the contracting 
 
 </Section>
 
+<Section id="inner_workings" type="fancy">
+
+## Less noise. More work.
+
+Featured in Electric Capital’s Report for being among the projects with the most committed developers per month — over 50. It is also noted that æternity has an impressive amount of dev activity ranking top 5 according to Santiment.
+
+![](./img/Dev_Chart.svg)
+
+> 1/31/2018 - 1/31/2019 -- Electric Capital Internal Data.
+> Excluding private repositories.
+
+## Discover æternity native features
+
+The inner-workings of our blockchain
+
+![](./img/Inner_Workings.svg)
+
+::: slot buttons
+
+- [Read more](#)
+
+:::
+
+</Section>
 
 <Include path="sections/protocol" />
 
@@ -410,7 +434,7 @@ To get the latest version of æternity node, please check out the [latest publis
 
 </Section>
 
-<Section id="team">
+<Section id="team" type="default">
 
 ## Hundreds of Contributors, Friends and Partners
 
@@ -419,10 +443,6 @@ and thousands of people all over the world. Having exchanged ideas and pursued b
 Yyanislav is a true veteran of the blockchain space. Back in 2013, the "godfather of ethereum" 
 envisioned powerful algorithms on blockchains. Now, with æternity, a new version of his vision is becoming reality once more.
 
-::: slot image
-
 [![](./img/team-preview.jpg)](img/team.jpg)
-
-:::
 
 </Section>

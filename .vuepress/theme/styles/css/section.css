@@ -153,12 +153,10 @@
     max-width: 1200px;
 }
 
-.section > .image {
+.section-content > p > a:only-child img,
+.section-content > p > img:only-child {
     max-width: 1920px;
     text-align: center;
-}
-
-.section > .image img {
     width: 100%;
 }
 

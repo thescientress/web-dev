@@ -1,0 +1,15 @@
+#team {
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+
+#team p {
+    margin-top: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+    #team {
+        padding-bottom: 30px;
+    }
+}

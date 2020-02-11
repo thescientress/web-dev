@@ -55,6 +55,10 @@
 }
 
 @media screen and (max-width: 1023px) {
+    #state_channels {
+        padding: 0 30px 60px;
+    }
+
     #state_channels .bottom {
         padding: 0;
     }
@@ -66,8 +70,8 @@
     }
 
     #state_channels .bottom blockquote {
-        margin-top: 0;
         flex-basis: auto;
+        margin-top: 0;
     }
 
     #state_channels .bottom blockquote p {
