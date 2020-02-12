@@ -58,11 +58,9 @@ metrics:
 ---
 
 ::: slot announcement
-Welcome to our brand new website, [read more about it in the forum](https://forum.aeternity.com/t/a-website-that-fits-introducing-aeternity-s-new-website/5898).
-:::
 
-::: slot aside
-[[toc]]
+<Topics id="announcements" topic="5898"/>
+
 :::
 
 <Section id="header" type="hero">

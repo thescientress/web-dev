@@ -27,6 +27,11 @@
     text-align: inherit;
 }
 
+.announcement li > img,
+.announcement li > div {
+    display: none;
+}
+
 @keyframes slideIn {
     100% {
         transform: translateY(0);
@@ -35,7 +40,7 @@
 }
 
 @media screen {
-    .announcement {
+    .announcement:not(:empty) {
         display: block;
     }
 }
