@@ -10,6 +10,7 @@
     display: flex;
     overflow: auto;
     padding: 0;
+    scroll-snap-type: x mandatory;
     width: 100%;
 }
 
@@ -28,6 +29,7 @@
     height: 200px;
     justify-content: center;
     position: relative;
+    scroll-snap-align: center;
 }
 
 .ribbon > ul > li.active,
@@ -97,19 +99,8 @@
         text-decoration: none;
     }
 
-
     .ribbon > ul > li {
         align-items: center;
         border-right: 1px solid #dcdcdc;
-        display: flex;
-        flex-basis: 320px;
-        flex-direction: column;
-        flex-grow: 1;
-        flex-shrink: 0;
-        font-size: 16px;
-        font-weight: 500;
-        height: 200px;
-        justify-content: center;
-        position: relative;
     }
 }

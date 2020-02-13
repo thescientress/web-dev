@@ -24,6 +24,7 @@
     justify-content: center;
     max-width: 1776px;
     overflow-x: overlay;
+    scroll-snap-type: x mandatory;
     width: 100%;
 }
 
@@ -37,6 +38,7 @@
     flex-shrink: 0;
     height: 110px;
     margin: 30px 15px;
+    scroll-snap-align: center;
     white-space: nowrap;
 }
 
