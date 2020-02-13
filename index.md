@@ -59,7 +59,7 @@ metrics:
 
 ::: slot announcement
 
-<Topics id="announcements" topic="5898"/>
+<Topics id="announcements" category="announcements" :pinned="true"/>
 
 :::
 

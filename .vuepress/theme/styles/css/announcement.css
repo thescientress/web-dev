@@ -8,7 +8,6 @@
     display: none;
     font-weight: 300;
     opacity: 0;
-    padding: 0.7em 20px;
     position: absolute;
     text-align: center;
     transform: translateY(-100%);
@@ -17,19 +16,26 @@
     z-index: 1;
 }
 
-.announcement a {
-    color: #ffff;
-    font-weight: 500;
-}
-
-.announcement p {
+.announcement > *:not(:empty) {
     margin: 0;
+    padding: 0.7em 20px;
     text-align: inherit;
 }
 
-.announcement li > img,
-.announcement li > div {
+.announcement a {
+    color: inherit;
+}
+
+.announcement blockquote,
+.announcement li > a > * {
+    color: inherit;
     display: none;
+}
+
+.announcement li > a > .topic-title {
+    color: #ffff;
+    display: block;
+    font-weight: 400;
 }
 
 @keyframes slideIn {
