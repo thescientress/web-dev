@@ -2,7 +2,10 @@
     <ul v-if="this.topics.length" :id="id" :class="['topics', this.topic ? 't-' + this.topic : 'c-' + this.category]">
         <li v-for="topic in this.topics">
             <a :href="`${baseUrl}/t/${topic.id}`" target="_blank" class="post">
-                <div class="topic-img"><img :src="topic.image_url || `${baseUrl}${topic.meta.details.created_by.avatar_template.replace('{size}',50)}`" alt="" v-if="topic.image_url || showMeta && topic.meta"></div>
+                <div class="topic-img">
+                    <img v-if="topic.image_url || showMeta && topic.meta" alt=""
+                         :src="topic.image_url || `${baseUrl}${topic.meta.details.created_by.avatar_template.replace('{size}',320)}`">
+                </div>
                 <div class="topic-title">{{ topic.title }}</div>
                 <div class="topic-excerpt">{{ getExcerpt(topic) }}</div>
             </a>

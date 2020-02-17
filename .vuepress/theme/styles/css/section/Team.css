@@ -5,7 +5,12 @@
 
 #team p {
     margin-top: 0;
+    max-width: 1200px;
     text-align: center;
+}
+
+#team p:last-of-type {
+    max-width: none;
 }
 
 @media screen and (max-width: 1023px) {

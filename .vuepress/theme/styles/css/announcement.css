@@ -26,16 +26,19 @@
     color: inherit;
 }
 
-.announcement blockquote,
 .announcement li > a > * {
     color: inherit;
     display: none;
 }
 
-.announcement li > a > .topic-title {
+.announcement .topic-title {
     color: #ffff;
     display: block;
     font-weight: 400;
+}
+
+.announcement a:hover {
+    text-decoration: underline;
 }
 
 @keyframes slideIn {
@@ -48,5 +51,11 @@
 @media screen {
     .announcement:not(:empty) {
         display: block;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .announcement a {
+        text-decoration: underline;
     }
 }
