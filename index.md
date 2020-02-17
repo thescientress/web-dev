@@ -444,3 +444,11 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 [![](./img/team-preview.jpg)](img/team.jpg)
 
 </Section>
+
+<Section id="news">
+
+## News & Updates
+
+<Topics id="announcements" category="announcements" :pinned="false" :count="3" :show-meta="true"/>
+
+</Section>

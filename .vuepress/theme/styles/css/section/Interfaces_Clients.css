@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 1023px) {
     #interfaces {
-        padding-bottom: 45px;
+        padding-bottom: 20px;
     }
 
     #interfaces .cards > ul {
@@ -107,7 +107,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 0 0 30px;
+        margin: 20px 0 30px;
     }
 
     #interfaces .bottom > ul > li {

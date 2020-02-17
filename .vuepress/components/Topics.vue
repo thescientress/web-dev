@@ -1,19 +1,21 @@
 <template>
     <ul v-if="this.topics.length" :id="id" :class="['topics', this.topic ? 't-' + this.topic : 'c-' + this.category]">
         <li v-for="topic in this.topics">
-            <a :href="`${baseUrl}/t/${topic.id}`" target="_blank">
-                <img :src="topic.image_url" alt="" v-if="topic.image_url">
+            <a :href="`${baseUrl}/t/${topic.id}`" target="_blank" class="post">
+                <div class="topic-img"><img :src="topic.image_url || `${baseUrl}${topic.meta.details.created_by.avatar_template.replace('{size}',50)}`" alt="" v-if="topic.image_url || showMeta && topic.meta"></div>
                 <div class="topic-title">{{ topic.title }}</div>
                 <div class="topic-excerpt">{{ getExcerpt(topic) }}</div>
             </a>
-            <blockquote v-if="showMeta && topic.meta">
-                <a :href="`${baseUrl}/u/${topic.meta.details.created_by.username}`" target="_blank">
+            <a v-if="showMeta && topic.meta" :href="`${baseUrl}/u/${topic.meta.details.created_by.username}`"
+               target="_blank" class="author">
+                <img :src="`${baseUrl}${topic.meta.details.created_by.avatar_template.replace('{size}',50)}`" alt="">
+                <div>
                     {{ topic.meta.details.created_by.name || topic.meta.details.created_by.username }}
-                </a>
+                </div>
                 <time :datetime="topic.meta.created_at">
                     {{ new Date(topic.meta.created_at).toLocaleDateString() }}
                 </time>
-            </blockquote>
+            </a>
         </li>
     </ul>
 </template>
