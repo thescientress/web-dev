@@ -6,16 +6,9 @@
     margin: 50px 0 0;
 }
 
-.orbits {
-    box-sizing: border-box;
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    padding: 0 50px;
-    width: 100%;
-}
-
 #technical_advantages ul {
+    background-image: url("../../../../../img/Technical_Advantages_Section_Graphic2.svg");
+    background-size: contain;
     height: 51vw;
     max-height: 978px;
     max-width: 1780px;
@@ -26,76 +19,67 @@
 #technical_advantages li {
     align-items: center;
     background-size: 41.17%;
+    box-sizing: border-box;
     color: #fff;
+    display: flex;
+    flex-direction: column;
     font-weight: 700;
-    height: 12.35%;
+    justify-content: center;
     line-height: 22px;
     max-width: 287px;
     position: absolute;
     text-align: center;
     text-decoration: none;
-    width: 6.75%;
+    width: 16%;
 }
 
-#technical_advantages li :first-child {
-    background: transparent no-repeat top center;
-    background-size: contain;
-    content: '';
-    display: block;
-    height: 100%;
-    pointer-events: none;
-    width: 100%;
-}
-
-#technical_advantages li :last-child {
-    left: -68%;
-    margin-top: 17%;
-    position: absolute;
-    width: 239%;
+#technical_advantages li img {
+    margin-bottom: 6%;
+    width: 38%;
 }
 
 #technical_advantages li:nth-child(1) {
-    left: 34.10%;
+    left: 29.1%;
     top: 11.34%;
 }
 
 #technical_advantages li:nth-child(2) {
-    left: 59.15%;
+    left: 54.15%;
     top: 12.06%;
 }
 
 #technical_advantages li:nth-child(3) {
-    left: 14.06%;
+    left: 10%;
     top: 30.67%;
 }
 
 #technical_advantages li:nth-child(4) {
-    left: 79.10%;
+    left: 70%;
     top: 27.67%;
 }
 
 #technical_advantages li:nth-child(5) {
-    left: 7%;
+    left: 5%;
     top: 53.27%;
 }
 
 #technical_advantages li:nth-child(6) {
-    left: 87.30%;
+    left: 79%;
     top: 56.27%;
 }
 
 #technical_advantages li:nth-child(7) {
-    left: 24.58%;
+    left: 21%;
     top: 67.65%;
 }
 
 #technical_advantages li:nth-child(8) {
-    left: 65.67%;
+    left: 59%;
     top: 70.65%;
 }
 
 #technical_advantages li:nth-child(9) {
-    left: 46.62%;
+    left: 41.62%;
     top: 76.78%;
 }
 
@@ -124,13 +108,6 @@
         margin: 62px 0 64px;
     }
 
-    .orbits {
-        display: block;
-        margin-top: 30px;
-        padding: 0;
-        width: auto;
-    }
-
     #technical_advantages ul {
         background-image: none !important;
         height: auto;
@@ -143,6 +120,7 @@
         display: flex;
         flex-direction: row;
         font-weight: 400;
+        justify-content: start;
         left: auto !important;
         margin: 5px 20px;
         max-width: none;
@@ -152,26 +130,20 @@
         width: auto;
     }
 
-    #technical_advantages li :first-child {
+    #technical_advantages li img {
         align-self: start;
         background: transparent no-repeat top center;
         background-size: contain;
         flex-shrink: 0;
         height: 50px;
+        margin-bottom: 0;
         margin-right: 20px;
         width: 50px;
     }
-
-    #technical_advantages li :last-child {
-        margin: 0;
-        position: static;
-        width: auto;
-    }
-
 }
 
 @media screen and (max-width: 1023px) {
-    #technical_advantages li :first-child {
+    #technical_advantages li img {
         height: 30px;
         width: 30px;
     }

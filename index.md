@@ -2,25 +2,6 @@
 lang: en-US
 title: æternity - a blockchain for scalable, secure and decentralized æpps
 description: "æternity is a permissionless, public, decentralized open source smart contract platform."
-advantages:
-  - image: /img/No_Scaling_Icon.svg
-    text: No scaling limits with built-in trustless, off-chain State Channels
-  - image: /img/Security_icon.svg
-    text: Highest security standards with a type-safe VM and functional Smart Contract language
-  - image: /img/Confirmation_Time_icon.svg
-    text: ~3 second block confirmation times
-  - image: /img/Low_fees_Icon.svg
-    text: Low on-chain fees due to highly optimized consensus, VM, and native transaction types
-  - image: /img/No_fees_Icon.svg
-    text: No off-chain fees for transactions and Smart Contract execution in State Channels
-  - image: /img/Naming_System_icon.svg
-    text: Built-in Naming System for human-readable names
-  - image: /img/Private_Transaction_icon.svg
-    text: Private transactions and smart contracts in state channels
-  - image: /img/Build_in_Oracles_icon.svg
-    text: Built-in Oracles for accessing external API’s and real world data
-  - image: /img/Highly_Flexible_Icon.svg
-    text: Highly flexible generalized account model supporting all types of signing options
 metrics:
   commits:
     image: /img/Metrics_Commits.svg
@@ -95,7 +76,24 @@ Full specifications and documentation of the protocol are in the [Documentation 
 
 ## Technical advantages
 
-<AdvantagesOrbits />
+- ![](./img/No_Scaling_Icon.svg)
+  No scaling limits with built-in trustless, off-chain State Channels
+- ![](./img/Security_icon.svg)
+  Highest security standards with a type-safe VM and functional Smart Contract language
+- ![](./img/Confirmation_Time_icon.svg)
+  ~3 second block confirmation times
+- ![](./img/Low_fees_Icon.svg)
+  Low on-chain fees due to highly optimized consensus, VM, and native transaction types
+- ![](./img/No_fees_Icon.svg)
+  No off-chain fees for transactions and Smart Contract execution in State Channels
+- ![](./img/Naming_System_icon.svg)
+  Built-in Naming System for human-readable names
+- ![](./img/Private_Transaction_icon.svg)
+  Private transactions and smart contracts in state channels
+- ![](./img/Build_in_Oracles_icon.svg)
+  Built-in Oracles for accessing external API’s and real world data
+- ![](./img/Highly_Flexible_Icon.svg)
+  Highly flexible generalized account model supporting all types of signing options
 
 > ![](./img/Erlang_Icon-alt.svg) 
 > 
