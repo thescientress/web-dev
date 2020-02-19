@@ -4,7 +4,7 @@
             <ul class="metrics">
                 <li v-for="metric in this.metrics">
                     <img :src="$withBase(metric.image)" alt="">
-                    <div>{{ metric.value }}</div>
+                    <div>{{ (metric.value * 1).toLocaleString() }}</div>
                     <div>{{ metric.text }}</div>
                 </li>
             </ul>
