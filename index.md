@@ -365,7 +365,7 @@ Three major clients to interact with æternity blockchain applications, sign con
 
 ::: slot bottom
 
-A variety of community build wallets are available, such as:
+A variety of community-built wallets are available, such as:
 - [![](./img/Air_Gap_Icon.svg) **Airgap Vault and Wallet**](https://airgap.it)
 - [![](./img/Trust_Wallet_Icon.svg) **Trust Wallet**](https://trustwallet.com)
 
@@ -440,6 +440,54 @@ Yyanislav is a true veteran of the blockchain space. Back in 2013, the "godfathe
 envisioned powerful algorithms on blockchains. Now, with æternity, a new version of his vision is becoming reality once more.
 
 [![](./img/team-preview.jpg)](img/team.jpg)
+
+</Section>
+
+<Section id="who">
+## Who is using æternity
+
+There’s plenty of room for new products on the æternity platform. Newcomers are welcome to join the 
+ecosystem. We might even fund your project. 
+- [![](./img/logo_abendpayments.png)Abend](https://abendpayments.com)
+    On-Event payment and ticketing platform
+- [![](./img/logo_ampnet.png)AMPnet](https://ampnet.io)
+    Software and exchange for electricity cooperatives
+- [![](./img/logo_cryptotask.png)Crypto Task](https://beta.cryptotask.org)
+    On-Event payment and ticketing platform
+- [![](./img/logo_crypticlegends.png)Cryptic Legends](http://crypticlegends.co)
+    Browser game
+- [![](./img/logo_homeport.png)Homeport](https://homeport.network)
+    Marketplace for data from space satellites and ground stations
+- [![](./img/logo_ridesafe.png)RIDESAFE](https://www.ridesafeafrica.com)
+    On-Event payment and ticketing platform
+- [![](./img/logo_recheck.png)ReCheck](https://recheck.io)
+    First aid insurance for motorbike riders in Africa
+- [![](./img/logo_utu.png)UTU](http://protocol.utu.io)
+    First aid insurance for motorbike riders in Africa
+- [![](./img/logo_yair.png)YAIR](https://yair.art)
+    First aid insurance for motorbike riders in Africa
+- [![](./img/logo_jelly_swap.png)JELLY](https://jelly.market)
+    Atomic swap
+- [![](./img/logo_weidex.png)WEIDEX](https://weidex.market)
+    Atomic swap
+- [![](./img/logo_assetify.png)Assetify](https://www.assetify.net)
+    Atomic swap
+- [![](./img/logo_smartcredit.png)Smart credit](https://smartcredit.io)
+    Atomic swap
+- [![](./img/logo_vereign.svg)Vereign](https://www.vereign.com)
+    Atomic swap
+- [![](./img/logo_lexon.png)Lexon](http://lexon.tech)
+    Human readable programming language
+- [![](./img/logo_arkane.png)Arkane](https://arkane.network)
+    Human readable programming language
+- [![](./img/logo_kingfootbal.png)King Football](https://kingfootball.com)
+    Human readable programming language
+- [![](./img/logo_crowdholding.svg)Crowdholding](https://www.crowdholding.com)
+    Human readable programming language
+- [![](./img/logo_airgap.png)Airgap](https://airgap.it)
+    Wallet
+- [![](./img/aeternity-logo-small.svg)AEknow](https://aeknow.org)
+    Æternity Explorer
 
 </Section>
 
