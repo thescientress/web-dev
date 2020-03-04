@@ -375,6 +375,8 @@ others. A full list of markets can be found via: <a href="https://coinmarketcap.
 - [![](./img/Okex_icon.svg) okex](https://www.okex.com)
 - [![](./img/Huobi_icon.svg) huobi](https://www.huobi.com)
 - [![](./img/Gateio_icon.svg) gate.io](https://www.gate.io)
+- [![](./img/Changelly_icon.svg) changelly](https://changelly.com)
+- [![](./img/JellySwap_icon.svg) jelly swap](https://jelly.market)
 
 :::
 
