@@ -36,3 +36,69 @@
     object-fit: contain;
     width: 90%;
 }
+
+#who ul + p {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#who input {
+    height: 1px;
+    opacity: 0;
+    width: 1px;
+}
+
+#who label {
+    align-items: center;
+    background: #f7296e;
+    border: 2px solid #f7296e;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    flex-shrink: 0;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    height: 40px;
+    justify-content: center;
+    line-height: 25px;
+    padding-left: 42px;
+    padding-right: 42px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+#who .default ul li:nth-child(n + 5) {
+    display: none;
+}
+
+#who :checked ~ ul li:nth-child(n + 5) {
+    display: unset;
+}
+
+#who :checked ~ p label {
+    background: transparent;
+    border: 2px solid #f7296e;
+    box-sizing: border-box;
+    color: #f7296e;
+}
+
+@media screen and (max-width: 1023px) {
+
+    #who .default ul li:nth-child(n + 5) {
+        display: unset;
+    }
+
+    #who :checked ~ ul li:nth-child(n + 5) {
+        display: unset;
+    }
+
+    #who .default ul li:nth-child(n + 3) {
+        display: none;
+    }
+
+    #who :checked ~ ul li:nth-child(n + 3) {
+        display: unset;
+    }
+}

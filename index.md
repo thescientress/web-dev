@@ -446,10 +446,14 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 </Section>
 
 <Section id="who">
+
 ## Who is using æternity
 
 There’s plenty of room for new products on the æternity platform. Newcomers are welcome to join the 
 ecosystem. We might even fund your project. 
+
+<input type="checkbox" id="more-logos">
+
 - [![](./img/logo_abendpayments.png)Abend](https://abendpayments.com)
     On-Event payment and ticketing platform
 - [![](./img/logo_ampnet.png)AMPnet](https://ampnet.io)
@@ -490,6 +494,8 @@ ecosystem. We might even fund your project.
     Wallet
 - [![](./img/aeternity-logo-small.svg)AEknow](https://aeknow.org)
     Æternity Explorer
+
+<label for="more-logos">Show more</label>
 
 </Section>
 
