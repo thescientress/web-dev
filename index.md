@@ -46,7 +46,7 @@ metrics:
 
 <Section id="header" type="hero">
 
-<video muted autoplay loop onloadedmetadata="this.currentTime=0">
+<video muted autoplay loop>
   <source src="./img/background.mp4" type="video/mp4">
 </video>
 
@@ -78,8 +78,8 @@ Full specifications and documentation of the protocol are in the [Documentation 
 
 <Section id="technical_advantages" type="fancy">
 
-<video muted autoplay loop onloadedmetadata="this.currentTime=62">
-  <source src="./img/background.mp4" type="video/mp4">
+<video muted autoplay loop>
+  <source src="./img/background.mp4#t=62" type="video/mp4">
 </video>
 
 ## Technical advantages
@@ -249,8 +249,8 @@ Courses are free and you will be given a certificate upon completion.
 
 <Section id="getting_started" type="fancy">
 
-<video muted autoplay loop onloadedmetadata="this.startTime=39">
-  <source src="./img/background.mp4" type="video/mp4">
+<video muted autoplay loop>
+  <source src="./img/background.mp4#t=39" type="video/mp4">
 </video>
 
 ## Getting started

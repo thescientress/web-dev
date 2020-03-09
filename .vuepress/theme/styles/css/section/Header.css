@@ -4,11 +4,6 @@
     padding-top: 100px;
 }
 
-#header:before {
-    background-image: url("../../../../../img/Header_Section_Image_Background.jpg");
-    background-position: bottom right;
-}
-
 #header .buttons {
     width: 100%;
 }
