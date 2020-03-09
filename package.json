@@ -12,6 +12,7 @@
     "js-cookie": "^2.2.1",
     "markdown-it": "^9",
     "markdown-it-attrs": "^3.0.1",
+    "particles.js": "^2.0.0",
     "vue-gtag": "^1.2.0",
     "vue-gtm": "^2.2.0"
   }

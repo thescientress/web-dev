@@ -1,0 +1,13 @@
+.section--particles {
+    background: #fff;
+    box-sizing: border-box;
+    height: 120px;
+    padding: 20px 0;
+}
+
+.section--particles-alt {
+    background: #f7f7f7;
+    box-sizing: border-box;
+    height: 120px;
+    padding: 20px 0;
+}

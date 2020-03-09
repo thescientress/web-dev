@@ -155,6 +155,8 @@ To bolster collaboration and propel rapid tech development, æternity [source co
 
 </Section>
 
+<Particles id="particles-state-channels"/>
+
 <Section id="state_channels">
 
 ## State Channels
@@ -407,6 +409,9 @@ others. A full list of markets can be found via: <a href="https://coinmarketcap.
 :::
 
 </Section>
+
+<Particles id="particles-miners"/>
+
 <Section id="miners">
 
 ## For miners, pools and node operators
@@ -427,6 +432,8 @@ To get the latest version of æternity node, please check out the [latest publis
 :::
 
 </Section>
+
+<Particles id="particles-community"/>
 
 <Section id="community" type="alt">
 
@@ -507,6 +514,8 @@ ecosystem. We might even fund your project.
 <label for="more-logos">Show more</label>
 
 </Section>
+
+<Particles id="particles-2"/>
 
 <Section id="news">
 
