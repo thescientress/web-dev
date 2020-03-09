@@ -60,12 +60,16 @@ metrics:
 
 </Section>
 
+<Metrics/>
+
 <Section id="why">
 
 ## æternity blockchain is open source, public and permissionless
 æternity blockchain is an Erlang-based scalable smart contract platform engineered by programming pioneers to address some of the most fundamental challenges native to earlier blockchains. 
 By redesigning blockchain technology at the protocol level, the æternity developer community has enabled the core protocol to understand and integrate a rich set of functionalities out of the box.
 Full specifications and documentation of the protocol are in the [Documentation hub](https://aeternity.com/documentation-hub/).
+
+To bolster collaboration and propel rapid tech development, æternity [source codes](https://github.com/aeternity) are open-source. Anyone, anywhere in the world can take the code and build something with it, or make the code itself better — this is how we accelerate development and grow together as a global tech ecosystem.
 
 ::: slot buttons
 
@@ -109,8 +113,6 @@ Full specifications and documentation of the protocol are in the [Documentation 
 
 </Section>
 
-<Metrics/>
-
 <Section id="innovative">
 
 ## Why æternity is so innovative?
@@ -119,40 +121,35 @@ Full specifications and documentation of the protocol are in the [Documentation 
 ::: slot ribbon
 
 - ![](./img/Ribbon_Smart_Contracts.svg) Smart contracts
-  - ### Smart contracts
-    An oracle connects real-world data with 
-    smart contracts. æternity's oracles are truly 
-    first-class objects on the blockchain. 
+  - ### Smart contracts: Sophia
+    æternity smart contract programming is unique: Sophia is a typed functional programming language in the ML family that makes it easier to write correct programs.
 
-    [Read more](#)
-- ![](./img/Ribbon_Consensus.svg) Consensus
-  - ### Consensus
-    An oracle connects real-world data with 
-    smart contracts. æternity's oracles are truly 
-    first-class objects on the blockchain. 
+    [Read more](https://aeternity.com/documentation-hub/protocol/contracts/sophia/)
+- ![](./img/Ribbon_Consensus.svg) FATE VM
+  - ### FATE Virtual Machine: faster, simpler, safer code
+    The Fast æternity Transaction Engine, or FATE VM, uses a higher level of abstraction and automatically minimizes error with type checking, delivering a simpler, easier, safer programming environment.
 
-    [Read more](#)
+    [Read more](https://github.com/aeternity/protocol/blob/e2940192379916fb21a053b3ab09d1dff2ac76ef/contracts/fate.md)
+- ![](./img/Ribbon_Oracles.svg) Advanced State Channels
+  - ### Advanced State Channels Technology
+    Unlike most blockchains, æternity’s core protocol was re-engineered specifically so it can accommodate state channels on a protocol level, making it easier to build applications for global-scale enterprise use cases 
+
+    [Read more](https://aeternity.com/documentation-hub/protocol/channels/)
 - ![](./img/Ribbon_Oracles.svg) Oracles
   - ### Oracles
-    An oracle connects real-world data with 
-    smart contracts. æternity's oracles are truly 
-    first-class objects on the blockchain. 
+    æternity Oracles enable the integration of real-world data into the blockchain—a feature that has an endless range of potential use cases for business, science, and all other industries across the globe.
 
-    [Read more](#)
+    [Read more](https://aeternity.com/documentation-hub/protocol/oracles/oracles/)
 - ![](./img/Ribbon_Unique_Governance.svg) Unique governance
   - ### Unique governance
-    An oracle connects real-world data with 
-    smart contracts. æternity's oracles are truly 
-    first-class objects on the blockchain. 
+    Miners are not the only ones who get a vote on decisions—æternity token holders can use their AE tokens to signify their vote through the Governance Aepp.
 
-    [Read more](#)
+    [Read more](https://github.com/aeternity/aepp-governance)
 - ![](./img/Ribbon_Naming_System.svg) Naming system
   - ### Naming system
-    An oracle connects real-world data with 
-    smart contracts. æternity's oracles are truly 
-    first-class objects on the blockchain. 
+    The æternity Naming System (AENS) employs safe human-readable names in place of the current system of long hashes used in blockchain transactions, reducing room for error for users.
 
-    [Read more](#)
+    [Read more](https://aeternity.com/documentation-hub/protocol/AENS/)
 
 :::
 
@@ -173,7 +170,7 @@ smart contract code, only in the case of a disagreement between the contracting 
 > 
 > æternity can scale to billions
 > of transactions with off-chain
-> State Channels. [Read more](https://github.com/aeternity/protocol/tree/master/channels)
+> State Channels. [Read more](https://aeternity.com/documentation-hub/protocol/channels/)
 
 :::
 
@@ -477,9 +474,9 @@ ecosystem. We might even fund your project.
 - [![](./img/logo_homeport.png)Homeport](https://homeport.network)
     Marketplace for data from space satellites and ground stations
 - [![](./img/logo_ridesafe.png)RIDESAFE](https://www.ridesafeafrica.com)
-    On-Event payment and ticketing platform
-- [![](./img/logo_recheck.png)ReCheck](https://recheck.io)
     First aid insurance for motorbike riders in Africa
+- [![](./img/logo_recheck.png)ReCheck](https://recheck.io)
+    A platform for secure data storage and exchange
 - [![](./img/logo_utu.png)UTU](http://protocol.utu.io)
     Trusted Recommendation Service
 - [![](./img/logo_yair.png)YAIR](https://yair.art)
@@ -491,17 +488,17 @@ ecosystem. We might even fund your project.
 - [![](./img/logo_assetify.png)Assetify](https://www.assetify.net)
     Platform to enable lending institutions to accept crypto assets
 - [![](./img/logo_smartcredit.png)Smart credit](https://smartcredit.io)
-    Atomic swap
+    Crypto loans
 - [![](./img/logo_vereign.svg)Vereign](https://www.vereign.com)
-    Atomic swap
+    Email and documents security
 - [![](./img/logo_lexon.png)Lexon](http://lexon.tech)
     Human readable programming language
 - [![](./img/logo_arkane.png)Arkane](https://arkane.network)
-    Human readable programming language
+    Platform for blockchain apps
 - [![](./img/logo_kingfootbal.png)King Football](https://kingfootball.com)
-    Human readable programming language
+    Verify football merchandise authenticity
 - [![](./img/logo_crowdholding.svg)Crowdholding](https://www.crowdholding.com)
-    Human readable programming language
+    Crowd funding
 - [![](./img/logo_airgap.png)Airgap](https://airgap.it)
     Wallet
 - [![](./img/aeternity-logo-small.svg)AEknow](https://aeknow.org)
