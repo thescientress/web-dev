@@ -46,7 +46,7 @@ metrics:
 
 <Section id="header" type="hero">
 
-<video muted autoplay loop>
+<video autoplay loop muted playsinline onload="this.play()">
   <source src="./img/background.mp4" type="video/mp4">
 </video>
 
@@ -78,7 +78,7 @@ Full specifications and documentation of the protocol are in the [Documentation 
 
 <Section id="technical_advantages" type="fancy">
 
-<video muted autoplay loop>
+<video autoplay loop muted playsinline onload="this.play()">
   <source src="./img/background.mp4#t=62" type="video/mp4">
 </video>
 
@@ -249,7 +249,7 @@ Courses are free and you will be given a certificate upon completion.
 
 <Section id="getting_started" type="fancy">
 
-<video muted autoplay loop>
+<video autoplay loop muted playsinline onload="this.play()">
   <source src="./img/background.mp4#t=39" type="video/mp4">
 </video>
 
@@ -481,15 +481,15 @@ ecosystem. We might even fund your project.
 - [![](./img/logo_recheck.png)ReCheck](https://recheck.io)
     First aid insurance for motorbike riders in Africa
 - [![](./img/logo_utu.png)UTU](http://protocol.utu.io)
-    First aid insurance for motorbike riders in Africa
+    Trusted Recommendation Service
 - [![](./img/logo_yair.png)YAIR](https://yair.art)
-    First aid insurance for motorbike riders in Africa
+    Platform for tokenization of media artwork
 - [![](./img/logo_jelly_swap.png)JELLY](https://jelly.market)
     Atomic swap
 - [![](./img/logo_weidex.png)WEIDEX](https://weidex.market)
-    Atomic swap
+    Multichain decentralized exchange
 - [![](./img/logo_assetify.png)Assetify](https://www.assetify.net)
-    Atomic swap
+    Platform to enable lending institutions to accept crypto assets
 - [![](./img/logo_smartcredit.png)Smart credit](https://smartcredit.io)
     Atomic swap
 - [![](./img/logo_vereign.svg)Vereign](https://www.vereign.com)
