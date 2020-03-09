@@ -65,6 +65,10 @@ a:not([href]):hover:after {
     display: none;
 }
 
+body + div[style] {
+    display: none !important;
+}
+
 section ul li > a > img {
     transition: all 0.1s;
 }
