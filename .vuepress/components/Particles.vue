@@ -70,9 +70,7 @@
         },
         mounted() {
             require('particles.js');
-            this.$nextTick(() => {
-                this.startAnimation();
-            });
+            this.startAnimation();
         },
     }
 </script>

@@ -1,5 +1,6 @@
 import VueGtag from 'vue-gtag';
 import Cookies from 'js-cookie';
+import 'cross-fetch/polyfill';
 
 export default ({
                     Vue, // the version of Vue being used in the VuePress app

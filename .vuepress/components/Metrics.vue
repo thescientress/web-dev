@@ -62,9 +62,7 @@
             }
         },
         mounted() {
-            this.$nextTick(() => {
-                this.fetchData();
-            });
+            this.fetchData();
         },
     }
 </script>
