@@ -61,8 +61,10 @@
                 this.metrics = metrics;
             }
         },
-        created() {
-            this.fetchData();
+        mounted() {
+            this.$nextTick(() => {
+                this.fetchData();
+            });
         },
     }
 </script>

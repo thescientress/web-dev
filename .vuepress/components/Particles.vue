@@ -3,7 +3,6 @@
     </section>
 </template>
 <script>
-    import defaultExport from 'particles.js';
     export default {
         props: {id: {type: String, default: 'particles'}, type: {type: String, default: 'particles'}},
         methods: {
@@ -65,8 +64,10 @@
             },
         },
         mounted() {
-            console.log(1);
-            this.startAnimation();
+            require('particles.js');
+            this.$nextTick(() => {
+                this.startAnimation();
+            });
         },
     }
 </script>

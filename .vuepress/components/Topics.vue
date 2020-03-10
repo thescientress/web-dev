@@ -90,8 +90,10 @@
                     .substr(0, 100).trim()
             }
         },
-        created() {
-            this.fetchData();
+        mounted() {
+            this.$nextTick(() => {
+                this.fetchData();
+            });
         },
     }
 </script>
