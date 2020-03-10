@@ -12,6 +12,7 @@
         },
         methods: {
             startAnimation() {
+                require('particles.js');
                 particlesJS(this.id, {
                     "particles": {
                         "number": {"value": this.number, "density": {"enable": !!this.density, "value_area": this.density}},
@@ -67,10 +68,6 @@
                     "retina_detect": true
                 });
             },
-        },
-        mounted() {
-            require('particles.js');
-            this.startAnimation();
         },
     }
 </script>
