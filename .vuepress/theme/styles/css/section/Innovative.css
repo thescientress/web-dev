@@ -1,7 +1,11 @@
 #innovative {
-    padding: 0;
+    padding: 3vh 0 6vh;
 }
 
 #innovative .section-content p {
-    text-align: center;
+    text-align: justify;
+}
+
+#innovative .ribbon {
+    margin-top: 30px;
 }

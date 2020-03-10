@@ -65,6 +65,10 @@
     width: 165px;
 }
 
+.cards > ul > li:hover a {
+    transform: scale(1.05);
+}
+
 .cards > ul > li > a:only-of-type:hover {
     background: #fff;
     color: #f7296e;

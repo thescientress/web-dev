@@ -165,7 +165,7 @@
                             The protocol-incorporated æternity Naming System (<a href="https://forum.aeternity.com/t/the-aeternity-blockchain-naming-system-aens-is-here/5157/16">AENS</a>) enables users to point human-readable names to accounts, contracts, oracles, and more.
                         </p>
                         <p>
-                            By using the AENS, aeternity.chain can be used instead of the public key ak_2ruXgsLy9jMwEqsgyQgEsxw&shy;8chYDfv2QyBfCsR6qtpQYkektWB.
+                            By using the AENS, aeternity.chain can be used instead of the public key <i>ak_2ruXgsLy9jM...BfCsR6qtpQYkektWB</i>.
                         </p>
                         <p>
                             This significantly improves the user experience for both users and developers. Names in the AENS are registered through a <a href="https://chainna.me/">trustless auction process</a>.

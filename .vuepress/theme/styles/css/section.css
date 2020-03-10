@@ -70,7 +70,7 @@
 .section--normal {
     background: #fff;
     color: #000;
-    padding-bottom: 76px;
+    padding-bottom: 50px;
     z-index: 1;
 }
 
@@ -150,9 +150,8 @@
 }
 
 /* --- Video --- */
-.section--hero video,
-.section--fancy video {
-    filter: brightness(0.5);
+.section video {
+    filter: brightness(0.3);
     height: 100%;
     object-fit: cover;
     pointer-events: none;

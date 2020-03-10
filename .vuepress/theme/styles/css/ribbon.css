@@ -21,6 +21,7 @@
     border-right: 1px solid #dcdcdc;
     border-top: var(--padding) solid transparent;
     box-sizing: border-box;
+    cursor: pointer;
     display: flex;
     flex-basis: 320px;
     flex-direction: column;
@@ -43,6 +44,11 @@
 .ribbon > ul > li img {
     flex-basis: 70px;
     margin-bottom: 15px;
+    transition: all 0.2s;
+}
+
+.ribbon > ul > li:hover img {
+    transform: scale(1.05);
 }
 
 .ribbon > ul > li ul {

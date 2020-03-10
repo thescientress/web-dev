@@ -1,19 +1,24 @@
 <template>
-    <section :id="id" :class="['section', 'section--' + type]">
-    </section>
+    <div :id="id" :class="['particles' + (type ? '-'  + type : '')]"></div>
 </template>
 <script>
     export default {
-        props: {id: {type: String, default: 'particles'}, type: {type: String, default: 'particles'}},
+        props: {
+            id: {type: String, default: 'particles'},
+            type: {type: String, default: ''},
+            number: {type: Number, default: 40},
+            density: {type: Number, default: 200},
+            color: {type: String, default: '#f7296e'},
+        },
         methods: {
             startAnimation() {
                 particlesJS(this.id, {
                     "particles": {
-                        "number": {"value": 40, "density": {"enable": true, "value_area": 200}},
-                        "color": {"value": "#f7296e"},
+                        "number": {"value": this.number, "density": {"enable": !!this.density, "value_area": this.density}},
+                        "color": {"value": this.color},
                         "shape": {
                             "type": "circle",
-                            "stroke": {"width": 1, "color": "#f7296e"},
+                            "stroke": {"width": 1, "color": this.color},
                             "polygon": {"nb_sides": 5},
                         },
                         "opacity": {
@@ -29,7 +34,7 @@
                         "line_linked": {
                             "enable": true,
                             "distance": 200,
-                            "color": "#f7296e",
+                            "color": this.color,
                             "opacity": 0.4,
                             "width": 1
                         },
@@ -47,8 +52,8 @@
                     "interactivity": {
                         "detect_on": "canvas",
                         "events": {
-                            "onhover": {"enable": false, "mode": "repulse"},
-                            "onclick": {"enable": false, "mode": "repulse"},
+                            "onhover": {"enable": true, "mode": "repulse"},
+                            "onclick": {"enable": false, "mode": "grab"},
                             "resize": true
                         },
                         "modes": {

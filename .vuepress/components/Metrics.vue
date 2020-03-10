@@ -1,15 +1,15 @@
 <template>
-    <section :id="id" :class="['section', 'section--' + this.type]">
-        <div>
-            <ul class="metrics">
-                <li v-for="metric in this.metrics">
+    <div :id="id">
+        <ul class="metrics">
+            <li v-for="metric in this.metrics">
+                <a :href="metric.link||'#'" target="_blank">
                     <img :src="$withBase(metric.image)" alt="">
                     <div>{{ (metric.value * 1).toLocaleString() }}</div>
                     <div>{{ metric.text }}</div>
-                </li>
-            </ul>
-        </div>
-    </section>
+                </a>
+            </li>
+        </ul>
+    </div>
 </template>
 <script>
     export default {

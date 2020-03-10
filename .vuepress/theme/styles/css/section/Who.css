@@ -69,6 +69,12 @@
     transition: all 0.2s;
 }
 
+#who label:hover {
+    background: transparent;
+    cursor: pointer;
+    color: #f7296e;
+}
+
 #who .default ul li:nth-child(n + 5) {
     display: none;
 }

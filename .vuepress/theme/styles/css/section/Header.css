@@ -1,7 +1,10 @@
 #header {
     height: calc(100vh - var(--nav-height));
-    padding-bottom: 161px;
-    padding-top: 100px;
+    padding: 100px 0 161px;
+}
+
+.section--hero::before, .section--fancy::before {
+    background-color: #000;
 }
 
 #header .buttons {
@@ -9,10 +12,24 @@
 }
 
 #header .buttons a {
+    background: transparent;
+    color: #f7296e;
     font-size: 20px;
     height: 60px;
     line-height: 25px;
     width: 450px;
+}
+
+#header .buttons a:hover {
+    background: #f7296e;
+    color: #fff;
+}
+
+#header .bottom {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
 }
 
 @media (max-width: 1366px) {

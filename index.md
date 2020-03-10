@@ -6,6 +6,7 @@ metrics:
   commits:
     image: /img/Metrics_Commits.svg
     text: GitHub Commits
+    link: https://github.com/aeternity
     value: 5496
     src:
       url: https://api.github.com/repositories/99802036/commits?per_page=1
@@ -15,6 +16,7 @@ metrics:
   blocks:
     image: /img/Metrics_Mined.svg
     text: Blocks Mined
+    link: https://mainnet.aeternal.io/generations
     value: 200694
     src:
       url: https://mainnet.aeternal.io/v2/key-blocks/current/height
@@ -23,6 +25,7 @@ metrics:
   transactions:
     image: /img/Metrics_Transactions.svg
     text: Total Transactions
+    link: https://mainnet.aeternal.io/transactions
     value: 1218537
     src:
       url: https://mdw.aepps.com/middleware/count/current
@@ -31,6 +34,7 @@ metrics:
   names:
     image: /img/Metrics_Names.svg
     text: Names Claimed
+    link: https://mainnet.aeternal.io/names
     value: 1654
     src:
       url: https://mainnet.aeternal.io/middleware/names
@@ -46,7 +50,7 @@ metrics:
 
 <Section id="header" type="hero">
 
-<video autoplay loop muted playsinline onload="this.play()">
+<video autoplay loop muted playsinline onload="this.play()" preload="metadata">
   <source src="./img/background.mp4" type="video/mp4">
 </video>
 
@@ -54,27 +58,55 @@ metrics:
 
 ::: slot buttons
 
-- [Get involved](https://forum.aeternity.com)
+- [Get started](#getting_started)
+- [Get involved](#community)
 
+:::
+
+::: slot bottom
+<Metrics/>
 :::
 
 </Section>
 
-<Metrics/>
+<Section id="innovative">
 
-<Section id="why">
-
-## æternity blockchain is open source, public and permissionless
+## Why æternity is so innovative?
 æternity blockchain is an Erlang-based scalable smart contract platform engineered by programming pioneers to address some of the most fundamental challenges native to earlier blockchains. 
 By redesigning blockchain technology at the protocol level, the æternity developer community has enabled the core protocol to understand and integrate a rich set of functionalities out of the box.
-Full specifications and documentation of the protocol are in the [Documentation hub](https://aeternity.com/documentation-hub/).
 
-To bolster collaboration and propel rapid tech development, æternity [source codes](https://github.com/aeternity) are open-source. Anyone, anywhere in the world can take the code and build something with it, or make the code itself better — this is how we accelerate development and grow together as a global tech ecosystem.
+::: slot ribbon
 
-::: slot buttons
+- ![](./img/Ribbon_Smart_Contracts.svg) Smart contracts
+  - ### Smart contracts: Sophia
+    æternity smart contract programming is unique: Sophia is a typed functional programming language in the ML family that makes it easier to write correct programs.
 
-- [Documentation hub](https://aeternity.com/documentation-hub/)
-- [GitHub](https://github.com/aeternity)
+    [Read more](https://aeternity.com/documentation-hub/protocol/contracts/sophia/)
+- ![](./img/Ribbon_FATE.svg) FATE VM
+  - ### FATE Virtual Machine: faster, simpler, safer code
+    The Fast æternity Transaction Engine, or FATE VM, uses a higher level of abstraction and automatically minimizes error with type checking, delivering a simpler, easier, safer programming environment.
+
+    [Read more](https://github.com/aeternity/protocol/blob/e2940192379916fb21a053b3ab09d1dff2ac76ef/contracts/fate.md)
+- ![](./img/Ribbon_State_Channels.svg) Advanced State Channels
+  - ### Advanced State Channels Technology
+    Unlike most blockchains, æternity’s core protocol was re-engineered specifically so it can accommodate state channels on a protocol level, making it easier to build applications for global-scale enterprise use cases 
+
+    [Read more](https://aeternity.com/documentation-hub/protocol/channels/)
+- ![](./img/Ribbon_Oracles.svg) Oracles
+  - ### Oracles
+    æternity Oracles enable the integration of real-world data into the blockchain—a feature that has an endless range of potential use cases for business, science, and all other industries across the globe.
+
+    [Read more](https://aeternity.com/documentation-hub/protocol/oracles/oracles/)
+- ![](./img/Ribbon_Unique_Governance.svg) Unique governance
+  - ### Unique governance
+    Miners are not the only ones who get a vote on decisions—æternity token holders can use their AE tokens to signify their vote through the Governance Aepp.
+
+    [Read more](https://github.com/aeternity/aepp-governance)
+- ![](./img/Ribbon_Naming_System.svg) Naming system
+  - ### Naming system
+    The æternity Naming System (AENS) employs safe human-readable names in place of the current system of long hashes used in blockchain transactions, reducing room for error for users.
+
+    [Read more](https://aeternity.com/documentation-hub/protocol/AENS/)
 
 :::
 
@@ -83,7 +115,7 @@ To bolster collaboration and propel rapid tech development, æternity [source co
 <Section id="technical_advantages" type="fancy">
 
 <video autoplay loop muted playsinline onload="this.play()">
-  <source src="./img/background.mp4#t=62" type="video/mp4">
+  <source src="./img/background.mp4#t=13" type="video/mp4">
 </video>
 
 ## Technical advantages
@@ -112,50 +144,6 @@ To bolster collaboration and propel rapid tech development, æternity [source co
 > Reference implementation written in Erlang by industry experts, the language that powers 90% of today’s world wide web. [Learn more](https://en.wikipedia.org/wiki/Erlang_(programming_language))
 
 </Section>
-
-<Section id="innovative">
-
-## Why æternity is so innovative?
-æternity is the answer to current challenges in blockchain technology.
-
-::: slot ribbon
-
-- ![](./img/Ribbon_Smart_Contracts.svg) Smart contracts
-  - ### Smart contracts: Sophia
-    æternity smart contract programming is unique: Sophia is a typed functional programming language in the ML family that makes it easier to write correct programs.
-
-    [Read more](https://aeternity.com/documentation-hub/protocol/contracts/sophia/)
-- ![](./img/Ribbon_Consensus.svg) FATE VM
-  - ### FATE Virtual Machine: faster, simpler, safer code
-    The Fast æternity Transaction Engine, or FATE VM, uses a higher level of abstraction and automatically minimizes error with type checking, delivering a simpler, easier, safer programming environment.
-
-    [Read more](https://github.com/aeternity/protocol/blob/e2940192379916fb21a053b3ab09d1dff2ac76ef/contracts/fate.md)
-- ![](./img/Ribbon_Oracles.svg) Advanced State Channels
-  - ### Advanced State Channels Technology
-    Unlike most blockchains, æternity’s core protocol was re-engineered specifically so it can accommodate state channels on a protocol level, making it easier to build applications for global-scale enterprise use cases 
-
-    [Read more](https://aeternity.com/documentation-hub/protocol/channels/)
-- ![](./img/Ribbon_Oracles.svg) Oracles
-  - ### Oracles
-    æternity Oracles enable the integration of real-world data into the blockchain—a feature that has an endless range of potential use cases for business, science, and all other industries across the globe.
-
-    [Read more](https://aeternity.com/documentation-hub/protocol/oracles/oracles/)
-- ![](./img/Ribbon_Unique_Governance.svg) Unique governance
-  - ### Unique governance
-    Miners are not the only ones who get a vote on decisions—æternity token holders can use their AE tokens to signify their vote through the Governance Aepp.
-
-    [Read more](https://github.com/aeternity/aepp-governance)
-- ![](./img/Ribbon_Naming_System.svg) Naming system
-  - ### Naming system
-    The æternity Naming System (AENS) employs safe human-readable names in place of the current system of long hashes used in blockchain transactions, reducing room for error for users.
-
-    [Read more](https://aeternity.com/documentation-hub/protocol/AENS/)
-
-:::
-
-</Section>
-
-<Particles id="particles-state-channels"/>
 
 <Section id="state_channels">
 
@@ -195,15 +183,11 @@ The inner-workings of our blockchain
 
 ![](./img/Inner_Workings.svg)
 
-::: slot buttons
-
-- [Read more](#)
-
-:::
-
 </Section>
 
 <Include path="sections/protocol" />
+
+<Particles id="particles-protocol"/>
 
 <Section id="sophia" type="alt">
 
@@ -353,6 +337,13 @@ Programming libraries are available. Any Javascript developer can build a simple
 
 :::
 
+::: slot buttons
+
+- [Documentation hub](https://aeternity.com/documentation-hub/)
+- [GitHub](https://github.com/aeternity)
+
+:::
+
 </Section>
 
 <Section id="interfaces">
@@ -395,6 +386,10 @@ others. A full list of markets can be found via: <a href="https://coinmarketcap.
 
 <Section id="run_node" type="alt">
 
+::: slot header
+<Particles id="particles-run_node" type="full" :number="40" :density="800" color="#aaa"/>
+:::
+
 ## Run your own node and services
 
 ::: slot cards
@@ -409,8 +404,6 @@ others. A full list of markets can be found via: <a href="https://coinmarketcap.
 :::
 
 </Section>
-
-<Particles id="particles-miners"/>
 
 <Section id="miners">
 
@@ -432,8 +425,6 @@ To get the latest version of æternity node, please check out the [latest publis
 :::
 
 </Section>
-
-<Particles id="particles-community"/>
 
 <Section id="community" type="alt">
 
@@ -460,6 +451,8 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 [![](./img/team-preview.jpg)](img/team.jpg)
 
 </Section>
+
+<Particles id="particles-who"/>
 
 <Section id="who">
 
@@ -514,8 +507,6 @@ ecosystem. We might even fund your project.
 <label for="more-logos">Show more</label>
 
 </Section>
-
-<Particles id="particles-2"/>
 
 <Section id="news">
 
