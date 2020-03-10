@@ -21,6 +21,7 @@
             </a>
         </li>
     </ul>
+    <div v-else></div>
 </template>
 <script>
     export default {
@@ -91,9 +92,7 @@
             }
         },
         mounted() {
-            this.$nextTick(() => {
-                this.fetchData();
-            });
+            this.fetchData();
         },
     }
 </script>

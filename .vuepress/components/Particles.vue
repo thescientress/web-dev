@@ -2,6 +2,7 @@
     <div :id="id" :class="['particles' + (type ? '-'  + type : '')]"></div>
 </template>
 <script>
+    require('particles.js');
     export default {
         props: {
             id: {type: String, default: 'particles'},
@@ -12,7 +13,6 @@
         },
         methods: {
             startAnimation() {
-                require('particles.js');
                 particlesJS(this.id, {
                     "particles": {
                         "number": {"value": this.number, "density": {"enable": !!this.density, "value_area": this.density}},
@@ -69,5 +69,8 @@
                 });
             },
         },
+        mounted() {
+            this.startAnimation();
+        }
     }
 </script>
