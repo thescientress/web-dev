@@ -507,11 +507,3 @@ ecosystem. We might even fund your project.
 <label for="more-logos">Show more</label>
 
 </Section>
-
-<Section id="news">
-
-## News & Updates
-
-<Topics id="announcements" category="announcements" :pinned="false" :count="3" :show-meta="true"/>
-
-</Section>
