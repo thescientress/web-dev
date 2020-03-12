@@ -114,8 +114,8 @@ By redesigning blockchain technology at the protocol level, the æternity develo
 
 <Section id="technical_advantages" type="fancy">
 
-<video autoplay loop muted playsinline onload="this.play()">
-  <source src="./img/background.mp4#t=13" type="video/mp4">
+<video autoplay loop muted playsinline onload="this.play()" preload="metadata">
+  <source src="./img/background.mp4#t=29" type="video/mp4">
 </video>
 
 ## Technical advantages
@@ -187,7 +187,7 @@ The inner-workings of our blockchain
 
 <Include path="sections/protocol" />
 
-<Particles id="particles-protocol"/>
+<Particles id="particles-protocol" />
 
 <Section id="sophia" type="alt">
 
@@ -232,7 +232,7 @@ Courses are free and you will be given a certificate upon completion.
 
 <Section id="getting_started" type="fancy">
 
-<video autoplay loop muted playsinline onload="this.play()">
+<video autoplay loop muted playsinline onload="this.play()" preload="metadata">
   <source src="./img/background.mp4#t=39" type="video/mp4">
 </video>
 
@@ -386,9 +386,7 @@ others. A full list of markets can be found via: <a href="https://coinmarketcap.
 
 <Section id="run_node" type="alt">
 
-::: slot header
 <Particles id="particles-run_node" type="full" :number="40" :density="800" color="#aaa"/>
-:::
 
 ## Run your own node and services
 
@@ -452,7 +450,7 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 
 </Section>
 
-<Particles id="particles-who"/>
+<Particles id="particles-who" />
 
 <Section id="who">
 

@@ -1,5 +1,5 @@
 <template>
-    <ul v-if="this.topics.length" :id="id" :class="['topics', this.topic ? 't-' + this.topic : 'c-' + this.category]">
+    <ul v-show="this.topics.length" :id="id" :class="['topics', this.topic ? 't-' + this.topic : 'c-' + this.category]">
         <li v-for="topic in this.topics">
             <a :href="`${baseUrl}/t/${topic.id}`" target="_blank" class="post">
                 <div class="topic-img">
@@ -21,7 +21,6 @@
             </a>
         </li>
     </ul>
-    <div v-else></div>
 </template>
 <script>
     export default {
@@ -92,7 +91,7 @@
             }
         },
         mounted() {
-            this.fetchData();
+            this.$nextTick(() => this.fetchData());
         },
     }
 </script>

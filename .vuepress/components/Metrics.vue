@@ -2,7 +2,7 @@
     <div :id="id">
         <ul class="metrics">
             <li v-for="metric in this.metrics">
-                <a :href="metric.link||'#'" target="_blank">
+                <a :href="metric.link ? metric.link : '#'" target="_blank">
                     <img :src="$withBase(metric.image)" alt="">
                     <div>{{ (metric.value * 1).toLocaleString() }}</div>
                     <div>{{ metric.text }}</div>
@@ -62,7 +62,7 @@
             }
         },
         mounted() {
-            this.fetchData();
+            this.$nextTick(() => this.fetchData());
         },
     }
 </script>
