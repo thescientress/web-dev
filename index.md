@@ -177,9 +177,7 @@ Featured in Electric Capital’s Report for being among the projects with the mo
 > 1/31/2018 - 1/31/2019 -- Electric Capital Internal Data.
 > Excluding private repositories.
 
-## Discover æternity native features
-
-The inner-workings of our blockchain
+## The structure of æternity
 
 ![](./img/Inner_Workings.svg)
 
@@ -191,7 +189,7 @@ The inner-workings of our blockchain
 
 <Section id="sophia" type="alt">
 
-## Safe Smart Contract Development with Sophia
+## Safe Smart Contracts with Sophia
 Sophia is a functional Smart Contract language in the ML family. It is strongly-typed and has a restricted mutable state. Sophia is a Ocaml-like language with syntax mostly resembling that of Reason.
 
 ::: slot body
@@ -206,7 +204,7 @@ Sophia is a functional Smart Contract language in the ML family. It is strongly-
 ![](./img/Sophia_Icon.svg) The Sophia language was created to easily utilize the potentials of the æternity protocol. Some features of conventional languages, such as floating point arithmetics for example, are not present, while some blockchain-specific primitives, constructions, and types have been added.
 
 ### Links
-- [Documentation](https://github.com/aeternity/protocol/blob/master/contracts/sophia.md)
+- [Documentation](https://github.com/aeternity/aesophia/blob/lima/README.md)
 - [Examples on GitHub](https://github.com/aeternity/aepp-sophia-examples)
 - [Code Highlighting](https://marketplace.visualstudio.com/items?itemName=MilenRadkov.sophia) for VSCode and other IDE’s
 
@@ -214,6 +212,10 @@ Sophia is a functional Smart Contract language in the ML family. It is strongly-
 ![](./img/Dacade_Icon.svg) [Online Course from Dacade.org](https://dacade.org/ae-dev-101/introduction)<br>
 Check out the highly recommended æternity 101 course on Dacade, a peer learning platform.
 Courses are free and you will be given a certificate upon completion.
+
+### Community materials
+  - [Sophia course (Basic)](https://drive.google.com/file/d/1NIhiVcByLmg9VcTcHqxcVo7oT112Bz2O/view?usp=sharing) (.pdf) - ORT university in Montevideo, Uruguay
+  - [Sophia course (Intermediate)](https://drive.google.com/file/d/1k6vAWLLDePMaOX5-hD69JIKpDWqTuXf3/view?usp=sharing) (.pdf) - ORT university in Montevideo, Uruguay
 
 </div>
 </div>
