@@ -2,7 +2,7 @@
     <div :id="id">
         <ul class="metrics">
             <li v-for="metric in this.metrics">
-                <a :href="metric.link ? metric.link : '#'" target="_blank">
+                <a :href="metric.link || '#'" target="_blank">
                     <img :src="$withBase(metric.image)" alt="">
                     <div>{{ (metric.value * 1).toLocaleString() }}</div>
                     <div>{{ metric.text }}</div>
@@ -25,7 +25,7 @@
 
                 Object.entries(metrics).map(async ([id, metric]) => {
                         let src = Object.assign({}, {type: 'json', 'path': '', regex: ''}, metric['src'] || {});
-                        let Data = metric['value'];
+                        let value = metric['value'];
                         if (!src['url']) {
                             return;
                         }
@@ -46,16 +46,16 @@
                                     return text;
                                 })
                             }).then((data) => {
-                                Data = data;
+                                value = data + '';
                                 if (src['regex']) {
                                     let Regex = new RegExp(src['regex'], 'g');
-                                    let match = Regex.exec(Data);
+                                    let match = Regex.exec(value);
                                     if (match.length) {
-                                        Data = match[0];
+                                        value = match[0];
                                     }
                                 }
                             });
-                        metric['value'] = Data;
+                        metric['value'] = value;
                     }
                 );
                 this.metrics = metrics;
