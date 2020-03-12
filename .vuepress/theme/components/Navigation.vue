@@ -70,7 +70,7 @@
         props: {
             'scroll': 0
         },
-        data: () => {
+        data() {
             return {
                 onTop: true,
                 navActive: false,

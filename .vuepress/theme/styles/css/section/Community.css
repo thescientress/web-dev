@@ -42,7 +42,7 @@
 
 #community ul li > a {
     align-items: center;
-    color: #000;
+    color: inherit;
     display: flex;
     flex-direction: column;
     position: relative;

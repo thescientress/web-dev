@@ -12,11 +12,6 @@
             top: var(--nav-height);
         }
 
-        .scroll + main {
-            height: calc(100vh - 85px);
-            top: 85px;
-        }
-
         .section::before {
             transform: translateZ(-1px) scale(1.5);
             -moz-transform: translateX(-4px) translateZ(-1px) scale(1.5);

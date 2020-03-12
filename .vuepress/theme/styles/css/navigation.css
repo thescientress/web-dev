@@ -1,5 +1,5 @@
 :root {
-    --nav-height: 125px;
+    --nav-height: 80px;
 }
 
 header {
@@ -29,18 +29,17 @@ main {
     padding: 0 72px;
 }
 
+.scroll + main,
 .scroll {
-    height: 85px;
-}
-
-.scroll + main {
-    top: 85px;
+    --nav-height: 60px;
 }
 
 .logo {
     display: flex;
     flex-basis: 266px;
     flex-grow: 0;
+    height: calc(var(--nav-height) / 2.4);
+    max-height: 38px;
 }
 
 .logo * {
@@ -192,16 +191,10 @@ main {
 }
 
 @media screen and (max-width: 1366px) {
+    .scroll + main,
+    .scroll,
     :root {
-        --nav-height: 70px;
-    }
-
-    .scroll {
-        height: var(--nav-height);
-    }
-
-    .scroll + main {
-        top: var(--nav-height);
+        --nav-height: 60px;
     }
 
     .main-nav {
@@ -211,7 +204,6 @@ main {
     .logo {
         flex-basis: 166px;
         flex-grow: 1;
-        height: 27px;
     }
 
     .pages {
@@ -225,6 +217,8 @@ main {
 }
 
 @media screen and (max-width: 1023px) {
+    .scroll + main,
+    .scroll,
     :root {
         --nav-height: 50px;
     }

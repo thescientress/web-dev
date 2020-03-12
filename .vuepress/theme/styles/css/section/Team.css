@@ -1,5 +1,5 @@
 #team {
-    padding-bottom: 60px;
+    padding-bottom: 0;
     padding-top: 30px;
 }
 
@@ -11,10 +11,4 @@
 
 #team p:last-of-type {
     max-width: none;
-}
-
-@media screen and (max-width: 1023px) {
-    #team {
-        padding-bottom: 30px;
-    }
 }

@@ -42,6 +42,7 @@
     #header {
         box-sizing: border-box;
         justify-content: center;
+        min-height: 460px;
         padding-bottom: 100px;
         padding-top: 50px;
     }

@@ -9,7 +9,7 @@
     import Cookies from 'js-cookie';
 
     export default {
-        data: () => {
+        data() {
             return {
                 showConsent: typeof Cookies.get('opt_in') === 'undefined'
             }

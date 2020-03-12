@@ -20,7 +20,6 @@
 .cards > ul > li {
     --num: '';
     align-items: center;
-    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 15px #072a441a;
     box-sizing: border-box;
@@ -31,6 +30,10 @@
     padding: 29px 17px 43px;
     text-align: center;
     width: 100%;
+}
+
+.section--alt .cards > ul > li {
+    background-color: #fff;
 }
 
 .cards > ul > li:first-child {
@@ -70,7 +73,7 @@
 }
 
 .cards > ul > li > a:only-of-type:hover {
-    background: #fff;
+    background: none;
     color: #f7296e;
     text-decoration: none;
 }

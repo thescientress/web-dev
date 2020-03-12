@@ -56,7 +56,6 @@
 
 .protocol-menu-item label {
     border-left: 5px solid #dedede;
-    color: #000;
     cursor: pointer;
     display: flex;
     font-size: 24px;
@@ -92,7 +91,6 @@
 }
 
 .protocol-content {
-    background: #fff;
     bottom: -0px;
     box-shadow: 0 0 13px #0000002b;
     box-sizing: border-box;
@@ -212,7 +210,6 @@
     }
 
     .protocol-menu-item {
-        background: #fff;
         height: 100%;
         opacity: 1;
         position: absolute;

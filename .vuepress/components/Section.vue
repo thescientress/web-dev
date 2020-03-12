@@ -12,26 +12,6 @@
 <script>
     export default {
         props: {id: String, type: {type: String, default: 'normal'}},
-        mounted() {
-            this.$nextTick(() => {
-                this.$el.querySelectorAll('.cards > ul')
-                    .forEach(el => {
-                        el.style.cssText = `--total: '${el.childElementCount}'`;
-                    });
-
-                this.$el.querySelectorAll('.ribbon > ul > li')
-                    .forEach(el => {
-                        el.addEventListener('click', function () {
-                            [...this.parentNode.children].forEach((child) => child.classList.remove('active'));
-                            this.classList.add('active');
-                        });
-                        el.addEventListener('hover', function () {
-                            [...this.parentNode.children].forEach((child) => child.classList.remove('active'));
-                            this.classList.add('active');
-                        })
-                    });
-            });
-        },
         computed: {
             slots() {
                 let staticSlots = ['default', 'header'];

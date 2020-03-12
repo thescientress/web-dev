@@ -29,7 +29,7 @@
             Footer,
             CookieConsent
         },
-        data: () => {
+        data() {
             return {
                 scrollTop: 0
             }
@@ -37,13 +37,40 @@
         methods: {
             onScroll(target) {
                 this.scrollTop = target.scrollTop;
+            },
+            initScroll() {
+                let htmlEl = document.querySelector('html');
+                let mainEl = htmlEl.querySelector('main');
+                window.addEventListener('scroll', () => this.onScroll(htmlEl));
+                mainEl.addEventListener('scroll', () => this.onScroll(mainEl));
+
+            },
+            initCards($el) {
+                $el.querySelectorAll('.cards > ul')
+                    .forEach(el => {
+                        el.style.cssText = `--total: '${el.childElementCount}'`;
+                    });
+            },
+            initRibbon($el) {
+                $el.querySelectorAll('.ribbon > ul > li')
+                    .forEach(el => {
+                        el.addEventListener('click', function () {
+                            [...this.parentNode.children].forEach((child) => child.classList.remove('active'));
+                            this.classList.add('active');
+                        });
+                        el.addEventListener('hover', function () {
+                            [...this.parentNode.children].forEach((child) => child.classList.remove('active'));
+                            this.classList.add('active');
+                        })
+                    });
             }
         },
-        mounted: function () {
-            let htmlEl = document.querySelector('html');
-            let mainEl = htmlEl.querySelector('main');
-            window.addEventListener('scroll', () => this.onScroll(htmlEl));
-            mainEl.addEventListener('scroll', () => this.onScroll(mainEl));
+        mounted() {
+            this.$nextTick(() => {
+                this.initScroll();
+                this.initCards(this.$el);
+                this.initRibbon(this.$el);
+            });
         }
     }
 </script>
