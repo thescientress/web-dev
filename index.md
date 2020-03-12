@@ -44,7 +44,7 @@ metrics:
 
 ::: slot announcement
 
-<Topics id="announcements" category="announcements" :pinned="true"/>
+<Topics id="announcements" topic="5898" />
 
 :::
 
