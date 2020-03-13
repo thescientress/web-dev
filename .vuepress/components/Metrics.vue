@@ -29,7 +29,7 @@
                     if (!src['url']) {
                         return;
                     }
-                    metric['value'] = await fetch(src['url'], {mode: metric.mode || 'cors'})
+                    metric['value'] = await fetch(src['url'])
                         .then((response) => {
                             if ('headers' === src['type']) {
                                 return response.headers.get(src['path'])

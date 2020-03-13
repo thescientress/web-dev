@@ -87,19 +87,20 @@
 }
 
 .protocol-menu :checked + * > label + .protocol-content {
-    display: initial;
+    opacity: 1;
 }
 
 .protocol-content {
-    bottom: -0px;
+    bottom: 0;
     box-shadow: 0 0 13px #0000002b;
     box-sizing: border-box;
-    display: none;
     line-height: 30px;
+    opacity: 0;
     padding: 142px 45px 42px;
     position: absolute;
     right: 0;
-    top: -0px;
+    top: 0;
+    transition: opacity 0.2s;
     width: 50%;
 }
 

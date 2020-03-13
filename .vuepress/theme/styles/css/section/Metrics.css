@@ -90,12 +90,12 @@
 
 @media screen and (max-width: 1023px) {
     .metrics li {
-        flex-basis: 210px;
+        flex-basis: 200px;
         height: 75px;
     }
 
     .metrics a div:first-of-type {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .metrics a div:last-of-type {
