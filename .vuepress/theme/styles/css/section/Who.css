@@ -8,7 +8,7 @@
 #who li {
     align-items: center;
     display: flex;
-    flex-basis: 230px;
+    flex-basis: 20%;
     flex-direction: column;
     flex-grow: 1;
     font-size: 16px;
@@ -71,15 +71,15 @@
 
 #who label:hover {
     background: transparent;
-    cursor: pointer;
     color: #f7296e;
+    cursor: pointer;
 }
 
-#who .default ul li:nth-child(n + 5) {
+#who .default ul li:nth-child(n + 11) {
     display: none;
 }
 
-#who :checked ~ ul li:nth-child(n + 5) {
+#who :checked ~ ul li:nth-child(n + 11) {
     display: unset;
 }
 
@@ -90,13 +90,31 @@
     color: #f7296e;
 }
 
-@media screen and (max-width: 1023px) {
+@media (max-width: 1366px) {
+    #who li {
+        max-width: none;
+    }
 
-    #who .default ul li:nth-child(n + 5) {
+    #who .default ul li:nth-child(n + 11) {
         display: unset;
     }
 
-    #who :checked ~ ul li:nth-child(n + 5) {
+    #who .default ul li:nth-child(n + 9) {
+        display: none;
+    }
+
+    #who :checked ~ ul li:nth-child(n + 9) {
+        display: unset;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #who li {
+        flex-basis: 230px;
+        max-width: 230px;
+    }
+
+    #who .default ul li:nth-child(n + 9) {
         display: unset;
     }
 
