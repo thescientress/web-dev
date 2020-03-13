@@ -29,7 +29,7 @@
                     if (!src['url']) {
                         return;
                     }
-                    await fetch(src['url'])
+                    metric['value'] = await fetch(src['url'], {mode: metric.mode || 'cors'})
                         .then((response) => {
                             if ('headers' === src['type']) {
                                 return response.headers.get(src['path'])
@@ -45,23 +45,31 @@
                             return response.text().then((text) => {
                                 return text;
                             })
-                        }).then((data) => {
-                            value = data + '';
+                        })
+                        .catch(() => {
+                            return new Promise((resolve) => resolve(value));
+                        })
+                        .then((data) => {
+                            data = data + '';
                             if (src['regex']) {
                                 let Regex = new RegExp(src['regex'], 'g');
-                                let match = Regex.exec(value);
+                                let match = Regex.exec(data);
                                 if (match.length) {
-                                    value = match[0];
+                                    data = match[0];
                                 }
                             }
+                            return data;
                         });
-                    metric['value'] = value;
+                    return metric;
                 });
                 this.metrics = metrics;
             }
         },
         mounted() {
-            this.$nextTick(() => this.fetchData());
+            this.$nextTick(() => {
+                this.fetchData();
+                setInterval(() => this.fetchData(), 60000)
+            });
         },
     }
 </script>

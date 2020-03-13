@@ -54,7 +54,7 @@
             initRibbon($el) {
                 $el.querySelectorAll('.ribbon > ul > li')
                     .forEach(el => {
-                        el.addEventListener('click', function () {
+                        el.addEventListener('mousedown', function () {
                             [...this.parentNode.children].forEach((child) => child.classList.remove('active'));
                             this.classList.add('active');
                         });
@@ -68,8 +68,8 @@
         mounted() {
             this.$nextTick(() => {
                 this.initScroll();
-                this.initCards(this.$el);
-                this.initRibbon(this.$el);
+                this.initCards(document);
+                this.initRibbon(document);
             });
         }
     }

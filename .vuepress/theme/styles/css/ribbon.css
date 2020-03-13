@@ -9,7 +9,8 @@
     box-shadow: 0 0 10px 0 #00000029;
     box-sizing: border-box;
     display: flex;
-    overflow: auto;
+    overflow-x: overlay;
+    overflow-y: hidden;
     padding: 0;
     scroll-snap-type: x mandatory;
     width: 100%;
@@ -23,7 +24,7 @@
     box-sizing: border-box;
     cursor: pointer;
     display: flex;
-    flex-basis: 320px;
+    flex-basis: 260px;
     flex-direction: column;
     flex-grow: 1;
     flex-shrink: 0;
@@ -67,7 +68,8 @@
     color: #fff;
     display: flex;
     flex-direction: column;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 400;
     justify-content: center;
     justify-items: flex-start;
     line-height: 1.3em;
