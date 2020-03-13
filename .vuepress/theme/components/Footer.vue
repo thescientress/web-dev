@@ -40,5 +40,6 @@
                 </li>
             </ul>
         </div>
+        <div class="legal"><a href="./cookies-policy.html">Legal imprint</a></div>
     </footer>
 </template>

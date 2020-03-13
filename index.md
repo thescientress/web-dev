@@ -42,12 +42,6 @@ metrics:
       path: result.length
 ---
 
-::: slot announcement
-
-<Topics id="announcements" topic="5898" />
-
-:::
-
 <Section id="header" type="hero">
 
 <video autoplay loop muted playsinline onload="this.play()" preload="metadata">

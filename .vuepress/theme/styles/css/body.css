@@ -101,6 +101,15 @@ main {
     width: 100%;
 }
 
+.legal {
+    align-self: flex-end;
+    margin: 20px 40px 0;
+}
+
+.legal a {
+    color: inherit;
+}
+
 @media screen and (max-width: 1366px) {
     main {
         top: var(--nav-height);

@@ -30,19 +30,19 @@
                         return;
                     }
                     metric['value'] = await fetch(src['url'])
-                        .then((response) => {
+                        .then(async (response) => {
                             if ('headers' === src['type']) {
                                 return response.headers.get(src['path'])
                             }
                             if ('json' === src['type']) {
-                                return response.json().then((result) => {
+                                return await response.json().then((result) => {
                                     if (src['path']) {
                                         return eval(`${src['path']}`);
                                     }
                                     return result;
                                 });
                             }
-                            return response.text().then((text) => {
+                            return await response.text().then((text) => {
                                 return text;
                             })
                         })
@@ -50,13 +50,18 @@
                             return new Promise((resolve) => resolve(value));
                         })
                         .then((data) => {
+                            if (!data) {
+                                return value;
+                            }
                             data = data + '';
-                            if (src['regex']) {
+
+                            if (data && src['regex']) {
                                 let Regex = new RegExp(src['regex'], 'g');
                                 let match = Regex.exec(data);
-                                if (match.length) {
-                                    data = match[0];
+                                if (match && match.length) {
+                                    return match[0];
                                 }
+                                return value;
                             }
                             return data;
                         });

@@ -1,6 +1,6 @@
 <template>
     <div id="cookie_consent" v-show="showConsent">
-        We use cookies to make this website more user-friendly and improve user experience.
+        We use cookies to make this website more user-friendly and improve user experience. <a href="./cookies-policy.html">Read our cookies policy</a>
         <button id="deny_cookies" v-on:click="denyCookies">Deny</button>
         <button id="accept_cookies" v-on:click="acceptCookies">Accept</button>
     </div>

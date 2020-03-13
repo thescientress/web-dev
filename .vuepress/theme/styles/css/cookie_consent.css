@@ -18,12 +18,17 @@
     z-index: 1;
 }
 
+#cookie_consent a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 #accept_cookies {
     background: #fff;
     border: 1px solid #fff;
     color: #f7296e;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 700;
     height: 25px;
     margin-left: 20px;
     width: 100px;
@@ -50,4 +55,24 @@
         transform: translateY(0);
         opacity: 1;
     }
+}
+
+
+#cookies_policy ul {
+    list-style: initial;
+    margin: 20px;
+}
+
+#cookies_policy table {
+    background: #fff;
+    border-collapse: separate;
+}
+
+#cookies_policy td,
+#cookies_policy th {
+    padding: 10px;
+}
+
+#cookies_policy tr :first-child {
+    min-width: 200px;
 }
