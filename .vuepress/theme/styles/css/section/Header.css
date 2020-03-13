@@ -8,21 +8,64 @@
 }
 
 #header .buttons {
-    width: 100%;
+    width: 90%;
+}
+
+#header .buttons ul li {
+    margin-bottom: 30px;
 }
 
 #header .buttons a {
-    background: transparent;
-    color: #f7296e;
+    background-color: transparent;
+    color: #fff;
     font-size: 20px;
     height: 60px;
     line-height: 25px;
+    transform: translate(0, 0);
+    transition: all 0.1s;
     width: 450px;
 }
 
+#header .buttons a:before,
+#header .buttons a:after {
+    border: 3px #f7296e solid;
+    content: '';
+    display: block;
+    position: absolute;
+    transform: skewY(-45deg);
+    transition: all 0.1s;
+    z-index: -1;
+}
+
+#header .buttons a:before {
+    border-bottom: none;
+    border-left-width: 2px;
+    border-right: none;
+    bottom: -8px;
+    left: -12px;
+    top: 3px;
+    width: 8px;
+}
+
+#header .buttons a:after {
+    border-bottom-width: 2px;
+    border-top-width: 0;
+    bottom: -12px;
+    height: 9px;
+    left: -7px;
+    right: 3px;
+    transform: skewX(-45deg);
+}
+
 #header .buttons a:hover {
-    background: #f7296e;
-    color: #fff;
+    background-color: #fff;
+    color: #f7296e;
+    transform: translate(4px, -4px);
+}
+
+#header .buttons a:hover:after,
+#header .buttons a:hover:before {
+    background-color: #f7296e;
 }
 
 #header .bottom {
@@ -52,6 +95,6 @@
         height: 40px;
         line-height: 16px;
         max-width: 345px;
-        width: calc(100% - 30px);
+        width: 100%;
     }
 }
