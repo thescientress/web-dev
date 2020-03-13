@@ -2,14 +2,22 @@
     --nav-height: 80px;
 }
 
+.scroll + main,
+.scroll {
+    --nav-height: 60px;
+}
+
 header {
     background: #fff;
-    box-shadow: 0 0 4px 1px #7c7c7c80;
     height: var(--nav-height);
     top: 0;
     transition: height 0.2s;
     width: 100vw;
     z-index: 2;
+}
+
+.scroll {
+    box-shadow: 0 0 4px 1px #7c7c7c80;
 }
 
 main {
@@ -27,11 +35,6 @@ main {
     margin: auto;
     max-width: 1920px;
     padding: 0 72px;
-}
-
-.scroll + main,
-.scroll {
-    --nav-height: 60px;
 }
 
 .logo {
