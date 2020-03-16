@@ -437,9 +437,9 @@ To get the latest version of æternity node, please check out the [latest publis
 
 ## Hundreds of Contributors, Friends and Partners
 
-Founded by Yyanislav Malahov, the community has been grown to hundreds of contributors 
+Founded by Yanislav Malahov, the community has been grown to hundreds of contributors 
 and thousands of people all over the world. Having exchanged ideas and pursued blockchain endeavors with many of the greatest minds, 
-Yyanislav is a true veteran of the blockchain space. Back in 2013, the "godfather of ethereum" 
+Yanislav is a true veteran of the blockchain space. Back in 2013, the "godfather of ethereum" 
 envisioned powerful algorithms on blockchains. Now, with æternity, a new version of his vision is becoming reality once more.
 
 [![](./img/team-preview.jpg)](img/team.jpg)
