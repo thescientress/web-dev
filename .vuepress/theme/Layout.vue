@@ -88,8 +88,6 @@
                 this.initCards(document);
                 this.initRibbon(document);
             });
-        },
-        created() {
             this.optIn = Cookies.get('opt_in') === '1';
             this.consentAnswered = typeof Cookies.get('opt_in') !== 'undefined';
             EventBus.$on('optIn', (value) => {
