@@ -3,8 +3,9 @@
         <div class="section-content section-content--fancy">
             <h2>&aelig;ternity newsletter</h2>
             <p>Sign up for the latest content and updates.</p>
-            <form action="https://aeternity.us15.list-manage.com/subscribe/post?u=83a504836fa768f10619d053c&id=c2d8c3ba71"
-                  method="post" target="_blank" class="subscribe">
+            <form
+                action="https://aeternity.us15.list-manage.com/subscribe/post?u=83a504836fa768f10619d053c&id=c2d8c3ba71"
+                method="post" target="_blank" class="subscribe">
                 <label><input type="email" name="EMAIL" placeholder="your.email@example.com"></label>
                 <button type="submit" name="subscribe" class="button button--wide">Subscribe</button>
             </form>
@@ -55,5 +56,5 @@
                 EventBus.$emit('optReset', true);
             },
         },
-    }
+    };
 </script>

@@ -3,14 +3,16 @@
         <li v-for="topic in this.topics">
             <a :href="`${baseUrl}/t/${topic.id}`" target="_blank" class="post">
                 <div class="topic-img">
-                    <img v-if="topic.image_url || showMeta && topic.meta" alt=""
-                         :src="topic.image_url || `${baseUrl}${topic.meta.details.created_by.avatar_template.replace('{size}',320)}`">
+                    <img
+                        v-if="topic.image_url || showMeta && topic.meta" alt=""
+                        :src="topic.image_url || `${baseUrl}${topic.meta.details.created_by.avatar_template.replace('{size}',320)}`">
                 </div>
                 <div class="topic-title">{{ topic.title }}</div>
                 <div class="topic-excerpt">{{ getExcerpt(topic) }}</div>
             </a>
-            <a v-if="showMeta && topic.meta" :href="`${baseUrl}/u/${topic.meta.details.created_by.username}`"
-               target="_blank" class="author">
+            <a
+                v-if="showMeta && topic.meta" :href="`${baseUrl}/u/${topic.meta.details.created_by.username}`"
+                target="_blank" class="author">
                 <img :src="`${baseUrl}${topic.meta.details.created_by.avatar_template.replace('{size}',50)}`" alt="">
                 <div>
                     {{ topic.meta.details.created_by.name || topic.meta.details.created_by.username }}
@@ -25,19 +27,19 @@
 <script>
     export default {
         props: {
-            id: {type: String, default: null},
-            category: {type: String, default: null},
-            count: {type: Number, default: 1},
-            start: {type: Number, default: 0},
-            pinned: {type: Boolean, default: false},
-            baseUrl: {type: String, default: 'https://forum.aeternity.com'},
-            topic: {type: String, default: null},
-            showMeta: {type: Boolean, default: false},
+            id: { type: String, default: null },
+            category: { type: String, default: null },
+            count: { type: Number, default: 1 },
+            start: { type: Number, default: 0 },
+            pinned: { type: Boolean, default: false },
+            baseUrl: { type: String, default: 'https://forum.aeternity.com' },
+            topic: { type: String, default: null },
+            showMeta: { type: Boolean, default: false },
         },
         data() {
             return {
-                topics: []
-            }
+                topics: [],
+            };
         },
         methods: {
             async fetchData() {
@@ -65,7 +67,7 @@
                         pinned_at: topic.pinned_at,
                         last_posted_at: topic.last_posted_at,
                         posters: topic.posters,
-                        pinned: topic.pinned
+                        pinned: topic.pinned,
                     });
                 }
                 if (this.showMeta) {
@@ -78,7 +80,7 @@
                     .then((result) => result)
                     .catch(() => [])
                 ;
-                return Object.assign(topic, {meta: meta});
+                return Object.assign(topic, { meta: meta });
             },
             getExcerpt(topic) {
                 if (!this.showMeta || !topic.meta) {
@@ -87,11 +89,11 @@
                 return topic.meta.post_stream.posts[0].cooked
                     .replace(/(<([^>]+)>)/g, '')
                     .replace(/([.!?\r\n]).*/g, '$1')
-                    .substr(0, 100).trim()
-            }
+                    .substr(0, 100).trim();
+            },
         },
         mounted() {
             this.$nextTick(() => this.fetchData());
         },
-    }
+    };
 </script>

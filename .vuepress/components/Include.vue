@@ -7,7 +7,7 @@
         computed: {
             page() {
                 return this.$site['pages'].find(page => page.relativePath.indexOf(this.path) === 0);
-            }
-        }
-    }
+            },
+        },
+    };
 </script>

@@ -68,22 +68,22 @@
 <script>
     export default {
         props: {
-            'scroll': 0
+            'scroll': 0,
         },
         data() {
             return {
                 onTop: true,
                 navActive: false,
-                langActive: false
-            }
+                langActive: false,
+            };
         },
         methods: {
             toggleNav: function () {
-                this.navActive = !this.navActive
+                this.navActive = !this.navActive;
             },
             toggleLang: function () {
-                this.navActive = !this.navActive
-            }
-        }
-    }
+                this.navActive = !this.navActive;
+            },
+        },
+    };
 </script>

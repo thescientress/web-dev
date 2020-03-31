@@ -67,7 +67,7 @@
                         el.addEventListener('hover', function () {
                             [...this.parentNode.children].forEach((child) => child.classList.remove('active'));
                             this.classList.add('active');
-                        })
+                        });
                     });
             },
             resetCookies() {
@@ -109,5 +109,5 @@
                 this.consentAnswered = false;
             });
         },
-    }
+    };
 </script>

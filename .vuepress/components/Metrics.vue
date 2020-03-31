@@ -13,18 +13,18 @@
 </template>
 <script>
     export default {
-        props: {id: {type: String, default: 'metrics'}, type: {type: String, default: 'metrics'}},
+        props: { id: { type: String, default: 'metrics' }, type: { type: String, default: 'metrics' } },
         data() {
             return {
-                metrics: []
-            }
+                metrics: [],
+            };
         },
         methods: {
             fetchData() {
                 let metrics = this.$frontmatter['metrics'];
 
                 Object.entries(metrics).map(async ([id, metric]) => {
-                    let src = Object.assign({}, {type: 'json', 'path': '', regex: ''}, metric['src'] || {});
+                    let src = Object.assign({}, { type: 'json', 'path': '', regex: '' }, metric['src'] || {});
                     let value = metric['value'];
                     if (!src['url']) {
                         return;
@@ -32,7 +32,7 @@
                     metric['value'] = await fetch(src['url'])
                         .then(async (response) => {
                             if ('headers' === src['type']) {
-                                return response.headers.get(src['path'])
+                                return response.headers.get(src['path']);
                             }
                             if ('json' === src['type']) {
                                 return await response.json().then((result) => {
@@ -44,7 +44,7 @@
                             }
                             return await response.text().then((text) => {
                                 return text;
-                            })
+                            });
                         })
                         .catch(() => {
                             return new Promise((resolve) => resolve(value));
@@ -68,13 +68,13 @@
                     return metric;
                 });
                 this.metrics = metrics;
-            }
+            },
         },
         mounted() {
             this.$nextTick(() => {
                 this.fetchData();
-                setInterval(() => this.fetchData(), 60000)
+                setInterval(() => this.fetchData(), 60000);
             });
         },
-    }
+    };
 </script>
