@@ -324,12 +324,16 @@ Programming libraries are available. Any Javascript developer can build a simple
       - Testnet [https://testnet.aeternal.io](https://testnet.aeternal.io)
     - **AEknow**
       - [https://aeknow.org](https://aeknow.org)
+    - **ænalytics**
+      - Mainnet [https://aenalytics.org](https://aenalytics.org)
+      - Testnet [https://testnet.aenalytics.org](https://testnet.aenalytics.org)
   - #### Wallets
     - Base æpp (mobile) [https://base.aepps.com](https://base.aepps.com)
     - Ledger Hardware Wallet (desktop) [https://base.aepps.com](https://base.aepps.com)
     - Trust Wallet (Binance)  [https://trustwallet.com](https://trustwallet.com)
     - Waellet (browser extension) [https://waellet.com](https://waellet.com)
     - AirGap (iOS/Android) [https://airgap.it](https://airgap.it)
+    - ArkaneNetwork [https://arkane.network](https://arkane.network)
 
 :::
 
@@ -358,6 +362,8 @@ Three major clients to interact with æternity blockchain applications, sign con
   - [mainnet.aeternal.io](https://mainnet.aeternal.io)
   - [testnet.aeternal.io](https://testnet.aeternal.io)
   - [www.aeknow.org](https://www.aeknow.org)
+  - [aenalytics.org](https://aenalytics.org)
+  - [testnet.aenalytics.org](https://testnet.aenalytics.org)
 
 :::
 
