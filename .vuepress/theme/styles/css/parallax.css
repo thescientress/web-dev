@@ -6,6 +6,7 @@
 
         main {
             height: calc(100vh - var(--nav-height));
+            overflow-y: auto;
             overflow-y: overlay;
             perspective: 2px;
             transform-style: preserve-3d;
@@ -33,6 +34,7 @@
 
         @media screen and (max-width: 1023px) {
             body {
+                overflow-y: auto;
                 overflow-y: overlay;
             }
 

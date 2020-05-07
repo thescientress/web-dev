@@ -9,6 +9,7 @@
     box-shadow: 0 0 10px 0 #00000029;
     box-sizing: border-box;
     display: flex;
+    overflow-x: auto;
     overflow-x: overlay;
     overflow-y: hidden;
     padding: 0;

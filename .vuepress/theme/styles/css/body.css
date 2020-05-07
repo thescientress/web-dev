@@ -6,6 +6,7 @@ body {
     margin: 0;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
+    overflow-y: auto;
     overflow-y: overlay;
     width: 100vw;
 }
@@ -40,7 +41,7 @@ a:not([href]):after {
     background: white;
     box-shadow: 0 0 2px 0 #60606090;
     color: #606060;
-    content: 'Under development';
+    content: "Under development";
     font-size: 14px;
     left: 50%;
     min-width: max-content;
