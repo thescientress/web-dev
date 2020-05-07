@@ -76,3 +76,8 @@
 #cookies_policy tr :first-child {
     min-width: 200px;
 }
+
+.cookie_choice {
+    display: inline-flex;
+    justify-content: center;
+}

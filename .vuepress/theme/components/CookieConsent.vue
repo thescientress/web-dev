@@ -2,8 +2,10 @@
     <div id="cookie_consent" v-if="show">
         We use cookies to make this website more user-friendly and improve user experience.
         <a href="./cookies-policy.html" target="_blank">Read our cookie policy</a>
-        <button id="deny_cookies" @click="acceptCookies(false)">Deny</button>
-        <button id="accept_cookies" @click="acceptCookies(true)">Accept</button>
+        <div class="cookie_choice">
+            <button id="deny_cookies" @click="acceptCookies(false)">Deny</button>
+            <button id="accept_cookies" @click="acceptCookies(true)">Accept</button>
+        </div>
     </div>
 </template>
 <script>
