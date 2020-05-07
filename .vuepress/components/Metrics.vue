@@ -38,7 +38,9 @@
                     if (!src['url']) {
                         return;
                     }
-                    metric['value'] = await fetch(src['url'])
+                    metric['value'] = await fetch(src['url'], {
+                        mode: 'no-cors'
+                    })
                         .then(async (response) => {
                             if ('headers' === src['type']) {
                                 return response.headers.get(src['path']);
@@ -82,7 +84,7 @@
         mounted() {
             this.$nextTick(() => {
                 this.fetchData();
-                setInterval(() => this.fetchData(), 60000);
+                setInterval(() => this.fetchData(), 300000);
             });
         },
     };
