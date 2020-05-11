@@ -51,25 +51,6 @@
                 window.addEventListener('scroll', () => this.onScroll(htmlEl));
                 mainEl.addEventListener('scroll', () => this.onScroll(mainEl));
             },
-            initCards($el) {
-                $el.querySelectorAll('.cards > ul')
-                    .forEach(el => {
-                        el.style.cssText = `--total: '${el.childElementCount}'`;
-                    });
-            },
-            initRibbon($el) {
-                $el.querySelectorAll('.ribbon > ul > li')
-                    .forEach(el => {
-                        el.addEventListener('mousedown', function () {
-                            [...this.parentNode.children].forEach((child) => child.classList.remove('active'));
-                            this.classList.add('active');
-                        });
-                        el.addEventListener('hover', function () {
-                            [...this.parentNode.children].forEach((child) => child.classList.remove('active'));
-                            this.classList.add('active');
-                        });
-                    });
-            },
             resetCookies() {
                 Object.keys(Cookies.get()).forEach((cookie) => Cookies.remove(cookie));
             },
@@ -85,8 +66,6 @@
         mounted() {
             this.$nextTick(() => {
                 this.initScroll();
-                this.initCards(document);
-                this.initRibbon(document);
             });
             this.optIn = Cookies.get('opt_in') === '1';
             this.consentAnswered = typeof Cookies.get('opt_in') !== 'undefined';

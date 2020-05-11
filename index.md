@@ -558,3 +558,6 @@ ecosystem. We might even fund your project.
 <label for="more-logos">Show more</label>
 
 </Section>
+
+<ClickableElements selector=".ribbon > ul > li" />
+<CardsCounter />
