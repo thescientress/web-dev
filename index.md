@@ -501,6 +501,14 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 
 [![](./img/team-preview.jpg)](img/team.jpg)
 
+::: slot buttons
+
+- [View team](./team.html)
+
+  ![](./img/aeternity-logo-small.svg)
+
+:::
+
 </Section>
 
 <Particles id="particles-who" />
