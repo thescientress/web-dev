@@ -522,46 +522,46 @@ ecosystem. We might even fund your project.
 
 <input type="checkbox" id="more-logos">
 
-- [![](./img/logo_abendpayments.png)Abend](https://abendpayments.com)
-    On-Event payment and ticketing platform
-- [![](./img/logo_ampnet.png)AMPnet](https://ampnet.io)
-    Software and exchange for electricity cooperatives
-- [![](./img/logo_cryptotask.png)Crypto Task](https://beta.cryptotask.org)
-    On-Event payment and ticketing platform
-- [![](./img/logo_crypticlegends.png)Cryptic Legends](http://crypticlegends.co)
-    Browser game
-- [![](./img/logo_homeport.png)Homeport](https://homeport.network)
-    Marketplace for data from space satellites and ground stations
-- [![](./img/logo_ridesafe.png)RIDESAFE](https://www.ridesafeafrica.com)
-    First aid insurance for motorbike riders in Africa
-- [![](./img/logo_recheck.png)ReCheck](https://recheck.io)
-    A platform for secure data storage and exchange
-- [![](./img/logo_utu.png)UTU](http://protocol.utu.io)
-    Trusted Recommendation Service
-- [![](./img/logo_yair.png)YAIR](https://yair.art)
-    Platform for tokenization of media artwork
-- [![](./img/logo_jelly_swap.png)JELLY](https://jelly.market)
-    Atomic swap
-- [![](./img/logo_weidex.png)WEIDEX](https://weidex.market)
-    Multichain decentralized exchange
-- [![](./img/logo_assetify.png)Assetify](https://www.assetify.net)
-    Platform to enable lending institutions to accept crypto assets
-- [![](./img/logo_smartcredit.png)Smart credit](https://smartcredit.io)
-    Crypto loans
-- [![](./img/logo_vereign.svg)Vereign](https://www.vereign.com)
-    Email and documents security
-- [![](./img/logo_lexon.png)Lexon](http://lexon.tech)
-    Human readable programming language
-- [![](./img/logo_arkane.png)Arkane](https://arkane.network)
-    Platform for blockchain apps
-- [![](./img/logo_kingfootbal.png)King Football](https://kingfootball.com)
-    Verify football merchandise authenticity
-- [![](./img/logo_crowdholding.svg)Crowdholding](https://www.crowdholding.com)
-    Crowd funding
-- [![](./img/logo_airgap.png)Airgap](https://airgap.it)
+- [![](./img/logos/logo_airgap.png)Airgap](https://airgap.it)
     Wallet
+- [![](./img/logos/logo_yair.png)YAIR](https://yair.art)
+    Platform for tokenization of media artwork
+- [![](./img/logos/logo_lexon.png)Lexon](http://lexon.tech)
+    Human readable programming language
+- [![](./img/logos/logo_jelly_swap.png)JELLY](https://jelly.market)
+    Atomic swap
+- [![](./img/logos/logo_ampnet.png)AMPnet](https://ampnet.io)
+    Software and exchange for electricity cooperatives
+- [![](./img/logos/logo_cryptotask.png)Crypto Task](https://beta.cryptotask.org)
+    On-Event payment and ticketing platform
+- [![](./img/logos/logo_smartcredit.png)Smart credit](https://smartcredit.io)
+    Crypto loans
 - [![](./img/aeternity-logo-small.svg)AEknow](https://aeknow.org)
     Æternity Explorer
+- [![](./img/logos/logo_recheck.png)ReCheck](https://recheck.io)
+    A platform for secure data storage and exchange
+- [![](./img/logos/logo_weidex.png)WEIDEX](https://weidex.market)
+    Multichain decentralized exchange
+- [![](./img/logos/logo_crypticlegends.png)Cryptic Legends](http://crypticlegends.co)
+    Mobile game
+- [![](./img/logos/logo_abendpayments.png)Abend](https://abendpayments.com)
+    On-Event payment and ticketing platform
+- [![](./img/logos/logo_homeport.png)Homeport](https://homeport.network)
+    Marketplace for data from space satellites and ground stations
+- [![](./img/logos/logo_ridesafe.png)RIDESAFE](https://www.ridesafeafrica.com)
+    First aid insurance for motorbike riders in Africa
+- [![](./img/logos/logo_utu.png)UTU](http://protocol.utu.io)
+    Trusted Recommendation Service
+- [![](./img/logos/logo_assetify.png)Assetify](https://www.assetify.net)
+    Platform to enable lending institutions to accept crypto assets
+- [![](./img/logos/logo_vereign.svg)Vereign](https://www.vereign.com)
+    Email and documents security
+- [![](./img/logos/logo_arkane.png)Arkane](https://arkane.network)
+    Wallet as platform for blockchain apps
+- [![](./img/logos/logo_kingfootbal.png)King Football](https://kingfootball.com)
+    Verify football merchandise authenticity
+- [![](./img/logos/logo_crowdholding.svg)Crowdholding](https://www.crowdholding.com)
+    Crowd funding
 
 <label for="more-logos">Show more</label>
 
