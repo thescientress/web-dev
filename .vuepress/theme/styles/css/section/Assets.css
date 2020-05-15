@@ -6,6 +6,7 @@
 #assets .section-content ul {
     columns: 2;
     list-style: inside;
+    margin-bottom: 30px;
 }
 
 #assets .cards {

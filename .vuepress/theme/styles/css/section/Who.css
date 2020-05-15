@@ -8,12 +8,13 @@
 #who li {
     align-items: center;
     display: flex;
-    flex-basis: 20%;
+    flex-basis: 12%;
     flex-direction: column;
     flex-grow: 1;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 16px;
     margin: 10px;
-    max-width: 230px;
+    max-width: 160px;
     text-align: center;
 }
 
@@ -24,16 +25,15 @@
     flex-direction: column;
     font-size: 18px;
     font-weight: 500;
-    height: 180px;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 20px;
-    max-width: 230px;
     text-decoration: none;
 }
 
 #who img {
-    flex-basis: 180px;
-    max-height: 130px;
+    flex-basis: 100px;
+    margin-bottom: 10px;
+    max-height: 100px;
     object-fit: contain;
     width: 90%;
 }
@@ -56,7 +56,7 @@
     border: 2px solid #f7296e;
     box-sizing: border-box;
     color: #fff;
-    display: flex;
+    display: none;
     flex-shrink: 0;
     font-family: inherit;
     font-size: 16px;
@@ -76,14 +76,6 @@
     cursor: pointer;
 }
 
-#who .default ul li:nth-child(n + 11) {
-    display: none;
-}
-
-#who :checked ~ ul li:nth-child(n + 11) {
-    display: unset;
-}
-
 #who :checked ~ p label {
     background: transparent;
     border: 2px solid #f7296e;
@@ -92,38 +84,43 @@
 }
 
 @media (max-width: 1366px) {
+    #who label {
+        display: flex;
+    }
+
     #who li {
-        max-width: none;
+        flex-basis: 110px;
+        max-width: 110px;
     }
 
-    #who .default ul li:nth-child(n + 11) {
-        display: unset;
-    }
-
-    #who .default ul li:nth-child(n + 9) {
+    #who .default ul li:nth-child(n + 8) {
         display: none;
     }
 
-    #who :checked ~ ul li:nth-child(n + 9) {
+    #who :checked ~ ul li:nth-child(n + 8) {
         display: unset;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    #who li {
-        flex-basis: 230px;
-        max-width: 230px;
+    #who li a {
+        height: 110px;
     }
 
-    #who .default ul li:nth-child(n + 9) {
+    #who img {
+        flex-basis: 80px;
+        max-height: 80px;
+    }
+
+    #who .default ul li:nth-child(n + 8) {
         display: unset;
     }
 
-    #who .default ul li:nth-child(n + 3) {
+    #who .default ul li:nth-child(n + 7) {
         display: none;
     }
 
-    #who :checked ~ ul li:nth-child(n + 3) {
+    #who :checked ~ ul li:nth-child(n + 7) {
         display: unset;
     }
 }
