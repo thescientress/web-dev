@@ -27,3 +27,9 @@
     list-style: initial;
     width: 70%;
 }
+
+@media screen and (max-width: 1023px) {
+    #assets .section-content ul {
+        columns: unset;
+    }
+}

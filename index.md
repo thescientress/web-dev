@@ -394,7 +394,6 @@ Programming libraries are available. Any Javascript developer can build a simple
 
 ::: slot buttons
 
-- [Documentation hub](https://aeternity.com/documentation-hub/)
 - [GitHub](https://github.com/aeternity)
 
 :::
@@ -743,6 +742,12 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   Developer Æmbassador Manager
   > ### **Omar Saadoun**
   > Omar Saadoun is a software engineer working on technology since ever. He worked as CEO of INMIND for many blockchain projects and discovered the full potential to unlock meaningful and real life projects in æternity. As technical lead of Americas, he is in touch with startups and companies to lead them in getting the best from æternity and make their technology succeed.
+
+- ![](./img/team/albena.jpg)
+  ## Albena Kostova
+  Superhero Aficionado
+  > ### **Albena Kostova**
+  > Albena joined the team with a fascination for blockchain technology and its potential to change how we conduct our lives. Holding a Bachelor's Degree in European Studies and a Master's in Entrepreneurship, she brings to us experience from work in Information Services, Due Diligence, and Anti-Money Laundering Services. Currently working as a Community Manager, Albena is responsible for moderating social media and other communication channels. Her previous work in online content has given her a healthy skepticism around what can be found online, so she now strives to provide our followers with a full picture and as much detailed information as possible. Through this work, Albena would love to see our community grow worldwide, to attract next big app to be developed on æternity blockchain.
 
 -
 -

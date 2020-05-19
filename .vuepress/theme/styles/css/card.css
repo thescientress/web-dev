@@ -144,14 +144,15 @@
     }
 
     .cards > ul > li:before {
-        content: '( ' var(--num) " / " var(--total) " )" !important;
-        font-size: 16px;
+        content: '( ' var(--num) ' / ' var(--total) ' )' !important;
+        font-size: 12px;
         font-weight: 500;
         left: 0;
+        opacity: 0.3;
         position: absolute;
         right: 0;
         text-align: center;
-        top: -40px;
+        top: -30px;
     }
 
     .cards > ul > li:only-of-type:before {
