@@ -807,6 +807,8 @@ ecosystem. We might even fund your project.
 
 <input type="checkbox" id="more-logos">
 
+- [![](./img/logos/superhero.svg)Superhero.com](https://superhero.com)
+    Tip content creators and any public URL
 - [![](./img/logos/logo_airgap.png)Airgap](https://airgap.it)
     Wallet
 - [![](./img/logos/logo_vereign.svg)Vereign](https://www.vereign.com)
