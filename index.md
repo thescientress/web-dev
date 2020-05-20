@@ -600,13 +600,13 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   ## Tobias Lindahl
   Core Developer
   > ### **Tobias Lindahl**
-  > Tobias joined æternity, seeing it as an excellent opportunity to learn more about blockchain. Holding a Masters of Science in Engineering Physics, he spent five years in academia, doing research in the field of compilers, virtual machines, and static analysis. Tobias currently works as an Erlang developer, involved in most parts of the æternity node, including core functionality as well as the development of virtual machines for executing smart contracts. His expertise in building highly available, robust, fault tolerant Erlang systems makes him a vital addition to our core team. Tobias sees blockchain as a decentralized counterweight to the current systems of our world and believes that when the two worlds meet, this synergy will create something new and better.
+  > Tobias joined æternity after seeing it as an excellent opportunity to learn more about blockchains. Holding a master's degree in Science in Engineering Physics, he spent five years in academia, doing research in the field of compilers, virtual machines, and static analysis. Tobias currently works as an Erlang developer, involved in most parts of the æternity node, including core functionality as well as the development of virtual machines for executing smart contracts. His expertise in building highly available, robust, fault-tolerant Erlang systems makes him a vital addition to the core team. Tobias sees blockchain as a decentralized counterweight to the current systems of our world and believes that when the two worlds meet, this synergy will create something new and better.
 
 - ![](./img/team/erik-stenman.jpg)
   ## Erik Stenman
   Core Developer
   > ### **Erik Stenman** [g](https://github.com/happi) [t](https://twitter.com/erik_stenman)
-  > Erik joined the project on finding interesting challenges inside constructing a new blockchain and creating an execution environment on top of it. Holding a Ph.D in Computer Science and extensive experience in programming language development for both Erlang and Scala, he has worked with virtual machines for Virtutech and as the CTO of one of Sweden's most successful fintech startups - Klarna. Currently he is working on smart contracts, languages and the core of the æternity node. His experience with running a number of small startups in such diverse fields as gaming, real estate and gastronomy, makes him a valuable addition to our core team. Erik hopes through his work to build a safe and efficient virtual machine for smart contract execution on top of the æternity blockchain.
+  > Erik joined the project because he finds interesting challenges within constructing a new blockchain and creating an execution environment on top of it. Holding a Ph.D in Computer Science and extensive experience in programming language development for both Erlang and Scala, he has worked with virtual machines for Virtutech and served as the CTO of one of Sweden's most successful fintech startups - Klarna. Currently he is working on smart contracts, languages, and the core of the æternity node. His experience with running a number of small startups in such diverse fields as gaming, real estate, and gastronomy, makes him a valuable addition to our core team. Erik hopes to build a safe and efficient virtual machine for smart contract execution on top of the æternity blockchain.
 
 - ![](./img/team/dincho.jpg)
   ## Dincho Todorov
@@ -744,7 +744,7 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   ## Albena Kostova
   Superhero Aficionado
   > ### **Albena Kostova**
-  > Albena joined the team with a fascination for blockchain technology and its potential to change how we conduct our lives. Holding a Bachelor's Degree in European Studies and a Master's in Entrepreneurship, she brings to us experience from work in Information Services, Due Diligence, and Anti-Money Laundering Services. Currently working as a Community Manager, Albena is responsible for moderating social media and other communication channels. Her previous work in online content has given her a healthy skepticism around what can be found online, so she now strives to provide our followers with a full picture and as much detailed information as possible. Through this work, Albena would love to see our community grow worldwide, to attract next big app to be developed on æternity blockchain.
+  > Albena joined the team with a fascination for blockchain technology and its potential to change how we conduct our lives. Holding a bachelor's degree in European Studies and a master's degree in Entrepreneurship, she brings her experience in Information Services, Due Diligence, and Anti-Money Laundering Services. Currently focusing on outreach to expand mainstream use through Superhero, Albena is responsible for onboarding new users to the platform. Through her work, Albena is pushing to grow the community worldwide at a massive rate, and to deliver a free and fairer Internet to those who need it the most through æternity technology.
 
 - ![](./img/team/helmut-muller.jpg)
   ## Helmut Müller
@@ -808,7 +808,7 @@ ecosystem. We might even fund your project.
 <input type="checkbox" id="more-logos">
 
 - [![](./img/logos/superhero.svg)Superhero.com](https://superhero.com)
-    P2P platform for tipping any content with a public URL
+    Tip content creators and any public URL
 - [![](./img/logos/logo_airgap.png)Airgap](https://airgap.it)
     Wallet
 - [![](./img/logos/logo_vereign.svg)Vereign](https://www.vereign.com)
