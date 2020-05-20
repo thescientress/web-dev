@@ -2,15 +2,15 @@
 <script>
     export default {
         props: {
-            'selector': { type: String, default: '.team > ul > li' },
+            'selector': { type: String, default: '.team > ul' },
         },
         methods: {
             randomize($el) {
-                $el.querySelectorAll(this.selector)
-                    .forEach(el => {
-                        let rnd = Math.floor(Math.random() * 100);
-                        el.style.cssText = `order: ${rnd}`;
-                    });
+                let ul = $el.querySelectorAll(this.selector)[0];
+                for (let i = ul.children.length; i >= 0; i--) {
+                    ul.appendChild(ul.children[Math.floor(Math.random() * i | 0)]);
+                }
+                ul.classList.add('ordered');
             },
         },
         mounted() {
