@@ -25,8 +25,8 @@
 }
 
 .team {
-    position: relative;
     margin-top: 50px;
+    position: relative;
 }
 
 .team > h1, .team > h2 {
@@ -50,8 +50,14 @@
     flex-basis: 220px;
     flex-direction: column;
     margin: 0 30px 100px;
+    opacity: 0;
     text-align: center;
+    transition: opacity 0.2s linear;
     width: 220px;
+}
+
+.team > ul > li[style*=order] {
+    opacity: 1;
 }
 
 .team > ul > li:empty {

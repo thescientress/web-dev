@@ -512,8 +512,6 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 
 ::: slot team
 
-# Core Development
-
 - ![](./img/team/tino-breddin.jpg)
   ## Tino Breddin
   Core Developer
@@ -529,7 +527,7 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 - ![](./img/team/hans.jpg)
   ## Hans Svensson
   Core Developer
-  > ### **Hans Svensson** *hanssv.chain*
+  > ### **Hans Svensson** *hanssv.chain* [g](https://github.com/hanssv)
   > Hans joined the project for the challenge and fun of building a state-of-the-art blockchain in Erlang. With a master's degree in Engineering Physics and a PhD in Computer Science, he previously worked in research, testing and verifying distributed software in Erlang. Hans has consulted for major European companies, including Ericsson and Volvo. Currently he works as a QuickCheck Expert working on contracts and the Sophia language, as well as improving stability and performance during load. His fascination with new technology, and expertise in researching, developing and testing distributed software makes him an excellent addition to our team. Hans would like to see his work contribute to solving hard software development problems for æternity, through designing a versatile, modern blockchain. 
 
 - ![](./img/team/karol-skocik.jpg)
@@ -571,7 +569,7 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 - ![](./img/team/thomasarts.jpg)
   ## Thomas Arts
   Core Developer
-  > ### **Thomas Arts**
+  > ### **Thomas Arts** [g](https://github.com/ThomasArts) [in](https://www.linkedin.com/in/thomasarts/)
   > Thomas joined the æternity team because of his desire to learn more about cryptography, software security, and blockchain technology. Holding a PhD in Computer Science and working as a Professor in software engineering, he has over 20 years of experience programming Erlang. Currently, he develops backend code for æternity, whilst writing and analyzing QuickCheck tests, including security analysis and the creation of a threat-model. As a senior computer scientist and Erlang expert, his easygoing and curious nature combine well with his strong mathematical background, allowing him to bring both theoretical and practical experience to the team. Thomas’ analytical skills are invaluable in detecting any errors in the system, thereby increasing the scope and abilities for the future of trustless applications. 
  
 - ![](./img/team/michal.jpg)
@@ -598,16 +596,23 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   > ### **Nikita Fuchs**
   > Nikita joined the team because he saw it as a chance to create a great protocol for trustless decentralization, fairness, and transparency. Bringing a background in Business Informatics and building production-grade solutions on the Ethereum Blockchain to the development side, he currently works as a Blockchain Application Developer and development coordinator in conjunction with the æpps and core development team. The æternity project benefits from his economics studies which currently amplify his ability to aid the team in the development and creation of various applications, as laws of value are an essential part of blockchain technology. Through this work, Nikita hopes to be able to aid in the creation of a mass-scalable, fair protocol, by the people- for the people.
 
+- ![](./img/team/tobias-lindahl.jpg)
+  ## Tobias Lindahl
+  Core Developer
+  > ### **Tobias Lindahl**
+  > Tobias joined æternity, seeing it as an excellent opportunity to learn more about blockchain. Holding a Masters of Science in Engineering Physics, he spent five years in academia, doing research in the field of compilers, virtual machines, and static analysis. Tobias currently works as an Erlang developer, involved in most parts of the æternity node, including core functionality as well as the development of virtual machines for executing smart contracts. His expertise in building highly available, robust, fault tolerant Erlang systems makes him a vital addition to our core team. Tobias sees blockchain as a decentralized counterweight to the current systems of our world and believes that when the two worlds meet, this synergy will create something new and better.
+
+- ![](./img/team/erik-stenman.jpg)
+  ## Erik Stenman
+  Core Developer
+  > ### **Erik Stenman** [g](https://github.com/happi) [t](https://twitter.com/erik_stenman)
+  > Erik joined the project on finding interesting challenges inside constructing a new blockchain and creating an execution environment on top of it. Holding a Ph.D in Computer Science and extensive experience in programming language development for both Erlang and Scala, he has worked with virtual machines for Virtutech and as the CTO of one of Sweden's most successful fintech startups - Klarna. Currently he is working on smart contracts, languages and the core of the æternity node. His experience with running a number of small startups in such diverse fields as gaming, real estate and gastronomy, makes him a valuable addition to our core team. Erik hopes through his work to build a safe and efficient virtual machine for smart contract execution on top of the æternity blockchain.
+
 - ![](./img/team/dincho.jpg)
   ## Dincho Todorov
   Technical support
   > ### **Dincho Todorov** *dincho.chain*
   > Dincho joined the project because of his passion for cryptography and excitement to work with a “dream team” of large-scale technology. With a bachelor's degree in Computer Systems and Technologies, and a master's degree in Software Engineering, he has worked in web and mobile development and as the CTO of both a web startup and a mobile development agency. Currently working in SRE, he is responsible for configuring, running and deploying our testnet/mainnet/dev environments. His expertise in networks, web, and mobile make him uniquely suited to helping the team build better products. Through his work, Dincho would like to see the development of fully autonomous processes, contribute to a great user experience, and ultimately provide an innovative, secure, and stable technology. 
--
--
--
-
-# Superhero Development
 
 - ![](./img/team/milen-radkov.jpg)
   ## Milen Radkov
@@ -662,15 +667,11 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   Superhero Developer
   > ### **Dmitry Kostin** *paradise.chain*
   > Dmitry was educated with capability to solve problems on any language or framework. He found the idea of decentralized applications—widely used in cryptocurrency projects—very interesting for testing his skills. After more than a year of supporting the development of the Base Aepp, connecting it with other wallets and improving ease of use for dApp developers, he seeks to further improve cryptowallets and expand their usage. 
--
--
-
-# Design
 
 - ![](./img/team/ivaylo-badinov.jpg)
   ## Ivaylo Badinov
   Design Lead
-  > ### **Ivaylo Badinov** *jeanlucpicard.chain* [f](https://github.com/venimus) [in](https://www.linkedin.com/in/badinov/)
+  > ### **Ivaylo Badinov** *jeanlucpicard.chain* [g](https://github.com/venimus) [in](https://www.linkedin.com/in/badinov/)
   > Ivaylo is from Varna, Bulgaria. For the last 20 years he worked in development from scratch of multiple web-based business, educational, and social platforms as well as various start-ups. Although having a master's degree in Electronics, he chose to work in software development. He first joined æternity in June 2019 as Site Reliability Engineer and later pivoted as a front-end developer and Lead for designers. He also maintains the æternity.com website and manages operations for Superhero.
 
 - ![](./img/team/tsvetan-kolev.jpg)
@@ -684,10 +685,6 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   Designer
   > ### **Boris Bolonjek** *dubbwise.chain*
   > Boris is a senior full-stack product designer with experience in automotive, blockchain, gaming, productivity, no-code, edu, and fintech startups.
--
--
-
-# Communications & Marketing
 
 - ![](./img/team/leah-stuhltrager.jpg)
   ## Leah Stuhltrager
@@ -749,11 +746,6 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   > ### **Albena Kostova**
   > Albena joined the team with a fascination for blockchain technology and its potential to change how we conduct our lives. Holding a Bachelor's Degree in European Studies and a Master's in Entrepreneurship, she brings to us experience from work in Information Services, Due Diligence, and Anti-Money Laundering Services. Currently working as a Community Manager, Albena is responsible for moderating social media and other communication channels. Her previous work in online content has given her a healthy skepticism around what can be found online, so she now strives to provide our followers with a full picture and as much detailed information as possible. Through this work, Albena would love to see our community grow worldwide, to attract next big app to be developed on æternity blockchain.
 
--
--
-
-# Business Development
-
 - ![](./img/team/helmut-muller.jpg)
   ## Helmut Müller
   Æternity Labs CEO
@@ -771,9 +763,6 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   Enterprise Lead Æmbassador
   > ### **Gonzalo Sobral**
   > Gonzalo has a degree in Communication and a master's degree in Business Administration. For the last 20 years he has been working as Business Developer and Consultant in Digital Transformation in companies related to Data Science, Blockchain and Digital Marketing. He developed his journalistic career in radio, written press, TV and web during the last 35 years. He also teaches Innovation, Ethics and Corporate Communication at University.
--
-
-# Operations
 
 - ![](./img/team/ingmar-zechlin.jpg)
   ## Ingmar Zechlin
@@ -800,21 +789,12 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   > Thomas Nägele, Attorney at Law at NÄGELE Attorneys at Law LLC, focuses on legal advice in the area of IT law. The handling of legal advice surrounding blockchain technology requires both legal expertise and knowledge of IT, two areas in which Mr. Nägele undoubtedly possesses the requisite skills. Outside of his formal legal education and numerous years of experience in the legal industry, and his knowledge in the area of IT is unsurpassed; witnessed by his continued involvement in software programming over the past 10 years, combined with his involvement with Bitcoin and Blockchain technology since 2011. Thomas also advises clients in international finance, technology and industrial enterprises, operating in the fields of Blockchain/DLT, telecommunications and internet, as well as public institutions. Besides being Attorney and legal Advisor, he teaches at the University of Liechtenstein, giving lectures and presentations on the newest legal developments. Serving as co-founder of the CCA, Mr. Nägele can be viewed as responsible for numerous developments regarding information technology within the county.   
 -
 
-#
-
--
-
-- ![](./img/team/-you-.jpg)
-  ## You
-  We are hiring
-  > ### **You**
--
-
 :::
 
 </Section>
 
 <ClickableElements selector="#team_members li" excludeSelector=".active blockquote"/>
+<Randomize />
 
 <Particles id="particles-who" />
 

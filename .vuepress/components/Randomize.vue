@@ -2,19 +2,20 @@
 <script>
     export default {
         props: {
-            'selector': { type: String, default: '.cards > ul' },
+            'selector': { type: String, default: '.team > ul > li' },
         },
         methods: {
-            initCards($el) {
+            randomize($el) {
                 $el.querySelectorAll(this.selector)
                     .forEach(el => {
-                        el.style.cssText = `--total: '${el.childElementCount}'`;
+                        let rnd = Math.floor(Math.random() * 100);
+                        el.style.cssText = `order: ${rnd}`;
                     });
             },
         },
         mounted() {
             this.$nextTick(() => {
-                this.initCards(document);
+                this.randomize(document);
             });
         },
     };
