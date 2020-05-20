@@ -1,17 +1,17 @@
 <section id="protocol" class="section section--normal">
     <div class="section-content section-content--normal">
-        <h2>The æternity Protocol is</h2>
+        <h2>The æternity protocol</h2>
     </div>
     <div class="protocol">
         <div class="protocol-bullets">
             <label for="Universal"></label>
             <label for="Secure"></label>
             <label for="Scalable"></label>
-            <label for="Efficient-low-to-no-fees"></label>
+            <label for="Efficient: low-to-no-fees"></label>
             <label for="Interoperable-Oracles"></label>
             <label for="Open-Source"></label>
             <label for="Decentralized"></label>
-            <label for="Public-and-Private"></label>
+            <label for="Public-and-Private Use"></label>
             <label for="User-Friendly"></label>
             <label for="Governance"></label>
             <label for="Development-Sustainability"></label>
@@ -25,7 +25,7 @@
                     <h3>Universal</h3>
                     <div>
                         <p>
-                            The æternity protocol is capable of supporting anything that first-generation Smart Contract platforms can. And more. It can power <b>Games, Payments, Identity, Decentralized Finance, Registries, Token-Economies, Supply Chains and more</b>. Many of its applications have not been discovered yet. <b>The future is yours.</b>
+                            The æternity protocol is capable of supporting anything that first-generation Smart Contract platforms can—and more. It can power <b>Games, Payments, Identity Systems, Decentralized Finance, Registries, Token-Economies, Supply Chains, and more</b>. Many of its applications have not even been discovered yet. <b>The future is yours.</b>
                         </p>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                             To scale to billions of users and transactions, the æternity protocol provides trustless off-chain scaling with <a href="https://github.com/aeternity/protocol/blob/master/channels/README.md">State Channels</a> technology. Without compromising on security, State Channels allow peer-to-peer transactions and Smart Contract execution off-chain. Channels can be opened and closed in parallel, enabling unlimited scalability.
                         </p>
                         <p>
-                            æternity's consensus protocol - <a href="https://github.com/aeternity/protocol/blob/128ef275ae8ed956d62eedb240b64c26b714ce85/consensus/bitcoin-ng.md">Bitcoin-NG</a> - is fast. With on-chain speeds reaching 120tx/s, æternity is about 8 times faster than Ethereum and about 15 times faster than Bitcoin. Block confirmation times are as low as 3 seconds, which significantly improves the user experience.
+                            æternity's consensus protocol - <a href="https://github.com/aeternity/protocol/blob/128ef275ae8ed956d62eedb240b64c26b714ce85/consensus/bitcoin-ng.md">Bitcoin-NG</a> - is fast. With on-chain speeds reaching 120tx/s, æternity is about 8 times faster than Ethereum and about 15 times faster than Bitcoin. Block confirmation times are as low as 3 seconds, which significantly improves user experience.
                         </p>
                     </div>
                 </div>
