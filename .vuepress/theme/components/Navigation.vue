@@ -10,6 +10,21 @@
                 <button v-on:click="toggleNav"></button>
                 <ul class="nav-items" v-on:click.stop="toggleNav">
                     <li class="nav-item">
+                        <a href="#innovative">Innovation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#sophia">Developers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#interfaces">Tokens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#community">Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/keypair/white-paper/blob/master/paper.pdf" target="_blank">Whitepaper</a>
+                    </li>
+                    <li class="nav-item right">
                         <a href="https://forum.aeternity.com" target="_blank">Forum</a>
                     </li>
                     <li class="social">

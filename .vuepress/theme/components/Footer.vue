@@ -42,7 +42,11 @@
             </ul>
         </div>
         <div class="legal">
-            <a @click="resetCookies()">Cookies</a> |
+            <a href="https://github.com/aeternity/web-dev" target="_blank">
+                <img src="../../../img/Footer_Github.svg" alt="">
+                Change this website
+            </a>
+            <a @click.prevent="resetCookies()" href="#">Cookies</a>
             <a href="./cookies-policy.html">Legal imprint</a>
         </div>
     </footer>

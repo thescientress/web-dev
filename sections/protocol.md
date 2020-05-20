@@ -1,6 +1,6 @@
 <section id="protocol" class="section section--normal">
     <div class="section-content section-content--normal">
-        <h2>The æternity Protocol is</h2>
+        <h2>The æternity protocol is</h2>
     </div>
     <div class="protocol">
         <div class="protocol-bullets">

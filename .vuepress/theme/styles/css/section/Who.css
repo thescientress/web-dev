@@ -1,3 +1,7 @@
+#who p {
+    text-align: center;
+}
+
 #who ul {
     display: flex;
     flex-wrap: wrap;

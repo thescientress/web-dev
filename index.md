@@ -105,92 +105,6 @@ By redesigning blockchain technology at the protocol level, the æternity develo
 :::
 
 </Section>
-<Section id="brief_history">
-
-## History
-
-- **2020+** forecast of a million æpp transactions by legal blockchain entities
-- **2019** æternity universe ecosystem and first tokens on æ
-- **2018** æternity Mainnet blockchain launch
-- **2017** crowdfunding over BTC and ETH
-- **2016** initial company forms in Liechtenstein
-
-</Section>
-<Section id="technical_advantages" type="fancy">
-
-<video autoplay loop muted playsinline onload="this.play()" preload="metadata">
-  <source src="./img/background.mp4#t=29" type="video/mp4">
-</video>
-
-## Technical advantages
-
-- ![](./img/No_Scaling_Icon.svg)
-  No scaling limits with built-in trustless, off-chain State Channels
-- ![](./img/Security_icon.svg)
-  Highest security standards with a type-safe VM and functional Smart Contract language
-- ![](./img/Confirmation_Time_icon.svg)
-  ~3 second block confirmation times
-- ![](./img/Low_fees_Icon.svg)
-  Low on-chain fees due to highly optimized consensus, VM, and native transaction types
-- ![](./img/No_fees_Icon.svg)
-  No off-chain fees for transactions and Smart Contract execution in State Channels
-- ![](./img/Naming_System_icon.svg)
-  Built-in Naming System for human-readable names
-- ![](./img/Private_Transaction_icon.svg)
-  Private transactions and smart contracts in state channels
-- ![](./img/Build_in_Oracles_icon.svg)
-  Built-in Oracles for accessing external API’s and real world data
-- ![](./img/Highly_Flexible_Icon.svg)
-  Highly flexible generalized account model supporting all types of signing options
-
-> ![](./img/Erlang_Icon-alt.svg) 
-> 
-> Reference implementation written in Erlang by industry experts, the language that powers 90% of today’s world wide web. [Learn more](https://en.wikipedia.org/wiki/Erlang_(programming_language))
-
-</Section>
-
-<Section id="state_channels">
-
-## State Channels
-
-State channels make it possible to execute smart contracts off-chain. The blockchain enforces the 
-smart contract code only in the case of a disagreement between the contracting parties. 
-
-::: slot bottom
-
-![](./img/State_Channels.svg)
-
-> ### State Channels
-> 
-> æternity can scale to billions
-> of transactions with off-chain
-> State Channels. [Read more](https://aeternity.com/documentation-hub/protocol/channels/)
-
-:::
-
-</Section>
-
-<Section id="inner_workings" type="fancy">
-
-## Less noise. More work.
-
-Featured in Electric Capital’s Report for being among the projects with the most committed developers per month — over 50. It is also noted that æternity has an impressive amount of dev activity ranking top 5 according to Santiment.
-
-![](./img/Dev_Chart.svg)
-
-> 1/31/2018 - 1/31/2019 -- Electric Capital Internal Data.
-> Excluding private repositories.
-
-## The structure of æternity
-
-![](./img/Inner_Workings.svg)
-
-</Section>
-
-<Include path="sections/protocol" />
-
-<Particles id="particles-protocol" />
-
 
 <Section id="assets">
 
@@ -237,6 +151,91 @@ including, but not limited to:
   * Regulatory Certifications
 
 :::
+
+</Section>
+
+<Section id="brief_history">
+
+## History
+
+- **2020+** forecast of a million æpp transactions by legal blockchain entities
+- **2019** æternity universe ecosystem and first tokens on æ
+- **2018** æternity Mainnet blockchain launch
+- **2017** crowdfunding over BTC and ETH
+- **2016** initial company forms in Liechtenstein
+
+</Section>
+
+<Section id="technical_advantages" type="fancy">
+
+<video autoplay loop muted playsinline onload="this.play()" preload="metadata">
+  <source src="./img/background.mp4#t=29" type="video/mp4">
+</video>
+
+## Technical advantages
+
+- ![](./img/No_Scaling_Icon.svg)
+  No scaling limits with built-in trustless, off-chain State Channels
+- ![](./img/Security_icon.svg)
+  Highest security standards with a type-safe VM and functional Smart Contract language
+- ![](./img/Confirmation_Time_icon.svg)
+  ~3 second block confirmation times
+- ![](./img/Low_fees_Icon.svg)
+  Low on-chain fees due to highly optimized consensus, VM, and native transaction types
+- ![](./img/No_fees_Icon.svg)
+  No off-chain fees for transactions and Smart Contract execution in State Channels
+- ![](./img/Naming_System_icon.svg)
+  Built-in Naming System for human-readable names
+- ![](./img/Private_Transaction_icon.svg)
+  Private transactions and smart contracts in state channels
+- ![](./img/Build_in_Oracles_icon.svg)
+  Built-in Oracles for accessing external API’s and real world data
+- ![](./img/Highly_Flexible_Icon.svg)
+  Highly flexible generalized account model supporting all types of signing options
+
+> ![](./img/Erlang_Icon-alt.svg) 
+> 
+> Reference implementation written in Erlang by industry experts, the language that powers 90% of today’s world wide web. [Learn more](https://en.wikipedia.org/wiki/Erlang_(programming_language))
+
+</Section>
+
+<Include path="sections/protocol" />
+
+<Section id="state_channels">
+
+## State Channels
+
+State channels make it possible to execute smart contracts off-chain. The blockchain enforces the 
+smart contract code only in the case of a disagreement between the contracting parties. 
+
+::: slot bottom
+
+![](./img/State_Channels.svg)
+
+> ### State Channels
+> 
+> æternity can scale to billions
+> of transactions with off-chain
+> State Channels. [Read more](https://aeternity.com/documentation-hub/protocol/channels/)
+
+:::
+
+</Section>
+
+<Section id="inner_workings" type="fancy">
+
+## Less noise. More work.
+
+Featured in Electric Capital’s Report for being among the projects with the most committed developers per month — over 50. It is also noted that æternity has an impressive amount of dev activity ranking top 5 according to Santiment.
+
+![](./img/Dev_Chart.svg)
+
+> 1/31/2018 - 1/31/2019 -- Electric Capital Internal Data.
+> Excluding private repositories.
+
+## The structure of æternity
+
+![](./img/Inner_Workings.svg)
 
 </Section>
 
