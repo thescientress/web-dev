@@ -198,6 +198,7 @@
 
 .team > ul > li blockquote a:before {
     background-repeat: no-repeat;
+    background-size: contain;
     content: " ";
     display: inline-flex;
     height: 20px;
@@ -227,6 +228,10 @@
 
 .team > ul > li blockquote a[href*="youtube.com"]:before {
     background: #fff url("../../../../../img/Team_youtube.svg");
+}
+
+.team > ul > li blockquote a[href*="forum.aeternity.com"]:before {
+    background: #fff url("../../../../../img/Team_Member.svg");
 }
 
 .team > ul > li blockquote h3 em:before {
