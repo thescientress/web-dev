@@ -46,6 +46,9 @@
                 <img src="../../../img/Footer_Github.svg" alt="">
                 Change this website
             </a>
+            <a href="https://raw.githubusercontent.com/keypair/white-paper/master/aeternity-whitepaper.pdf" target="_blank">
+                Whitepaper
+            </a>
             <a @click.prevent="resetCookies()" href="#">Cookies</a>
             <a href="./cookies-policy.html">Legal imprint</a>
         </div>

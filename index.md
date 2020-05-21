@@ -104,6 +104,12 @@ By redesigning blockchain technology at the protocol level, the æternity develo
 
 :::
 
+::: slot buttons
+
+- [Read the Whitepaper](https://raw.githubusercontent.com/keypair/white-paper/master/aeternity-whitepaper.pdf)
+
+:::
+
 </Section>
 
 <Section id="assets">
@@ -393,6 +399,7 @@ Programming libraries are available. Any Javascript developer can build a simple
 
 ::: slot buttons
 
+- [Whitepaper](https://raw.githubusercontent.com/keypair/white-paper/master/aeternity-whitepaper.pdf)
 - [GitHub](https://github.com/aeternity)
 
 :::
@@ -792,7 +799,7 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 </Section>
 
 <ClickableElements selector="#team_members li" excludeSelector=".active blockquote"/>
-<Randomize />
+<Randomize selector=".team > ul"/>
 
 <Particles id="particles-who" />
 
@@ -847,17 +854,19 @@ ecosystem. We might even fund your project.
     Verify football merchandise authenticity
 - [![](./img/logos/logo_crowdholding.svg)Crowdholding](https://www.crowdholding.com)
     Crowd funding
--
--
--
--
--
--
--
 
 <label for="more-logos">Show more</label>
 
 </Section>
 
+<Section id="news">
+
+## News & Updates
+
+<Topics id="announcements" category="announcements" :pinned="true" :count="3" :show-meta="true"/>
+
+</Section>
+
+<Randomize selector="#who ul"/>
 <ClickableElements selector=".ribbon > ul > li" excludeSelector=".ribbon > ul > li a" />
 <CardsCounter />

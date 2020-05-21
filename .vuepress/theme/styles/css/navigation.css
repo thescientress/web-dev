@@ -217,7 +217,6 @@ main {
 
     .logo {
         flex-basis: 166px;
-        flex-grow: 1;
     }
 
     .pages {

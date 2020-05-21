@@ -92,6 +92,11 @@
         display: flex;
     }
 
+    #who ul {
+        max-width: 930px;
+        width: 100%;
+    }
+
     #who li {
         flex-basis: 110px;
         max-width: 110px;

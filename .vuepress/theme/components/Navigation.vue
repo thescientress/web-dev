@@ -13,7 +13,10 @@
                         <a href="#innovative">Innovation</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#sophia">Developers</a>
+                        <a href="#sophia">Sophia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#developer_tools">Developers</a>
                     </li>
                     <li class="nav-item">
                         <a href="#interfaces">Tokens</a>
@@ -22,7 +25,13 @@
                         <a href="#community">Community</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://github.com/keypair/white-paper/blob/master/paper.pdf" target="_blank">Whitepaper</a>
+                        <a href="#team_members">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#news">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://raw.githubusercontent.com/keypair/white-paper/master/aeternity-whitepaper.pdf" target="_blank">Whitepaper</a>
                     </li>
                     <li class="nav-item right">
                         <a href="https://forum.aeternity.com" target="_blank">Forum</a>
