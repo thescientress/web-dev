@@ -87,12 +87,15 @@
 }
 
 .buttons li p {
+    align-items: center;
+    display: flex;
     font-size: 14px;
     line-height: 40px;
 }
 
 .buttons li p img {
     margin-right: 5px;
+    height: 20px;
 }
 
 @media screen and (max-width: 1366px) {

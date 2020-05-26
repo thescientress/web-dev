@@ -4,7 +4,8 @@
     "cross-fetch": "^3.0.4",
     "markdown-it": "^10.0.0",
     "markdown-it-attrs": "^3.0.2",
-    "vuepress": "^1.5.0"
+    "vuepress": "^1.5.0",
+    "watchpack": "1.6.1"
   },
   "scripts": {
     "dev": "vuepress dev",
@@ -12,6 +13,7 @@
     "build": "vuepress build"
   },
   "dependencies": {
+    "country-flag-icons": "^1.2.1",
     "js-cookie": "^2.2.1",
     "particles.js": "^2.0.0",
     "vue-gtag": "^1.2.0",

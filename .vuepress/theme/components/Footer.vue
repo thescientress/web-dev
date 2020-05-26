@@ -44,7 +44,7 @@
         <div class="legal">
             <a href="https://github.com/aeternity/web-dev" target="_blank">
                 <img src="../../../img/Footer_Github.svg" alt="">
-                Change this website
+                Edit this website
             </a>
             <a href="https://raw.githubusercontent.com/keypair/white-paper/master/aeternity-whitepaper.pdf" target="_blank">
                 Whitepaper

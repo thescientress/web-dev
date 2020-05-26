@@ -88,7 +88,7 @@
 }
 
 .team > ul > li > img,
-.team > ul > li > p > img {
+.team > ul > li > p:first-child > img {
     border-radius: 100%;
     cursor: pointer;
     height: 220px;
@@ -98,13 +98,25 @@
     width: 220px;
 }
 
-.team > ul > li:hover img {
+.team > ul > li:hover > p:first-child > img {
     transform: scale(1.05);
 }
 
-.team > ul > li.active img {
+.team > ul > li.active > p:first-child > img {
     filter: contrast(0.95) brightness(0.9) sepia(0.85) saturate(0.85) hue-rotate(290deg);
     transform: scale(1.05);
+}
+
+/* flags */
+.team > ul > li blockquote img,
+.team > ul > li h2 ~ p > img {
+    width: 24px;
+}
+
+.team > ul > li blockquote h4 {
+    font-size: initial;
+    font-weight: initial;
+    margin: initial;
 }
 
 .team > ul > li blockquote {

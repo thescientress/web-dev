@@ -74,6 +74,11 @@
     transition: all 0.2s;
 }
 
+#who li em {
+    color: #f7296e;
+    font-style: normal;
+}
+
 #who label:hover {
     background: transparent;
     color: #f7296e;

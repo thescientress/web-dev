@@ -47,7 +47,8 @@
     align-items: start;
     flex-basis: 360px;
     margin-right: 47px;
-    padding: 36px 39px 27px;
+    padding: 36px 29px 27px 39px;
+    text-align: start;
 }
 
 #interfaces .cards > ul > li:before {

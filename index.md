@@ -71,7 +71,7 @@ By redesigning blockchain technology at the protocol level, the æternity develo
 
 ::: slot ribbon
 
-- ![](./img/Ribbon_Smart_Contracts.svg) Smart contracts
+- ![](./img/Ribbon_Smart_Contracts.svg) Sophia smart contracts
   - ### Smart contracts: Sophia
     æternity smart contract programming is unique: Sophia is a typed functional programming language in the ML family that makes it easier to write correct programs.
 
@@ -81,7 +81,7 @@ By redesigning blockchain technology at the protocol level, the æternity develo
     The Fast æternity Transaction Engine, or FATE VM, uses a higher level of abstraction and automatically minimizes error with type checking, delivering a simpler, easier, safer programming environment.
 
     [Read more](https://github.com/aeternity/protocol/blob/e2940192379916fb21a053b3ab09d1dff2ac76ef/contracts/fate.md)
-- ![](./img/Ribbon_State_Channels.svg) Advanced State Channels
+- ![](./img/Ribbon_State_Channels.svg) Advanced state channels
   - ### Advanced State Channels Technology
     Unlike most blockchains, æternity’s core protocol was re-engineered specifically so it can accommodate state channels on a protocol level, making it easier to build applications for global-scale enterprise use cases. 
 
@@ -129,8 +129,20 @@ Below are a few use cases that would be highly beneficial for most organizations
 * IoT blockchain identities and hardware
 * Games
 
+::: slot buttons
+
+- [Edit this site](https://github.com/aeternity/web-dev/edit/master/index.md)
+
+  ![](./img/Github_Icon.svg) Create a PR
+
+:::
+
+::: slot bottom
+
 æternity delivers the power to tokenize both virtual and real-world assets
 including, but not limited to:
+
+:::
 
 ::: slot cards
 
@@ -410,14 +422,16 @@ Programming libraries are available. Any Javascript developer can build a simple
 
 ## Interfaces and clients
 
-Three major clients to interact with æternity blockchain applications, sign contract calls, and do transactions.
+Major clients to interact with æternity blockchain applications, sign contract calls, and do transactions.
 
 ::: slot cards
 
-- ### Base iOS/Android/Web Wallet and Browser
-  [View on GitHub](https://github.com/aeternity/aepp-base)
-- ### Wællet Browser Extension
-  [View on GitHub](https://github.com/aeternity/aepp-waellet)
+- ### AirGap
+  Secure storage
+  [Visit site](https://airgap.it)
+- ### Superhero Wallet
+  Web, mobile app, browser extension
+  [View on GitHub](https://github.com/aeternity/superhero-wallet)
 - ### Blockchain Explorers
   - [mainnet.aeternal.io](https://mainnet.aeternal.io)
   - [testnet.aeternal.io](https://testnet.aeternal.io)
@@ -430,7 +444,7 @@ Three major clients to interact with æternity blockchain applications, sign con
 ::: slot bottom
 
 A variety of community-built wallets are available, such as:
-- [![](./img/Air_Gap_Icon.svg) **Airgap Vault and Wallet**](https://airgap.it)
+- [![](./img/Air_Gap_Icon.svg) **Airgap Wallet**](https://airgap.it)
 - [![](./img/Trust_Wallet_Icon.svg) **Trust Wallet**](https://trustwallet.com)
 
 It is possible to buy æternity tokens on exchanges like Binance, OKex, Huobi, gate.io and many
@@ -501,7 +515,7 @@ To get the latest version of æternity node, please check out the [latest publis
 
 <Section id="team" type="default">
 
-## Hundreds of Contributors, Friends and Partners
+## Hundreds of contributors, friends and partners
 
 Founded by Yanislav Malahov, the community has grown to hundreds of contributors 
 and thousands of people all over the world. Having exchanged ideas and pursued blockchain endeavors with many of the greatest minds, 
@@ -520,9 +534,9 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 
 - ![](./img/team/tino-breddin.jpg)
   ## Tino Breddin
-  Core Developer
+  Core Contributor
   > ### **Tino Breddin** *botanicalcarebot.chain* 
-  > Tino started his career as a Systems Engineer at Erlang Solutions, where he helped build soft-realtime transaction systems and databases. After serving as Technical Director at Travelping, building the next-generation of SDN-enabled AAA appliances for telecoms, he founded daogames. At daogames, Tino built a scalable multi-tenant infrastructure for multiplayer games used by mobile game developers globally. Currently Tino serves as Chief Architect for AR/VR system development at Vragments, while helping move æternity Core development forward as team lead.
+  > Tino started his career as a Systems Engineer at Erlang Solutions, where he helped build soft-realtime transaction systems and databases. After serving as Technical Director at Travelping, building the next-generation of SDN-enabled AAA appliances for telecoms, he founded daogames. At daogames, Tino built a scalable multi-tenant infrastructure for multiplayer games used by mobile game developers globally. Currently Tino serves as Chief Architect for AR/VR system development at Vragments, while helping move æternity Core development forward.
 
 - ![](./img/team/ulf-w.jpg)
   ## Ulf Wiger
@@ -544,8 +558,9 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 
 - ![](./img/team/dimitar.jpg)
   ## Dimitar Ivanov
-  Core Developer
+  ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Core Developer
   > ### **Dimitar Ivanov** *dimitar.chain*
+  > #### ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Sofia, Bulgaria
   > Dimitar joined the project because he was impressed both by æternity’s balanced approach and the star team of developers already involved in it. With a bachelor’s degree in Software Engineering, he spent a couple of years writing banking software and as a result, now maintains a distinct mistrust of banks. He currently works as a software engineer and has participated in the development of every part of the æternity node. His ability to build rock-solid software, coupled with his fascination for the differences between traditional server software and blockchain (with regard to malicious nodes) makes him a valuable member of the team. He is happy to re-wire his brain to rise to this very interesting challenge. Through this work, Dimitar would like to make the world a better place. 
 
 - ![](./img/team/aleksandar-filipov.jpg)
@@ -604,26 +619,28 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 
 - ![](./img/team/tobias-lindahl.jpg)
   ## Tobias Lindahl
-  Core Developer
+  Core Contributor
   > ### **Tobias Lindahl**
   > Tobias joined æternity after seeing it as an excellent opportunity to learn more about blockchains. Holding a master's degree in Science in Engineering Physics, he spent five years in academia, doing research in the field of compilers, virtual machines, and static analysis. Tobias currently works as an Erlang developer, involved in most parts of the æternity node, including core functionality as well as the development of virtual machines for executing smart contracts. His expertise in building highly available, robust, fault-tolerant Erlang systems makes him a vital addition to the core team. Tobias sees blockchain as a decentralized counterweight to the current systems of our world and believes that when the two worlds meet, this synergy will create something new and better.
 
 - ![](./img/team/erik-stenman.jpg)
   ## Erik Stenman
-  Core Developer
+  Core Contributor
   > ### **Erik Stenman** [g](https://github.com/happi) [t](https://twitter.com/erik_stenman)
   > Erik joined the project because he finds interesting challenges within constructing a new blockchain and creating an execution environment on top of it. Holding a Ph.D in Computer Science and extensive experience in programming language development for both Erlang and Scala, he has worked with virtual machines for Virtutech and served as the CTO of one of Sweden's most successful fintech startups - Klarna. Currently he is working on smart contracts, languages, and the core of the æternity node. His experience with running a number of small startups in such diverse fields as gaming, real estate, and gastronomy, makes him a valuable addition to our core team. Erik hopes to build a safe and efficient virtual machine for smart contract execution on top of the æternity blockchain.
 
 - ![](./img/team/dincho.jpg)
   ## Dincho Todorov
-  Technical support
+  ![](~country-flag-icons/3x2/BG.svg "Varna, Bulgaria") Technical support
   > ### **Dincho Todorov** *dincho.chain*
+  > #### ![](~country-flag-icons/3x2/BG.svg "Varna, Bulgaria") Varna, Bulgaria
   > Dincho joined the project because of his passion for cryptography and excitement to work with a “dream team” of large-scale technology. With a bachelor's degree in Computer Systems and Technologies, and a master's degree in Software Engineering, he has worked in web and mobile development and as the CTO of both a web startup and a mobile development agency. Currently working in SRE, he is responsible for configuring, running and deploying our testnet/mainnet/dev environments. His expertise in networks, web, and mobile make him uniquely suited to helping the team build better products. Through his work, Dincho would like to see the development of fully autonomous processes, contribute to a great user experience, and ultimately provide an innovative, secure, and stable technology. 
 
 - ![](./img/team/milen-radkov.jpg)
   ## Milen Radkov
-  Technical Lead
+  ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Technical Lead
   > ### **Milen Radkov** *milenradkov.chain*
+  > #### ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Sofia, Bulgaria
   > Milen is a blockchain developer and enthusiast, software engineer and entrepreneur who started his blockchain journey as a miner. Since the beginning of 2019, he has also been part of the European Commission Blockchain Experts representing Bulgaria. He is the founder of hack.bg, focused on developing products, smart contracts, decentralised apps, and consulting for complex software systems and the blockchain space. Milen is also the organiser of several blockchain-related technological meetups in Bulgaria. He joined the development team responsible for the waellet browser extension and later on became involved in the specification of different standards. He is currently leading the development of Superhero.
 
 - ![](./img/team/keno-dressel.jpg)
@@ -646,20 +663,23 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 
 - ![](./img/team/valentin-angelov.jpg)
   ## Valentin Angelov
-  Superhero Developer
+  ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Superhero Developer
   > ### **Valentin Angelov**
+  > #### ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Sofia, Bulgaria
   > Valentin is a full stack developer. Joined aeternity because of his interest in blockchain technology, and was initially a part of the waellet development team. He is now working on Superhero.
 
 - ![](./img/team/stanislav-slavov.jpg)
   ## Stanislav Slavov
-  Superhero Developer
+  ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Superhero Developer
   > ### **Stanislav Slavov**
+  > #### ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Sofia, Bulgaria
   > Stanislav is a front-end developer with 5+ years of experience in developing scalable enterprise web applications and collaboration tools. He is adept in Agile, experienced in international and distributed team environments, passionate about English literature, as well as running and computer games.
 
 - ![](./img/team/petar-baykov.jpg)
   ## Petar Baykov
-  Superhero Developer
+  ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Superhero Developer
   > ### **Petar Baykov**
+  > #### ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Sofia, Bulgaria
   > Petar is a full-stack web developer currently working on the Superhero wallet and other parts of the project. He is currently completing his bachelor’s degree in Computer Science.
 
 - ![](./img/team/nikita-cedrik.jpg)
@@ -676,14 +696,16 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 
 - ![](./img/team/ivaylo-badinov.jpg)
   ## Ivaylo Badinov
-  Design Lead
+  ![](~country-flag-icons/3x2/BG.svg "Varna, Bulgaria") Design Lead
   > ### **Ivaylo Badinov** *jeanlucpicard.chain* [g](https://github.com/venimus) [in](https://www.linkedin.com/in/badinov/)
-  > Ivaylo is from Varna, Bulgaria. For the last 20 years he worked in development from scratch of multiple web-based business, educational, and social platforms as well as various start-ups. Although having a master's degree in Electronics, he chose to work in software development. He first joined æternity in June 2019 as Site Reliability Engineer and later pivoted as a front-end developer and Lead for designers. He also maintains the æternity.com website and manages operations for Superhero.
+  > #### ![](~country-flag-icons/3x2/BG.svg "Varna, Bulgaria") Varna, Bulgaria
+  > Ivaylo has 20 years of experience in development from scratch of multiple business, educational, and social platforms for various established companies and start-ups. Although having a master's degree in Electronics, he chose to work in the software development field. He first joined æternity in June 2019 as Site Reliability Engineer and later pivoted as a front-end developer and Lead for designers. He also maintains the æternity.com website and manages operations for Superhero.
 
 - ![](./img/team/tsvetan-kolev.jpg)
   ## Tsvetan Kolev
-  Senior Designer
+  ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Senior Designer
   > ### **Tsvetan Kolev** *tsvetan.chain* 
+  > #### ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Sofia, Bulgaria
   > Tsvetan is a Sofia-based web and visual designer focused on UI/UX, implementing the best practices of user-centered design in his work. He has over 10 years of experience in the design field, ranging from digital agencies and personal clients to product companies. He is excited about blockchain technology and its disruptive potential for innovation and transformation of different sectors of the global society and economy. He considers blockchain to be one of the leading technology trends defining the next decade and further. This particular interest led him to discover æternity blockchain, joining the team in the end of 2019 as a Senior Designer. 
 
 - ![](./img/team/boris-belonjek.jpg)
@@ -756,13 +778,13 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   ## Helmut Müller
   Æternity Labs CEO
   > ### **Helmut Müller**
-  > Helmut joined the team with a desire to get the word out about æternity’s fascinating work and state of the art blockchain. Having studied business, entrepreneurship and mechanical engineering, Helmut worked as a strategy consultant, and general manager for UK's fastest growing e-commerce startup and has been closely involved with the blockchain sphere since 2012. Currently he handles day-to-day marketing team alignments, focusing on process analysis and improvement. His previous work in strategy consulting helps him to analyze these processes to define strategy for better execution. Through this work, he would like to reestablish trust with the wider public regarding blockchain technology and blockchain funding, as well as contribute to more widespread usage of æternity blockchain. 
+  > Helmut joined the team with a desire to get the word out about æternity’s fascinating work and state of the art blockchain. Having studied business, entrepreneurship and mechanical engineering, Helmut worked as a strategy consultant, and general manager for UK's fastest growing e-commerce startup and has been closely involved with the blockchain sphere since 2012. Currently he handles day-to-day marketing team alignments, focusing on process analysis and improvement. His previous work in strategy consulting helps him to analyze these processes to define strategy for better execution. Through this work, he would like to reestablish trust with the wider public regarding blockchain technology and blockchain funding, as well as contribute to more widespread usage of æternity blockchain.
 
 - ![](./img/team/magnus-maynard.jpg)
   ## Magnus Maynard
   Head of Alliances
   > ### **Magnus Maynard**
-  > Magnus believes æternity is taking Blockchain to the next level, mass adoption. With an extensive background in advanced technologies and system integration across EMEA, Asia Pacific and North America; Magnus sees æternity Blockchain as the leading light in revolutionising business practice. Having personally led integration businesses and their clients from digital to IP & streaming, Magnus is now focussed on assisting æternity partners and their clients in bringing Blockchain into relevant aspects of their business. With a fundamental belief in decentralised principles, Magnus was attracted to æternity due to its progressive thinking around this area, not only in its offering but the way of life it provides. Magnus also believes that æternity provides an unprecedented opportunity to assist the evolution of business through blockchain. 
+  > Magnus believes æternity is taking Blockchain to the next level, mass adoption. With an extensive background in advanced technologies and system integration across EMEA, Asia Pacific and North America; Magnus sees æternity Blockchain as the leading light in revolutionising business practice. Having personally led integration businesses and their clients from digital to IP & streaming, Magnus is now focussed on assisting æternity partners and their clients in bringing Blockchain into relevant aspects of their business. With a fundamental belief in decentralised principles, Magnus was attracted to æternity due to its progressive thinking around this area, not only in its offering but the way of life it provides. Magnus also believes that æternity provides an unprecedented opportunity to assist the evolution of business through blockchain.
 
 - ![](./img/team/gonzalo-sobral.jpg)
   ## Gonzalo Sobral
@@ -774,13 +796,13 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   ## Ingmar Zechlin
   COO
   > ### **Ingmar Zechlin**
-  > Ingmar joined æternity because of his love for innovation on many levels which is embodied by æternity in  an outstanding way. He has a track record in change management and new technologies like digital  analytics,  data science and IoT, always focusing on business strategy on one hand and coordinating the  execution on the other. In his role as COO of æternity, he leads the overall operations team, including  Operations, legal, hr and finance with the aim to support the æternity project on its great journey into mainstream
+  > Ingmar joined æternity because of his love for innovation on many levels which is embodied by æternity in  an outstanding way. He has a track record in change management and new technologies like digital  analytics,  data science and IoT, always focusing on business strategy on one hand and coordinating the  execution on the other. In his role as COO of æternity, he leads the overall operations team, including  Operations, legal, hr and finance with the aim to support the æternity project on its great journey into mainstream.
 
 - ![](./img/team/tina.jpg)
   ## Tina Miao
   Operations Manager
   > ### **Tina Miao** *freelikeabird.chain*
-  > Tina joined æternity on seeing blockchain’s massive potential to disrupt the status quo of many industries. Holding a Bachelor’s degree in Engineering and a Master's degree in Computer Science, Tina has more than 15 years’ experience driving challenging IT projects in logistics, telecommunications and the medical device industry. Currently working for the æternity Crypto Foundation and development for the Asia-Pacific region, she also handles AE token listings. As a global citizen, she has worked in Australia, China, India, Malaysia, Switzerland and is now based in Liechtenstein. Technological advancements that facilitate scalability, transparency, and privacy truly excite Tina, and she would like to contribute to æternity becoming the blockchain with the largest worldwide adoption. 
+  > Tina joined æternity on seeing blockchain’s massive potential to disrupt the status quo of many industries. Holding a Bachelor’s degree in Engineering and a Master's degree in Computer Science, Tina has more than 15 years’ experience driving challenging IT projects in logistics, telecommunications and the medical device industry. Currently working for the æternity Crypto Foundation and development for the Asia-Pacific region, she also handles AE token listings. As a global citizen, she has worked in Australia, China, India, Malaysia, Switzerland and is now based in Liechtenstein. Technological advancements that facilitate scalability, transparency, and privacy truly excite Tina, and she would like to contribute to æternity becoming the blockchain with the largest worldwide adoption.
 
 - ![](./img/team/olga-polishchuk.jpg)
   ## Olga Polishchuck
@@ -790,9 +812,31 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 
 - ![](./img/team/thomas-nagele.jpg)
   ## Thomas Nägele
-  Legal Advisor
-  > ### **External Legal Advisor**
-  > Thomas Nägele, Attorney at Law at NÄGELE Attorneys at Law LLC, focuses on legal advice in the area of IT law. The handling of legal advice surrounding blockchain technology requires both legal expertise and knowledge of IT, two areas in which Mr. Nägele undoubtedly possesses the requisite skills. Outside of his formal legal education and numerous years of experience in the legal industry, and his knowledge in the area of IT is unsurpassed; witnessed by his continued involvement in software programming over the past 10 years, combined with his involvement with Bitcoin and Blockchain technology since 2011. Thomas also advises clients in international finance, technology and industrial enterprises, operating in the fields of Blockchain/DLT, telecommunications and internet, as well as public institutions. Besides being Attorney and legal Advisor, he teaches at the University of Liechtenstein, giving lectures and presentations on the newest legal developments. Serving as co-founder of the CCA, Mr. Nägele can be viewed as responsible for numerous developments regarding information technology within the county.   
+  External Legal Advisor
+  > ### **Thomas Nägele**
+  > Thomas Nägele, Attorney at Law at NÄGELE Attorneys at Law LLC, focuses on legal advice in the area of IT law. The handling of legal advice surrounding blockchain technology requires both legal expertise and knowledge of IT, two areas in which Mr. Nägele undoubtedly possesses the requisite skills. Outside of his formal legal education and numerous years of experience in the legal industry, and his knowledge in the area of IT is unsurpassed; witnessed by his continued involvement in software programming over the past 10 years, combined with his involvement with Bitcoin and Blockchain technology since 2011. Thomas also advises clients in international finance, technology and industrial enterprises, operating in the fields of Blockchain/DLT, telecommunications and internet, as well as public institutions. Besides being Attorney and legal Advisor, he teaches at the University of Liechtenstein, giving lectures and presentations on the newest legal developments. Serving as co-founder of the CCA, Mr. Nägele can be viewed as responsible for numerous developments regarding information technology within the county.
+
+- ![](./img/team/georgi-matev.jpg)
+  ## Georgi Matev
+  ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") External Legal Advisor
+  > ### **Georgi Matev**
+  > #### ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Sofia, Bulgaria
+  > Georgi Matev is a corporate lawyer, specializing the laws and regulations surrounding the state of blockchain and fintech technology on a local, EU and international level. He is Partner and Head of Blockchain and Innovation competence group of Rashev and Partners Law Firm, Bulgaria. He is a founding member and Chairman of the Balkan Blockchain Association, as well as a member of INATBA WG finance. Further, he is a member of the Bulgarian Governmental Blockchain working group, which is entitled to investigate blockchain applicability in the public and the financial sector and analyse the need for adoption of a blockchain related legislation. He was also among the founders and а Board member until 2017 of the Bulgarian Bitcoin Association.
+
+- ![](./img/team/viktoriya-veleva.jpg)
+  ## Viktoriya Veleva
+  ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") External Legal Advisor
+  > ### **Viktoriya Veleva**
+  > #### ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Sofia, Bulgaria
+  > Viktoriya Veleva is a legal consultant, taking an active part in the Blockchain and Innovation competence group of Rashev and Partners Law Firm, Bulgaria. She is the legal advisor of the Balkan Blockchain Association, situated in Sofia, Bulgaria. Ever since her first steps in the legal world, Viktoriya has had profound interest in the spheres of technological innovations and decentralized finance, tackling regulatory questions on local, regional and international levels. She is competent on the topics of digital security, crypto-asset legal frameworks, AML measures and DLT. Viktoriya believes that in a world which is so digitally-focused, the development of a digital single market is inevitable and the enhancement of innovations and technologies is of crucial importance.
+
+:::
+
+::: slot buttons
+
+- [Edit this site](https://github.com/aeternity/web-dev/edit/master/index.md)
+
+  ![](./img/Github_Icon.svg) Create a PR
 
 :::
 
@@ -801,36 +845,31 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 <ClickableElements selector="#team_members li" excludeSelector=".active blockquote"/>
 <Randomize selector=".team > ul"/>
 
-<Particles id="particles-who" />
-
 <Section id="who">
 
-## Who is using æternity
-
-There’s plenty of room for new products on the æternity platform. Newcomers are welcome to join the 
-ecosystem. We might even fund your project. 
+## Here are some projects that use æternity
 
 <input type="checkbox" id="more-logos">
 
-- [![](./img/logos/superhero.svg)Superhero.com](https://superhero.com)
+- [![](./img/logos/superhero.svg)*Superhero.com*](https://superhero.com)
     Tip content creators and any public URL
-- [![](./img/logos/logo_airgap.png)Airgap](https://airgap.it)
-    Wallet
-- [![](./img/logos/logo_vereign.svg)Vereign](https://www.vereign.com)
-    Email and documents security    
-- [![](./img/logos/logo_lexon.png)Lexon](http://lexon.tech)
+- [![](./img/logos/logo_airgap.png)*Airgap*](https://airgap.it)
+    Secure wallet
+- [![](./img/logos/logo_vereign.svg)*Vereign*](https://www.vereign.com)
+    Email and documents security
+- [![](./img/logos/logo_lexon.png)*Lexon*](http://lexon.tech)
     Human readable programming language
-- [![](./img/logos/logo_jelly_swap.png)JELLY](https://jelly.market)
+- [![](./img/logos/logo_jelly_swap.png)*JELLY*](https://jelly.market)
     Atomic swap
-- [![](./img/logos/logo_ampnet.png)AMPnet](https://ampnet.io)
+- [![](./img/logos/logo_ampnet.png)*AMPnet*](https://ampnet.io)
     Software and exchange for electricity cooperatives
-- [![](./img/logos/logo_cryptotask.png)Crypto Task](https://beta.cryptotask.org)
+- [![](./img/logos/logo_cryptotask.png)*Crypto Task*](https://beta.cryptotask.org)
     On-Event payment and ticketing platform
-- [![](./img/logos/logo_smartcredit.png)Smart credit](https://smartcredit.io)
+- [![](./img/logos/logo_smartcredit.png)*Smart credit*](https://smartcredit.io)
     Crypto loans
-- [![](./img/aeternity-logo-small.svg)AEknow](https://aeknow.org)
+- [![](./img/aeternity-logo-small.svg)*AEknow*](https://aeknow.org)
     Æternity Explorer
-- [![](./img/logos/logo_recheck.png)ReCheck](https://recheck.io)
+- [![](./img/logos/logo_recheck.png)*ReCheck*](https://recheck.io)
     A platform for secure data storage and exchange
 - [![](./img/logos/logo_weidex.png)WEIDEX](https://weidex.market)
     Multichain decentralized exchange
@@ -858,6 +897,8 @@ ecosystem. We might even fund your project.
 <label for="more-logos">Show more</label>
 
 </Section>
+
+<Particles id="particles-who" />
 
 <Section id="news">
 
