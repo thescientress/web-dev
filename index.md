@@ -824,13 +824,13 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   ## Marco Walz
   Stuttgart æmbassador
   > ### **Marco Walz** [g](https://github.com/marc0olo) [t](https://twitter.com/marc0olo) [in](https://www.linkedin.com/in/marco-walz-776844141/)
-  > Marco is a software developer (full-stack) with deep interests in making the life of everybody more comfortable. He got interested in blockchain and cryptocurrencies in spring 2017. In early 2018 he co-founded Kryptokrauts which are developing SDKs and tools for the æternity ecosystem.
+  > Marco is a software developer (full-stack) with a strong drive to make everybody's life more comfortable. He got interested in blockchain and cryptocurrencies in the spring of 2017. In early 2018, he co-founded Kryptokrauts which develops SDKs and tools for the æternity ecosystem. 
 
 - ![](./img/team/stephen-sunday.jpg)
   ## Stephen Sunday
   Lead æmbassador Nigeria
   > ### **Stephen Sunday** [t](https://twitter.com/steviekusu) [in](https://www.linkedin.com/in/stephen-sunday-kusu-8673a6173/)
-  > He lives in Jos, his background is in Computer Science and he is a Crypto enthusiast. Runs a blockchain consulting firm called KusuConsult. He is a blockchain grassroot promoter/event speaker and have been actively involved in promoting blockchain since 2017 in Nigeria.
+  > Based in Jos, Nigeria with a background in Computer Science, Stephen is a crypto enthusiast who runs a blockchain consulting firm called KusuConsult. Stephen has a passion for promoting blockchain-related grassroot projects and gets regularly invited as a speaker for blockchain events in Nigeria. Stephen has led some of the most successful æmbassador meet-ups, tapping on developer groups and local communities. 
 
 - ![](./img/team/ashish-chawla.jpg)
   ## Ashish Chawla
@@ -842,25 +842,25 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   ## Justin Kat
   Montreal æmbassador
   > ### **Justin Kat** [g](https://github.com/Jkat) [in](https://www.linkedin.com/in/justinkat/)
-  > Justin has a background in economics and software engineering. He is currently a blockchain consultant and organizes workshops for smart contract development.
+  > Justin has a background in economics and software engineering and is currently working as a blockchain consultant. He organizes workshops focusing on smart contract development.
 
 - ![](./img/team/manel-ruiz.jpg)
   ## Manel Ruiz
   Lead æmbassador Spain
   > ### **Manel Ruiz** [t](https://twitter.com/manelomanu)
-  > Justin has a background in economics and software engineering. He is currently a blockchain consultant and organizes workshops for smart contract development.
+  > Manel Ruiz has a strong background as a social activist in Catalonia. He saw cryptocurrencies as the right path to follow for humanity go further in a more connected and free world. As a passionate educator, he likes to share the possibilities that Blockchain technology can offer to everyone. 
 
 - ![](./img/team/emmanuel-joseph.jpg)
   ## Emmanuel Joseph
   Lead æmbassador Ekiti
   > ### **Emmanuel Joseph** [g](https://github.com/emmanuelJet) [t](https://twitter.com/emmanuelJet_) [in](https://www.linkedin.com/in/jet774/)
-  > Emmanuel Joseph (JET) is a full-stack web developer that makes uses of Google and æternity tools in his software development career. His vision to impact young minds and his love for community building got him to lead the Developer Student Club, for Ekiti State University, Nigeria and also ækiti æmbassador.
+  > Emmanuel Joseph (JET) is a full-stack web developer who loves using Google and æternity tools in software development. His vision to impact young minds and his love for community building got him to lead the Developer Student Club, for Ekiti State University, Nigeria and also ækiti æmbassador. Jet has been a very active part of the community and remains one of the strongest driving forces in æternity's community growth.
 
 - ![](./img/team/juan-delpino.jpg)
   ## Juan Carlos Delpino
   Lead æmbassador Venezuela
   > ### **Juan Carlos Delpino** [in](https://www.linkedin.com/in/juan-carlos-delpino-s-062a1829/)
-  > Entrepreneur and a developer of new businesses using his knowledge in engineering and having experience in marketing. Worked with LG Electronics as manager in the telecom market. Founder of several businesses and a national franchise. Founding member of the National Cryptocurrency Association (currently a vice president). Writer of the book "From zero to making money with cryptocurrencies".
+  > Juan Carlos is an entrepreneur and developer of new businesses, leveraging his engineering knowledge and marketing experience. He has worked with industry giants, managing the telecom market for LG Electronics, and has founded several businesses as well as a national franchise. He is a founding member of the National Cryptocurrency Association (currently a vice president) and authored the book titled, "From zero to making money with cryptocurrencies".
 
 - ![](./img/team/owen-o-driscoll.jpg)
   ## Owen O’Driscoll
@@ -872,7 +872,7 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   ## Arjan van Eersel
   Lead æmbassador Bulgaria/Baltics
   > ### **Arjan van Eersel** [in](https://www.linkedin.com/in/arjanvaneersel/)
-  > Arjan van Eersel comes from the world of corporate services and has been a consultant for international businesses and taxation for many years, while also coding on internal and open-source software projects. Now with his business domain knowledge and coding experience his company is working on delivering software, which uses modern technologies such as blockchain and self-sovereign identity for the corporate services sector.
+  > Arjan van Eersel comes from the world of corporate services and has been a consultant for international businesses and taxation for many years. During the same time, he was also coding for internal open-source software projects. Now with his business domain knowledge and coding experience, he runs a company working on delivering software, which uses modern technologies such as blockchain and self-sovereign identity for the corporate services sector. He currently propels the æternity community in Bulgaria and the Baltics.
 
 :::
 
