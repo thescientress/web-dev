@@ -558,15 +558,14 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 
 - ![](./img/team/dimitar.jpg)
   ## Dimitar Ivanov
-  ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Core Developer
+  Core Developer
   > ### **Dimitar Ivanov** *dimitar.chain*
-  > #### ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Sofia, Bulgaria
   > Dimitar joined the project because he was impressed both by æternity’s balanced approach and the star team of developers already involved in it. With a bachelor’s degree in Software Engineering, he spent a couple of years writing banking software and as a result, now maintains a distinct mistrust of banks. He currently works as a software engineer and has participated in the development of every part of the æternity node. His ability to build rock-solid software, coupled with his fascination for the differences between traditional server software and blockchain (with regard to malicious nodes) makes him a valuable member of the team. He is happy to re-wire his brain to rise to this very interesting challenge. Through this work, Dimitar would like to make the world a better place. 
 
 - ![](./img/team/aleksandar-filipov.jpg)
-  ## Alexander Filipov
+  ## Aleksandar Filipov
   Core Developer
-  > ### **Alexander Filipov**
+  > ### **Aleksandar Filipov**
   > Aleksandar likes to continuously evolve and learn. In that aspect, there are few places like æternity, where software skills really matter. He considers blockchains as a game changer and as the fundamental new protocol of the distributed world. Aleksandar has been all over, going from real time embedded OS:e where he worked with hardware and matching OpenGL ES drivers, all the way to automotive electrical systems, plus a few years with end-user apps including android apps for banking. Today, he’s a big fan of functional programming, and is a driver for æternity’s “channel services” which is a reference framework showcasing æternity’s unique state channels.
  
 - ![](./img/team/grzegorz-uriasz.jpg)
@@ -631,16 +630,14 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 
 - ![](./img/team/dincho.jpg)
   ## Dincho Todorov
-  ![](~country-flag-icons/3x2/BG.svg "Varna, Bulgaria") Technical support
+  Technical support
   > ### **Dincho Todorov** *dincho.chain*
-  > #### ![](~country-flag-icons/3x2/BG.svg "Varna, Bulgaria") Varna, Bulgaria
   > Dincho joined the project because of his passion for cryptography and excitement to work with a “dream team” of large-scale technology. With a bachelor's degree in Computer Systems and Technologies, and a master's degree in Software Engineering, he has worked in web and mobile development and as the CTO of both a web startup and a mobile development agency. Currently working in SRE, he is responsible for configuring, running and deploying our testnet/mainnet/dev environments. His expertise in networks, web, and mobile make him uniquely suited to helping the team build better products. Through his work, Dincho would like to see the development of fully autonomous processes, contribute to a great user experience, and ultimately provide an innovative, secure, and stable technology. 
 
 - ![](./img/team/milen-radkov.jpg)
   ## Milen Radkov
-  ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Technical Lead
+  Technical Lead
   > ### **Milen Radkov** *milenradkov.chain*
-  > #### ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Sofia, Bulgaria
   > Milen is a blockchain developer and enthusiast, software engineer and entrepreneur who started his blockchain journey as a miner. Since the beginning of 2019, he has also been part of the European Commission Blockchain Experts representing Bulgaria. He is the founder of hack.bg, focused on developing products, smart contracts, decentralised apps, and consulting for complex software systems and the blockchain space. Milen is also the organiser of several blockchain-related technological meetups in Bulgaria. He joined the development team responsible for the waellet browser extension and later on became involved in the specification of different standards. He is currently leading the development of Superhero.
 
 - ![](./img/team/keno-dressel.jpg)
@@ -663,23 +660,20 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 
 - ![](./img/team/valentin-angelov.jpg)
   ## Valentin Angelov
-  ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Superhero Developer
+  Superhero Developer
   > ### **Valentin Angelov**
-  > #### ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Sofia, Bulgaria
   > Valentin is a full stack developer. Joined aeternity because of his interest in blockchain technology, and was initially a part of the waellet development team. He is now working on Superhero.
 
 - ![](./img/team/stanislav-slavov.jpg)
   ## Stanislav Slavov
-  ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Superhero Developer
+  Superhero Developer
   > ### **Stanislav Slavov**
-  > #### ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Sofia, Bulgaria
   > Stanislav is a front-end developer with 5+ years of experience in developing scalable enterprise web applications and collaboration tools. He is adept in Agile, experienced in international and distributed team environments, passionate about English literature, as well as running and computer games.
 
 - ![](./img/team/petar-baykov.jpg)
   ## Petar Baykov
-  ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Superhero Developer
+  Superhero Developer
   > ### **Petar Baykov**
-  > #### ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Sofia, Bulgaria
   > Petar is a full-stack web developer currently working on the Superhero wallet and other parts of the project. He is currently completing his bachelor’s degree in Computer Science.
 
 - ![](./img/team/nikita-cedrik.jpg)
@@ -696,16 +690,14 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 
 - ![](./img/team/ivaylo-badinov.jpg)
   ## Ivaylo Badinov
-  ![](~country-flag-icons/3x2/BG.svg "Varna, Bulgaria") Design Lead
+  Design Lead
   > ### **Ivaylo Badinov** *jeanlucpicard.chain* [g](https://github.com/venimus) [in](https://www.linkedin.com/in/badinov/)
-  > #### ![](~country-flag-icons/3x2/BG.svg "Varna, Bulgaria") Varna, Bulgaria
   > Ivaylo has 20 years of experience in development from scratch of multiple business, educational, and social platforms for various established companies and start-ups. Although having a master's degree in Electronics, he chose to work in the software development field. He first joined æternity in June 2019 as Site Reliability Engineer and later pivoted as a front-end developer and Lead for designers. He also maintains the æternity.com website and manages operations for Superhero.
 
 - ![](./img/team/tsvetan-kolev.jpg)
   ## Tsvetan Kolev
-  ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Senior Designer
+  Senior Designer
   > ### **Tsvetan Kolev** *tsvetan.chain* 
-  > #### ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Sofia, Bulgaria
   > Tsvetan is a Sofia-based web and visual designer focused on UI/UX, implementing the best practices of user-centered design in his work. He has over 10 years of experience in the design field, ranging from digital agencies and personal clients to product companies. He is excited about blockchain technology and its disruptive potential for innovation and transformation of different sectors of the global society and economy. He considers blockchain to be one of the leading technology trends defining the next decade and further. This particular interest led him to discover æternity blockchain, joining the team in the end of 2019 as a Senior Designer. 
 
 - ![](./img/team/boris-belonjek.jpg)
@@ -818,17 +810,69 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 
 - ![](./img/team/georgi-matev.jpg)
   ## Georgi Matev
-  ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") External Legal Advisor
+  External Legal Advisor
   > ### **Georgi Matev**
-  > #### ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Sofia, Bulgaria
   > Georgi Matev is a corporate lawyer, specializing the laws and regulations surrounding the state of blockchain and fintech technology on a local, EU and international level. He is Partner and Head of Blockchain and Innovation competence group of Rashev and Partners Law Firm, Bulgaria. He is a founding member and Chairman of the Balkan Blockchain Association, as well as a member of INATBA WG finance. Further, he is a member of the Bulgarian Governmental Blockchain working group, which is entitled to investigate blockchain applicability in the public and the financial sector and analyse the need for adoption of a blockchain related legislation. He was also among the founders and а Board member until 2017 of the Bulgarian Bitcoin Association.
 
 - ![](./img/team/viktoriya-veleva.jpg)
   ## Viktoriya Veleva
-  ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") External Legal Advisor
+  External Legal Advisor
   > ### **Viktoriya Veleva**
-  > #### ![](~country-flag-icons/3x2/BG.svg "Sofia, Bulgaria") Sofia, Bulgaria
   > Viktoriya Veleva is a legal consultant, taking an active part in the Blockchain and Innovation competence group of Rashev and Partners Law Firm, Bulgaria. She is the legal advisor of the Balkan Blockchain Association, situated in Sofia, Bulgaria. Ever since her first steps in the legal world, Viktoriya has had profound interest in the spheres of technological innovations and decentralized finance, tackling regulatory questions on local, regional and international levels. She is competent on the topics of digital security, crypto-asset legal frameworks, AML measures and DLT. Viktoriya believes that in a world which is so digitally-focused, the development of a digital single market is inevitable and the enhancement of innovations and technologies is of crucial importance.
+
+- ![](./img/team/marco-walz.jpg)
+  ## Marco Walz
+  Stuttgart æmbassador
+  > ### **Marco Walz** [g](https://github.com/marc0olo) [t](https://twitter.com/marc0olo) [in](https://www.linkedin.com/in/marco-walz-776844141/)
+  > Marco is a software developer (full-stack) with deep interests in making the life of everybody more comfortable. He got interested in blockchain and cryptocurrencies in spring 2017. In early 2018 he co-founded Kryptokrauts which are developing SDKs and tools for the æternity ecosystem.
+
+- ![](./img/team/stephen-sunday.jpg)
+  ## Stephen Sunday
+  Lead æmbassador Nigeria
+  > ### **Stephen Sunday** [t](https://twitter.com/steviekusu) [in](https://www.linkedin.com/in/stephen-sunday-kusu-8673a6173/)
+  > He lives in Jos, his background is in Computer Science and he is a Crypto enthusiast. Runs a blockchain consulting firm called KusuConsult. He is a blockchain grassroot promoter/event speaker and have been actively involved in promoting blockchain since 2017 in Nigeria.
+
+- ![](./img/team/ashish-chawla.jpg)
+  ## Ashish Chawla
+  Lead æmbassador India
+  > ### **Ashish Chawla** [i](https://www.instagram.com/ashii_chawla/)
+  > Ashish has long been a supporter of the æternity community. He started out by joining the æmbassador Program, working his way up as a Lead æmbassador after having proven his dedication to the growth of the ecosystem. A keen social media expert with knowledge of the different facets of new-age digital media, Ashish is truly a rare talent, especially considering his very young age of 23. Ashish wants to take the social media engagement of Superhero and æternity to a whole new level and set the benchmarks higher for overall online presence. Hailing from India, Ashish art directs visuals primarily for Superhero and is dedicated to improving communications for æternity through expressive media.
+
+- ![](./img/team/justin-kat.jpg)
+  ## Justin Kat
+  Montreal æmbassador
+  > ### **Justin Kat** [g](https://github.com/Jkat) [in](https://www.linkedin.com/in/justinkat/)
+  > Justin has a background in economics and software engineering. He is currently a blockchain consultant and organizes workshops for smart contract development.
+
+- ![](./img/team/manel-ruiz.jpg)
+  ## Manel Ruiz
+  Lead æmbassador Spain
+  > ### **Manel Ruiz** [t](https://twitter.com/manelomanu)
+  > Justin has a background in economics and software engineering. He is currently a blockchain consultant and organizes workshops for smart contract development.
+
+- ![](./img/team/emmanuel-joseph.jpg)
+  ## Emmanuel Joseph
+  Lead æmbassador Ekiti
+  > ### **Emmanuel Joseph** [g](https://github.com/emmanuelJet) [t](https://twitter.com/emmanuelJet_) [in](https://www.linkedin.com/in/jet774/)
+  > Emmanuel Joseph (JET) is a full-stack web developer that makes uses of Google and æternity tools in his software development career. His vision to impact young minds and his love for community building got him to lead the Developer Student Club, for Ekiti State University, Nigeria and also ækiti æmbassador.
+
+- ![](./img/team/juan-delpino.jpg)
+  ## Juan Carlos Delpino
+  Lead æmbassador Venezuela
+  > ### **Juan Carlos Delpino** [in](https://www.linkedin.com/in/juan-carlos-delpino-s-062a1829/)
+  > Entrepreneur and a developer of new businesses using his knowledge in engineering and having experience in marketing. Worked with LG Electronics as manager in the telecom market. Founder of several businesses and a national franchise. Founding member of the National Cryptocurrency Association (currently a vice president). Writer of the book "From zero to making money with cryptocurrencies".
+
+- ![](./img/team/owen-o-driscoll.jpg)
+  ## Owen O’Driscoll
+  Lead æmbassador Ireland
+  > ### **Owen O’Driscoll** [in](https://www.linkedin.com/in/owen-o’driscoll-722b6a90/)
+  > Emerging as a proactive entrepreneurial spirit, he launched his career as a self employed restaurant owner. Ten years later his insatiable thirst for knowledge drove him to the blockchain space, which is now his main focus. His extensive business expertise and operations experience aids in the introduction of traditional operations to emerging technologies and vice versa.
+
+- ![](./img/team/arjan-van-eersel.jpg)
+  ## Arjan van Eersel
+  Lead æmbassador Bulgaria/Baltics
+  > ### **Arjan van Eersel** [in](https://www.linkedin.com/in/arjanvaneersel/)
+  > Arjan van Eersel comes from the world of corporate services and has been a consultant for international businesses and taxation for many years, while also coding on internal and open-source software projects. Now with his business domain knowledge and coding experience his company is working on delivering software, which uses modern technologies such as blockchain and self-sovereign identity for the corporate services sector.
 
 :::
 
