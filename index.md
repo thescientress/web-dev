@@ -564,9 +564,9 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   > Dimitar joined the project because he was impressed both by æternity’s balanced approach and the star team of developers already involved in it. With a bachelor’s degree in Software Engineering, he spent a couple of years writing banking software and as a result, now maintains a distinct mistrust of banks. He currently works as a software engineer and has participated in the development of every part of the æternity node. His ability to build rock-solid software, coupled with his fascination for the differences between traditional server software and blockchain (with regard to malicious nodes) makes him a valuable member of the team. He is happy to re-wire his brain to rise to this very interesting challenge. Through this work, Dimitar would like to make the world a better place. 
 
 - ![](./img/team/aleksandar-filipov.jpg)
-  ## Alexander Filipov
+  ## Aleksandar Filipov
   Core Developer
-  > ### **Alexander Filipov**
+  > ### **Aleksandar Filipov**
   > Aleksandar likes to continuously evolve and learn. In that aspect, there are few places like æternity, where software skills really matter. He considers blockchains as a game changer and as the fundamental new protocol of the distributed world. Aleksandar has been all over, going from real time embedded OS:e where he worked with hardware and matching OpenGL ES drivers, all the way to automotive electrical systems, plus a few years with end-user apps including android apps for banking. Today, he’s a big fan of functional programming, and is a driver for æternity’s “channel services” which is a reference framework showcasing æternity’s unique state channels.
  
 - ![](./img/team/grzegorz-uriasz.jpg)
@@ -732,6 +732,13 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   > ### **Liubov Sharga** *sinonimboga.chain*
   > Liubov is an experienced marketing professional with expertise in the digital marketing area. For the past years, she has been working with blockchain startups. She was also involved in the preparation and presentation of blockchain conferences around the world. Passionate for what she does as a lifestyle, Liubov is interested in innovations that bring real benefits to business. She is impressed with the whole range of opportunities that æternity's technology offers the world and its practical implementation. Her goal is to involve more and more people to use the unique technologies that æternity provides. 
 
+- ![](./img/team/liubov-sharga.jpg)
+  ## Ashish Chawla
+  Social Media Expert
+  > ### **Ashish Chawla** *ashishchawla.chain*
+  > Ashish has long been a supporter of the æternity community. He started out by joining the æmbassador Program, working his way up as a Lead æmbassador after having proven his dedication to the growth of the ecosystem. A keen social media expert with knowledge of the different facets of new-age digital media, Ashish is truly a rare talent, especially considering his very young age of 23. Ashish wants to take the social media engagement of Superhero and æternity to a whole new level and set the benchmarks higher for overall online presence. Hailing from India, Ashish art directs visuals primarily for Superhero and is dedicated to improving communications for æternity through expressive media. 
+ 
+  
 - ![](./img/team/mark-le.jpg)
   ## Mark Le
   Chinese Community Manager
