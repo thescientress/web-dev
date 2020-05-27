@@ -444,17 +444,17 @@ Major clients to interact with æternity blockchain applications, sign contract 
 ::: slot bottom
 
 A variety of community-built wallets are available, such as:
-- [![](./img/Air_Gap_Icon.svg) **Airgap Wallet**](https://airgap.it)
-- [![](./img/Trust_Wallet_Icon.svg) **Trust Wallet**](https://trustwallet.com)
+- [![](./img/logos/AirGap_icon.svg) **Airgap Wallet**](https://airgap.it)
+- [![](./img/logos/Trust_Wallet_icon.svg) **Trust Wallet**](https://trustwallet.com)
 
 It is possible to buy æternity tokens on exchanges like Binance, OKex, Huobi, gate.io and many
 others. A full list of markets can be found via: <a href="https://coinmarketcap.com">coinmarketcap</a>
-- [![](./img/Binance_icon.svg) binance](https://www.binance.com)
-- [![](./img/Okex_icon.svg) okex](https://www.okex.com)
-- [![](./img/Huobi_icon.svg) huobi](https://www.huobi.com)
-- [![](./img/Gateio_icon.svg) gate.io](https://www.gate.io)
-- [![](./img/Changelly_icon.svg) changelly](https://changelly.com)
-- [![](./img/JellySwap_icon.svg) jelly swap](https://jelly.market)
+- [![](./img/logos/Binance_icon.svg) binance](https://www.binance.com)
+- [![](./img/logos/Okex_icon.svg) okex](https://www.okex.com)
+- [![](./img/logos/Huobi_icon.svg) huobi](https://www.huobi.com)
+- [![](./img/logos/Gateio_icon.svg) gate.io](https://www.gate.io)
+- [![](./img/logos/Changelly_icon.svg) changelly](https://changelly.com)
+- [![](./img/logos/JellySwap_icon.svg) jelly swap](https://jelly.market)
 
 :::
 
@@ -895,7 +895,7 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 
 <input type="checkbox" id="more-logos">
 
-- [![](./img/logos/superhero.svg)*Superhero.com*](https://superhero.com)
+- [![](./img/logos/logo_superhero.svg)*Superhero.com*](https://superhero.com)
     Tip content creators and any public URL
 - [![](./img/logos/logo_airgap.png)*Airgap*](https://airgap.it)
     Secure wallet
@@ -927,7 +927,7 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
     First aid insurance for motorbike riders in Africa
 - [![](./img/logos/logo_utu.png)UTU](http://protocol.utu.io)
     Trusted Recommendation Service
-- [![](./img/logos/logo_assetify.png)Assetify](https://www.assetify.net)
+- [![](./img/logos/logo_assetify.svg)Assetify](https://www.assetify.net)
     Platform to enable lending institutions to accept crypto assets
 - [![](./img/logos/logo_yair.png)YAIR](https://yair.art)
     Platform for tokenization of media artwork
