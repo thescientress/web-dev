@@ -10,16 +10,16 @@
                 <button v-on:click="toggleNav"></button>
                 <ul class="nav-items" v-on:click.stop="toggleNav">
                     <li class="nav-item">
-                        <a href="#innovative">Innovation</a>
-                    </li>
-                    <li class="nav-item">
                         <a href="#sophia">Sophia</a>
                     </li>
                     <li class="nav-item">
                         <a href="#developer_tools">Developers</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#interfaces">Tokens</a>
+                        <a href="#interfaces">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#get-ae-tokens">Get AE</a>
                     </li>
                     <li class="nav-item">
                         <a href="#community">Community</a>

@@ -75,22 +75,22 @@ By redesigning blockchain technology at the protocol level, the æternity develo
   - ### Smart contracts: Sophia
     æternity smart contract programming is unique: Sophia is a typed functional programming language in the ML family that makes it easier to write correct programs.
 
-    [Read more](https://aeternity.com/documentation-hub/protocol/contracts/sophia/)
+    [Read more](https://github.com/aeternity/protocol/blob/master/contracts/contracts.md)
 - ![](./img/Ribbon_FATE.svg) FATE VM
   - ### FATE Virtual Machine: faster, simpler, safer code
     The Fast æternity Transaction Engine, or FATE VM, uses a higher level of abstraction and automatically minimizes error with type checking, delivering a simpler, easier, safer programming environment.
 
-    [Read more](https://github.com/aeternity/protocol/blob/e2940192379916fb21a053b3ab09d1dff2ac76ef/contracts/fate.md)
+    [Read more](https://github.com/aeternity/protocol/blob/master/contracts/fate.md)
 - ![](./img/Ribbon_State_Channels.svg) Advanced state channels
   - ### Advanced State Channels Technology
     Unlike most blockchains, æternity’s core protocol was re-engineered specifically so it can accommodate state channels on a protocol level, making it easier to build applications for global-scale enterprise use cases. 
 
-    [Read more](https://aeternity.com/documentation-hub/protocol/channels/)
+    [Read more](https://github.com/aeternity/protocol/blob/master/channels/README.md)
 - ![](./img/Ribbon_Oracles.svg) Oracles
   - ### Oracles
     æternity Oracles enable the integration of real-world data into the blockchain—a feature that has an endless range of potential use cases for business, science, and all other industries across the globe.
 
-    [Read more](https://aeternity.com/documentation-hub/protocol/oracles/oracles/)
+    [Read more](https://github.com/aeternity/protocol/blob/master/oracles/oracles.md)
 - ![](./img/Ribbon_Unique_Governance.svg) Unique governance
   - ### Unique governance
     Miners are not the only ones who get a vote on decisions—æternity token holders can use their AE tokens to signify their vote through the Governance Aepp.
@@ -100,7 +100,7 @@ By redesigning blockchain technology at the protocol level, the æternity develo
   - ### Naming system
     The æternity Naming System (AENS) employs safe, human-readable names in place of the current system of long hashes used in blockchain transactions, reducing room for error for users.
 
-    [Read more](https://aeternity.com/documentation-hub/protocol/AENS/)
+    [Read more](https://github.com/aeternity/protocol/blob/master/AENS.md)
 
 :::
 
@@ -234,7 +234,7 @@ smart contract code only in the case of a disagreement between the contracting p
 > 
 > æternity can scale to billions
 > of transactions with off-chain
-> State Channels. [Read more](https://aeternity.com/documentation-hub/protocol/channels/)
+> State Channels. [Read more](https://github.com/aeternity/protocol/blob/master/channels/README.md)
 
 :::
 
@@ -335,7 +335,7 @@ In order to get started, try out the community developed online IDE or set up yo
 
 <Section id="developer_tools">
 
-## Developer tools
+## More developer tools
 Programming libraries are available. Any Javascript developer can build a simple æternity app in one day. For a quick start and reference, it is recommended to use the JavaScript SDK.
 
 ::: slot cards
@@ -406,6 +406,8 @@ Programming libraries are available. Any Javascript developer can build a simple
     - Waellet (browser extension) [https://waellet.com](https://waellet.com)
     - AirGap (iOS/Android) [https://airgap.it](https://airgap.it)
     - ArkaneNetwork [https://arkane.network](https://arkane.network)
+  - #### Development grants
+    - [Aeternity Foundation](https://www.aeternity-foundation.org)
 
 :::
 
@@ -426,10 +428,12 @@ Major clients to interact with æternity blockchain applications, sign contract 
 
 ::: slot cards
 
-- ### AirGap
+- [![](./img/logos/logo_airgap.png)](https://airgap.it)
+  ### AirGap
   Secure storage
   [Visit site](https://airgap.it)
-- ### Superhero Wallet
+- [![](./img/logos/logo_superhero.svg)](https://wallet.superhero.com/)
+  ### Superhero Wallet
   Web, mobile app, browser extension
   [View on GitHub](https://github.com/aeternity/superhero-wallet)
 - ### Blockchain Explorers
@@ -443,12 +447,15 @@ Major clients to interact with æternity blockchain applications, sign contract 
 
 ::: slot bottom
 
-A variety of community-built wallets are available, such as:
-- [![](./img/logos/AirGap_icon.svg) **Airgap Wallet**](https://airgap.it)
 - [![](./img/logos/Trust_Wallet_icon.svg) **Trust Wallet**](https://trustwallet.com)
+- [![](./img/logos/Base_Aepps_icon.svg) **Base Wallet**](https://base.aepps.com)
+- [![](./img/logos/Waellet_icon.svg) **Waellet**](https://waellet.com)
+- [![](./img/logos/Arkane_Wallet_icon.svg) **Arkane Wallet**](https://arkane.network)
+
+## Get AE tokens
 
 It is possible to buy æternity tokens on exchanges like Binance, OKex, Huobi, gate.io and many
-others. A full list of markets can be found via: <a href="https://coinmarketcap.com">coinmarketcap</a>
+others. 
 - [![](./img/logos/Binance_icon.svg) binance](https://www.binance.com)
 - [![](./img/logos/Okex_icon.svg) okex](https://www.okex.com)
 - [![](./img/logos/Huobi_icon.svg) huobi](https://www.huobi.com)
@@ -456,13 +463,13 @@ others. A full list of markets can be found via: <a href="https://coinmarketcap.
 - [![](./img/logos/Changelly_icon.svg) changelly](https://changelly.com)
 - [![](./img/logos/JellySwap_icon.svg) jelly swap](https://jelly.market)
 
+A list of exchanges can be found at <a href="https://coinmarketcap.com/currencies/aeternity/markets">CoinMarketCap</a>
+
 :::
 
 </Section>
 
 <Section id="run_node" type="alt">
-
-<Particles id="particles-run_node" type="full" :number="40" :density="800" color="#aaa"/>
 
 ## Run your own node and services
 
@@ -509,7 +516,6 @@ To get the latest version of æternity node, please check out the [latest publis
 - [![](./img/Twitter_icon.svg) Twitter](https://twitter.com/aeternity)
 - [![](./img/Weibo_icon.svg) Weibo](https://weibo.com/aechinacn)
 - [![](./img/Youtube_icon.svg) Youtube](https://www.youtube.com/channel/UCEsM0b7QPazeMR80DxNkzCA)
-- [![](./img/Development_Grants_icon.svg) Development grants](https://www.aeternity-foundation.org)
 
 </Section>
 
@@ -891,7 +897,7 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 
 <Section id="who">
 
-## Here are some projects that use æternity
+## Some projects that use æternity
 
 <input type="checkbox" id="more-logos">
 
@@ -941,8 +947,6 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 <label for="more-logos">Show more</label>
 
 </Section>
-
-<Particles id="particles-who" />
 
 <Section id="news">
 
